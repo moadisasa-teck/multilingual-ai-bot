@@ -45,3 +45,40 @@ Demo answers must include the marker "DEMO".
 - No model training or fine-tuning (lower risk, faster setup).
 - Retrieval-only responses reduce hallucinations.
 - Easy to replace demo data with official data later.
+
+When you add or modify CSV files in data/raw/, you must update the system's index to reflect these changes.
+
+### Prepare Data: Merge and validate the CSV files.
+
+```env PYTHONPATH=. ./venv/bin/python3 training/prepare_data.py --allow-non-demo```
+
+### Rebuild Index: Re-embed the questions and update the FAISS index.
+
+```env PYTHONPATH=. ./venv/bin/python3 training/embed_and_index.py```
+
+### Verify: Test the changes using the verification script.
+
+```env PYTHONPATH=. ./venv/bin/python3 verify_chatbot.py```
+
+### Key Features
+
+- Multilingual Support: Supports Afaan Oromo, Amharic, and English.
+- Hallucination-Free: Only returns pre-validated answers from the database.
+- Sector Filtering: Can filter answers by specific sectors (e.g., Passport, Municipality).
+- DEMO Safe: Ensures that only demo-marked data is served during the demo phase.
+
+### How to Run
+
+#### Activate Virtual Environment:
+
+```source venv/bin/activate```
+
+#### Start the API Server:
+
+```uvicorn app.main:app --reload```
+
+#### Test via Curl:
+
+```curl -X POST "http://localhost:8000/chat" \
+     -H "Content-Type: application/json" \
+     -d '{"query": "passport baasuuf maal na barbaachisa?"}'```
