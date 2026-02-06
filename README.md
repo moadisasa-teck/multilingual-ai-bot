@@ -1,4 +1,4 @@
-# Oromia Government AI Chatbot (Demo)
+# Multilingual AI Chatbot
 
 A multilingual demo chatbot for Oromia regional government services.
 Supports Afaan Oromo (om), Amharic (am), and English (en).
@@ -11,7 +11,7 @@ No training, no fine-tuning, no generation beyond stored answers.
 
 ## Folder structure
 
-```oromia-gov-ai-bot/
+```multilingual-ai-bot/
 ├── data/
 │   ├── raw/ (CSV per sector + language)
 │   └── processed/ (merged JSON)
