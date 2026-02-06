@@ -11,7 +11,7 @@ No training, no fine-tuning, no generation beyond stored answers.
 
 ## Folder structure
 
-oromia-gov-ai-bot/
+```oromia-gov-ai-bot/
 ├── data/
 │   ├── raw/ (CSV per sector + language)
 │   └── processed/ (merged JSON)
@@ -19,7 +19,7 @@ oromia-gov-ai-bot/
 ├── index/ (FAISS index + metadata)
 ├── app/ (FastAPI API)
 ├── config/ (settings)
-└── README.md
+└── README.md```
 
 ## CSV schema (exact)
 
