@@ -1,0 +1,394 @@
+[
+  {
+    "sector": "general",
+    "language": "am",
+    "question": "ሰላም?",
+    "answer": "ሰላም ነው! ምን ልረዳዎ እችላለሁ? (DEMO)",
+    "source_file": "general/general_am.csv",
+    "id": 1
+  },
+  {
+    "sector": "general",
+    "language": "am",
+    "question": "እንዴት ነህ?",
+    "answer": "ደህና ነኝ፣ አመሰግናለሁ። ምን ልረዳዎ እችላለሁ? (DEMO)",
+    "source_file": "general/general_am.csv",
+    "id": 2
+  },
+  {
+    "sector": "general",
+    "language": "am",
+    "question": "ምን ልትረዳኝ ትችላለህ?",
+    "answer": "ስለ ኦሮሚያ ክልል መንግስት አገልግሎቶች እንደ ፓስፖርት፣ የማዘጋጃ ቤት አገልግሎቶች እና የፍጆታ አገልግሎቶች መረጃ መስጠት እችላለሁ። (DEMO)",
+    "source_file": "general/general_am.csv",
+    "id": 3
+  },
+  {
+    "sector": "general",
+    "language": "am",
+    "question": "አመሰግናለሁ",
+    "answer": "ምንም አይደል! ሌላ እርዳታ ከፈለጉ እዚህ ነኝ። (DEMO)",
+    "source_file": "general/general_am.csv",
+    "id": 4
+  },
+  {
+    "sector": "general",
+    "language": "en",
+    "question": "Hello",
+    "answer": "Hello! How can I help you today? (DEMO)",
+    "source_file": "general/general_en.csv",
+    "id": 5
+  },
+  {
+    "sector": "general",
+    "language": "en",
+    "question": "Hi",
+    "answer": "Hi there! How can I assist you? (DEMO)",
+    "source_file": "general/general_en.csv",
+    "id": 6
+  },
+  {
+    "sector": "general",
+    "language": "en",
+    "question": "How are you?",
+    "answer": "I'm doing well, thank you. How can I help you today? (DEMO)",
+    "source_file": "general/general_en.csv",
+    "id": 7
+  },
+  {
+    "sector": "general",
+    "language": "en",
+    "question": "How can you help me?",
+    "answer": "I can provide information about Oromia Regional Government services such as Passport, Municipality, and Utility services. (DEMO)",
+    "source_file": "general/general_en.csv",
+    "id": 8
+  },
+  {
+    "sector": "general",
+    "language": "en",
+    "question": "Thank you",
+    "answer": "You're welcome! Let me know if you need anything else. (DEMO)",
+    "source_file": "general/general_en.csv",
+    "id": 9
+  },
+  {
+    "sector": "general",
+    "language": "om",
+    "question": "Akkam?",
+    "answer": "Nagayaa kee! Maal si gargaaruu dandeessu? (DEMO)",
+    "source_file": "general/general_om.csv",
+    "id": 10
+  },
+  {
+    "sector": "general",
+    "language": "om",
+    "question": "Nagayaa?",
+    "answer": "Nagayaa kooti, galatoomi. Maal si gargaaruu dandeessu? (DEMO)",
+    "source_file": "general/general_om.csv",
+    "id": 11
+  },
+  {
+    "sector": "general",
+    "language": "om",
+    "question": "Maal na gargaaruu dandeessu?",
+    "answer": "Tajaajiloota mootummaa Naannoo Oromiyaa kanneen akka paaspoortii, tajajila munisipaalaafi bilbilaa irratti ragaa siif kennun danda'a. (DEMO)",
+    "source_file": "general/general_om.csv",
+    "id": 12
+  },
+  {
+    "sector": "general",
+    "language": "om",
+    "question": "Galatoomi",
+    "answer": "Homaa miti! Tajaajila biraa yoo barbaadde asuma jira. (DEMO)",
+    "source_file": "general/general_om.csv",
+    "id": 13
+  },
+  {
+    "sector": "municipality",
+    "language": "am",
+    "question": "የመኖሪያ ቤት ፍቃድ ለማግኘት ምን ያስፈልጋል?",
+    "answer": "የመኖሪያ ቤት ፍቃድ ለማግኘት ማመልከቻ፣ የቦታው ካርታ፣ የባለቤትነት ማረጋገጫ እና የንብረት ታክስ ክፍያ ደረሰኝ ማቅረብ ያስፈልጋል። (DEMO)",
+    "source_file": "municipality/municipality_am.csv",
+    "id": 14
+  },
+  {
+    "sector": "municipality",
+    "language": "am",
+    "question": "አዲስ የንግድ ሥራ እንዴት ማስመዝገብ እችላለሁ?",
+    "answer": "አዲስ ንግድ ለማስመዝገብ መታወቂያዎን ይዘው ወደ ንግድ ቢሮ መሄድ ይኖርብዎታል። (DEMO)",
+    "source_file": "municipality/municipality_am.csv",
+    "id": 15
+  },
+  {
+    "sector": "municipality",
+    "language": "am",
+    "question": "የቤት ግብር የት ነው የምከፍለው?",
+    "answer": "የቤት ግብር በማዘጋጃ ቤት የግብር ቢሮዎች ወይም በመንግስት የክፍያ አማራጮች መክፈል ይቻላል። (DEMO)",
+    "source_file": "municipality/municipality_am.csv",
+    "id": 16
+  },
+  {
+    "sector": "municipality",
+    "language": "am",
+    "question": "የልደት ምስክር ወረቀት እንዴት ማግኘት እችላለሁ?",
+    "answer": "የልደት ምስክር ወረቀትን በአቅራቢያዎ በሚገኝ የቀበሌ ወይም የከተማ አስተዳደር ቢሮ ማመልከት ይችላሉ። (DEMO)",
+    "source_file": "municipality/municipality_am.csv",
+    "id": 17
+  },
+  {
+    "sector": "municipality",
+    "language": "en",
+    "question": "What documents are required to obtain a house permit?",
+    "answer": "To obtain a house permit, you need to submit an application, land map, proof of ownership, and a property tax payment receipt. (DEMO)",
+    "source_file": "municipality/municipality_en.csv",
+    "id": 18
+  },
+  {
+    "sector": "municipality",
+    "language": "en",
+    "question": "How do I register a new business?",
+    "answer": "To register a new business, you need to visit the local trade bureau with your ID and completion of the required forms. (DEMO)",
+    "source_file": "municipality/municipality_en.csv",
+    "id": 19
+  },
+  {
+    "sector": "municipality",
+    "language": "en",
+    "question": "Where can I pay my property tax?",
+    "answer": "Property taxes can be paid at any designated municipality tax office or via official online portals. (DEMO)",
+    "source_file": "municipality/municipality_en.csv",
+    "id": 20
+  },
+  {
+    "sector": "municipality",
+    "language": "en",
+    "question": "How can I get a birth certificate?",
+    "answer": "You can apply for a birth certificate at your local Kebele or City Administration office. (DEMO)",
+    "source_file": "municipality/municipality_en.csv",
+    "id": 21
+  },
+  {
+    "sector": "municipality",
+    "language": "om",
+    "question": "Ijaarsa mana jireenyaaaf Injinerri ni barbaachisaa?",
+    "answer": "Ijaarsa mana jireenyaaaf Injinerri barbaachisaa miti, garuu qabxiwwan armaan gadii guutuun dirqama: (DEMO)",
+    "source_file": "municipality/municipality_om.csv",
+    "id": 22
+  },
+  {
+    "sector": "municipality",
+    "language": "om",
+    "question": "Galmeessa daldalaa haaraa akkamitti raawwadha?",
+    "answer": "Galmeessa daldalaa haaraaf ragaa eenyummaa keettiin gara biiroo daldalaatti deemuu qabdu. (DEMO)",
+    "source_file": "municipality/municipality_om.csv",
+    "id": 23
+  },
+  {
+    "sector": "municipality",
+    "language": "om",
+    "question": "Kaffaltii gibira manaa eessatti kaffaluu danda'a?",
+    "answer": "Gibira manaa waajjiraalee munisipaalaatti ykn karaa kallattii onlaayinii kaffaluun ni danda'ama. (DEMO)",
+    "source_file": "municipality/municipality_om.csv",
+    "id": 24
+  },
+  {
+    "sector": "municipality",
+    "language": "om",
+    "question": "Ragaa dhalootaa akkamitti argachuu danda'a?",
+    "answer": "Ragaa dhalootaa argachuuf waajjira bulchiinsa gandaa keetii gaafachuun ni danda'ama. (DEMO)",
+    "source_file": "municipality/municipality_om.csv",
+    "id": 25
+  },
+  {
+    "sector": "passport",
+    "language": "am",
+    "question": "የፓስፖርት ለማውጣት ምን ያስፈልጋል?",
+    "answer": "የፓስፖርት ለማውጣት ማመልከቻ፣ የቦታው ካርታ፣ የባለቤትነት ማረጋገጫ እና የንብረት ታክስ ክፍያ ደረሰኝ ማቅረብ ያስፈልጋል። (DEMO)",
+    "source_file": "passport/passport_am.csv",
+    "id": 26
+  },
+  {
+    "sector": "passport",
+    "language": "am",
+    "question": "ፓስፖርት ለማውጣት ምን ያህል ጊዜ ይወስዳል?",
+    "answer": "መደበኛ የፓስፖርት ዝግጅት ከ15 እስከ 30 የሥራ ቀናት ሊወስድ ይችላል። (DEMO)",
+    "source_file": "passport/passport_am.csv",
+    "id": 27
+  },
+  {
+    "sector": "passport",
+    "language": "am",
+    "question": "አዲስ ፓስፖርት ለማውጣት ክፍያው ስንት ነው?",
+    "answer": "ለአዲስ ፓስፖርት ክፍያ እንደ አገልግሎት ፍጥነት ከ2000 እስከ 5000 ብር ሊሆን ይችላል። (DEMO)",
+    "source_file": "passport/passport_am.csv",
+    "id": 28
+  },
+  {
+    "sector": "passport",
+    "language": "am",
+    "question": "የጊዜው ያለፈበትን ፓስፖርት ማደስ እችላለሁ?",
+    "answer": "አዎ፣ የቆየውን ፓስፖርት እና አስፈላጊ መረጃዎችን በመያዝ ማደስ ይችላሉ። (DEMO)",
+    "source_file": "passport/passport_am.csv",
+    "id": 29
+  },
+  {
+    "sector": "passport",
+    "language": "en",
+    "question": "What documents are required to obtain a passport?",
+    "answer": "To obtain a passport, you need to submit an application, land map, proof of ownership, and a property tax payment receipt. (DEMO)",
+    "source_file": "passport/passport_en.csv",
+    "id": 30
+  },
+  {
+    "sector": "passport",
+    "language": "en",
+    "question": "How long does it take to get a passport?",
+    "answer": "Standard passport processing usually takes 15 to 30 working days after application approval. (DEMO)",
+    "source_file": "passport/passport_en.csv",
+    "id": 31
+  },
+  {
+    "sector": "passport",
+    "language": "en",
+    "question": "How much does it cost for a new passport?",
+    "answer": "The fee for a new passport is typically around 2000 ETB for standard service, but check the latest official rates. (DEMO)",
+    "source_file": "passport/passport_en.csv",
+    "id": 32
+  },
+  {
+    "sector": "passport",
+    "language": "en",
+    "question": "Can I renew my expired passport?",
+    "answer": "Yes, you can renew your expired passport by providing your old passport and updated identification documents. (DEMO)",
+    "source_file": "passport/passport_en.csv",
+    "id": 33
+  },
+  {
+    "sector": "passport",
+    "language": "om",
+    "question": "passport baasuuf maal na barbaachisa?",
+    "answer": "passport baasuf, suura gabaabaa fi waraqaa eenyummaa, akkasumas galmeessa ragaa hawwaasumma qabaachuu qabdu. (DEMO)",
+    "source_file": "passport/passport_om.csv",
+    "id": 34
+  },
+  {
+    "sector": "passport",
+    "language": "om",
+    "question": "Passport baasuuf yeroo hammam fudhata?",
+    "answer": "Passport baasuuf baruma deeman yoo ta'e guyyaa 15 hanga 30 fudhata. (DEMO)",
+    "source_file": "passport/passport_om.csv",
+    "id": 35
+  },
+  {
+    "sector": "passport",
+    "language": "om",
+    "question": "Passport haaraa baasuuf kaffaltiin isaa meeqa?",
+    "answer": "Kaffaltiin paaspoortii haaraa kaffaltii tajaajilaa waliin qarshii 2000 hanga 5000 ta'uu danda'a. (DEMO)",
+    "source_file": "passport/passport_om.csv",
+    "id": 36
+  },
+  {
+    "sector": "passport",
+    "language": "om",
+    "question": "Passpoortii koo kan yeroon itti darbe renew gochuu nan danda'aa?",
+    "answer": "Eeyyee, paaspoortii kee kan yeroon itti darbe ragaalee barbaachisoo dhiyeessuun renew gochuu dandeessa. (DEMO)",
+    "source_file": "passport/passport_om.csv",
+    "id": 37
+  },
+  {
+    "sector": "utilities",
+    "language": "am",
+    "question": "የውሃ ክፍያ ለመክፈል ምን ያስፈልጋል?",
+    "answer": "የውሃ ክፍያ ለመክፈል ማመልከቻ፣ የቦታው ካርታ፣ የባለቤትነት ማረጋገጫ እና የንብረት ታክስ ክፍያ ደረሰኝ ማቅረብ ያስፈልጋል፡፡ (DEMO)",
+    "source_file": "utilities/utilities_am.csv",
+    "id": 38
+  },
+  {
+    "sector": "utilities",
+    "language": "am",
+    "question": "የመብራት ክፍያ እንዴት መክፈል እችላለሁ?",
+    "answer": "የመብራት ክፍያ በኢትዮጵያ ንግድ ባንክ ወይም በሞባይል ባንኪንግ መክፈል ይችላሉ። (DEMO)",
+    "source_file": "utilities/utilities_am.csv",
+    "id": 39
+  },
+  {
+    "sector": "utilities",
+    "language": "am",
+    "question": "የውሃ ሂሳቤን በኢንተርኔት ማየት እችላለሁ?",
+    "answer": "አዎ፣ የውሃ ሂሳብዎን በрегиዮናል የውሃ አገልግሎት ድህረ ገጽ ወይም በ *889# ማየት ይችላሉ። (DEMO)",
+    "source_file": "utilities/utilities_am.csv",
+    "id": 40
+  },
+  {
+    "sector": "utilities",
+    "language": "am",
+    "question": "መብራት ቢጠፋ ምን ማድረግ አለኝ?",
+    "answer": "መብራት ቢጠፋ በአቅራቢያዎ ለሚገኝ የጥገና ክፍል በ 905 ይደውሉ። (DEMO)",
+    "source_file": "utilities/utilities_am.csv",
+    "id": 41
+  },
+  {
+    "sector": "utilities",
+    "language": "en",
+    "question": "What documents are required to pay water bill?",
+    "answer": "To pay water bill, you need to submit an application, land map, proof of ownership, and a property tax payment receipt. (DEMO)",
+    "source_file": "utilities/utilities_en.csv",
+    "id": 42
+  },
+  {
+    "sector": "utilities",
+    "language": "en",
+    "question": "How do I pay my electricity bill?",
+    "answer": "You can pay your electricity bill at any Commercial Bank of Ethiopia branch or via mobile banking apps. (DEMO)",
+    "source_file": "utilities/utilities_en.csv",
+    "id": 43
+  },
+  {
+    "sector": "utilities",
+    "language": "en",
+    "question": "Can I check my water bill balance online?",
+    "answer": "Yes, you can check your water balance through the official regional utility portal or by dialing *889#. (DEMO)",
+    "source_file": "utilities/utilities_en.csv",
+    "id": 44
+  },
+  {
+    "sector": "utilities",
+    "language": "en",
+    "question": "What should I do if I have a power outage?",
+    "answer": "In case of a power outage, please contact the emergency maintenance line at 905. (DEMO)",
+    "source_file": "utilities/utilities_en.csv",
+    "id": 45
+  },
+  {
+    "sector": "utilities",
+    "language": "om",
+    "question": "Hojiiwwan mana fincaanii keessatti raawwataman kam fa’a?",
+    "answer": "Hojiiwwan mana fincaanii keessatti raawwataman, hojiiwwan armaan gadii fa’a: (DEMO)",
+    "source_file": "utilities/utilities_om.csv",
+    "id": 46
+  },
+  {
+    "sector": "utilities",
+    "language": "om",
+    "question": "Kaffaltii ibsaa akkamittin kaffala?",
+    "answer": "Kaffaltii ibsaa baankota daldalaa ykn tajaajila mobaayilii baankiin kaffaluun ni danda'ama. (DEMO)",
+    "source_file": "utilities/utilities_om.csv",
+    "id": 47
+  },
+  {
+    "sector": "utilities",
+    "language": "om",
+    "question": "Herrega bishaanii kiyya onlaayiniin ilaaluu nan danda'aa?",
+    "answer": "Eeyyee, itti fayyadama bishaanii kee karaa poortaalii tajaajila bishaanii ykn lakkoofsa *889# argachuu dandeessa. (DEMO)",
+    "source_file": "utilities/utilities_om.csv",
+    "id": 48
+  },
+  {
+    "sector": "utilities",
+    "language": "om",
+    "question": "Yoo ibsaan bade maal gochuu qaba?",
+    "answer": "Yoo humni ibsaa itti kute, lakkoofsa gargaarsaa ariifachiisaa 905 bilbiluun gabaasuu dandeessa. (DEMO)",
+    "source_file": "utilities/utilities_om.csv",
+    "id": 49
+  }
+]
