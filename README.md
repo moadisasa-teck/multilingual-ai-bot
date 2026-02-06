@@ -1,6 +1,6 @@
 # Multilingual AI Chatbot
 
-A multilingual demo chatbot for Oromia regional government services.
+A multilingual chatbot.
 Supports Afaan Oromo (om), Amharic (am), and English (en).
 
 ## Architecture (demo-safe)
