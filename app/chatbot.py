@@ -6,7 +6,7 @@ from typing import Optional, Dict, Any
 
 import faiss
 import numpy as np
-import google.generativeai as genai
+import ollama
 from sentence_transformers import SentenceTransformer
 from dotenv import load_dotenv
 
@@ -15,7 +15,7 @@ from config.settings import (
     METADATA_PATH,
     MODEL_NAME,
     LLM_MODEL_NAME,
-    GEMINI_API_KEY_ENV,
+    OLLAMA_BASE_URL,
     SYSTEM_PROMPT_PATH,
     TOP_K,
     CONFIDENCE_THRESHOLD,
@@ -28,32 +28,32 @@ logger = logging.getLogger(__name__)
 
 class QueryProcessor:
     def __init__(self):
-        api_key = os.getenv(GEMINI_API_KEY_ENV)
-        if not api_key:
-            logger.warning(f"{GEMINI_API_KEY_ENV} not found. Query normalization will be skipped.")
-            self.model = None
-        else:
-            genai.configure(api_key=api_key)
-            self.model = genai.GenerativeModel(LLM_MODEL_NAME)
+        try:
+            # Test connection to Ollama
+            self.client = ollama.Client(host=OLLAMA_BASE_URL)
+            # We don't pull here to avoid startup delay, assuming user has it
+            logger.info(f"Connected to Ollama at {OLLAMA_BASE_URL}")
+        except Exception as e:
+            logger.error(f"Could not connect to Ollama: {e}")
+            self.client = None
         
         with open(SYSTEM_PROMPT_PATH, "r", encoding="utf-8") as f:
             self.system_prompt = f.read()
 
     def normalize(self, query: str) -> Dict[str, Any]:
-        if not self.model:
+        if not self.client:
             return {"rewritten_query": query, "language": "unknown", "sector_guess": "unknown"}
 
-        prompt = f"{self.system_prompt}\n\nUser Input: \"{query}\""
         try:
-            response = self.model.generate_content(
-                prompt,
-                generation_config=genai.types.GenerationConfig(
-                    response_mime_type="application/json",
-                )
+            response = self.client.generate(
+                model=LLM_MODEL_NAME,
+                prompt=f"{self.system_prompt}\n\nUser Input: \"{query}\"",
+                format='json',
+                stream=False
             )
-            return json.loads(response.text)
+            return json.loads(response['response'])
         except Exception as e:
-            logger.error(f"Error normalizing query: {e}")
+            logger.error(f"Error normalizing query with Ollama: {e}")
             return {"rewritten_query": query, "language": "unknown", "sector_guess": "unknown"}
 
 class Chatbot:
@@ -83,6 +83,11 @@ class Chatbot:
         detected_lang = norm_result.get("language", "unknown")
         detected_sector = norm_result.get("sector_guess", "unknown")
 
+        # LOGGING FOR DEBUGGING
+        print(f"\n--- DEBUG SEARCH ---")
+        print(f"Original: '{query}'")
+        print(f"Rewritten: '{rewritten}' (Lang: {detected_lang})")
+
         if rewritten == "unclear":
             return {
                 "answer": "I'm sorry, I couldn't understand your request. Could you please rephrase it?",
@@ -110,11 +115,14 @@ class Chatbot:
         
         # 4. Filter and rank results
         best_match = None
+        
+        print("Candidates:")
         for dist, idx in zip(distances[0], indices[0]):
             if idx == -1: continue
             
             meta = self.metadata[idx]
             match_score = float(dist)
+            print(f" - [{match_score:.4f}] {meta.get('question')} (Sector: {meta.get('sector')})")
 
             # Optional filtering if user provided explicit sector/language
             if sector and meta.get("sector") != sector: continue
@@ -128,7 +136,43 @@ class Chatbot:
                     "language": meta["language"],
                     "source_file": meta.get("source_file"),
                 }
-                break
+                # Break early if we found a good match? usually we want the best one, sorted by distance.
+                # FAISS returns sorted by distance (descending for IP/Cosine Sim usually)
+                if not best_match: # actually this logic is flawed if we want the BEST match above threshold. 
+                    pass # We should just iterate and take the first valid one.
+        
+        # Correct logic: iterate and find first valid one
+        final_result = None
+        for dist, idx in zip(distances[0], indices[0]):
+             if idx == -1: continue
+             match_score = float(dist)
+             if match_score < CONFIDENCE_THRESHOLD: continue
+             
+             meta = self.metadata[idx]
+             if sector and meta.get("sector") != sector: continue
+             if language and meta.get("language") != language: continue
+             
+             final_result = {
+                    "answer": meta["answer"],
+                    "confidence": match_score,
+                    "sector": meta["sector"],
+                    "language": meta["language"],
+                    "source_file": meta.get("source_file"),
+             }
+             break # Take the highest scoring valid match
+
+        print(f"Selected: {final_result['answer'] if final_result else 'None'}\n--------------------\n")
+
+        if final_result:
+            return {**final_result, "rewritten_query": rewritten}
+            
+        return {
+            "answer": "I don't have enough information to answer that specifically. Please contact the regional office directly.",
+            "rewritten_query": rewritten,
+            "confidence": 0.0,
+            "sector": detected_sector,
+            "language": detected_lang
+        }
 
         if not best_match:
             return {
