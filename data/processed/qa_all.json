@@ -4,7 +4,7 @@
     "language": "am",
     "question": "ሰላም?",
     "answer": "ሰላም ነው! ምን ልረዳዎ እችላለሁ? (DEMO)",
-    "source_file": "general/general_am.csv",
+    "source_file": "general\\general_am.csv",
     "id": 1
   },
   {
@@ -12,7 +12,7 @@
     "language": "am",
     "question": "እንዴት ነህ?",
     "answer": "ደህና ነኝ፣ አመሰግናለሁ። ምን ልረዳዎ እችላለሁ? (DEMO)",
-    "source_file": "general/general_am.csv",
+    "source_file": "general\\general_am.csv",
     "id": 2
   },
   {
@@ -20,7 +20,7 @@
     "language": "am",
     "question": "ምን ልትረዳኝ ትችላለህ?",
     "answer": "ስለ ኦሮሚያ ክልል መንግስት አገልግሎቶች እንደ ፓስፖርት፣ የማዘጋጃ ቤት አገልግሎቶች እና የፍጆታ አገልግሎቶች መረጃ መስጠት እችላለሁ። (DEMO)",
-    "source_file": "general/general_am.csv",
+    "source_file": "general\\general_am.csv",
     "id": 3
   },
   {
@@ -28,7 +28,7 @@
     "language": "am",
     "question": "አመሰግናለሁ",
     "answer": "ምንም አይደል! ሌላ እርዳታ ከፈለጉ እዚህ ነኝ። (DEMO)",
-    "source_file": "general/general_am.csv",
+    "source_file": "general\\general_am.csv",
     "id": 4
   },
   {
@@ -36,7 +36,7 @@
     "language": "en",
     "question": "Hello",
     "answer": "Hello! How can I help you today? (DEMO)",
-    "source_file": "general/general_en.csv",
+    "source_file": "general\\general_en.csv",
     "id": 5
   },
   {
@@ -44,7 +44,7 @@
     "language": "en",
     "question": "Hi",
     "answer": "Hi there! How can I assist you? (DEMO)",
-    "source_file": "general/general_en.csv",
+    "source_file": "general\\general_en.csv",
     "id": 6
   },
   {
@@ -52,7 +52,7 @@
     "language": "en",
     "question": "How are you?",
     "answer": "I'm doing well, thank you. How can I help you today? (DEMO)",
-    "source_file": "general/general_en.csv",
+    "source_file": "general\\general_en.csv",
     "id": 7
   },
   {
@@ -60,7 +60,7 @@
     "language": "en",
     "question": "How can you help me?",
     "answer": "I can provide information about Oromia Regional Government services such as Passport, Municipality, and Utility services. (DEMO)",
-    "source_file": "general/general_en.csv",
+    "source_file": "general\\general_en.csv",
     "id": 8
   },
   {
@@ -68,23 +68,23 @@
     "language": "en",
     "question": "Thank you",
     "answer": "You're welcome! Let me know if you need anything else. (DEMO)",
-    "source_file": "general/general_en.csv",
+    "source_file": "general\\general_en.csv",
     "id": 9
   },
   {
     "sector": "general",
     "language": "om",
     "question": "Akkam?",
-    "answer": "Nagayaa kee! Maal si gargaaruu dandeessu? (DEMO)",
-    "source_file": "general/general_om.csv",
+    "answer": "Akkam Nagaakeeti! Maal si gargaaruu? (DEMO)",
+    "source_file": "general\\general_om.csv",
     "id": 10
   },
   {
     "sector": "general",
     "language": "om",
     "question": "Nagayaa?",
-    "answer": "Nagayaa kooti, galatoomi. Maal si gargaaruu dandeessu? (DEMO)",
-    "source_file": "general/general_om.csv",
+    "answer": "Nagayaa kooti, galatoomi. Maal si gargaaruu? (DEMO)",
+    "source_file": "general\\general_om.csv",
     "id": 11
   },
   {
@@ -92,7 +92,7 @@
     "language": "om",
     "question": "Maal na gargaaruu dandeessu?",
     "answer": "Tajaajiloota mootummaa Naannoo Oromiyaa kanneen akka paaspoortii, tajajila munisipaalaafi bilbilaa irratti ragaa siif kennun danda'a. (DEMO)",
-    "source_file": "general/general_om.csv",
+    "source_file": "general\\general_om.csv",
     "id": 12
   },
   {
@@ -100,7 +100,7 @@
     "language": "om",
     "question": "Galatoomi",
     "answer": "Homaa miti! Tajaajila biraa yoo barbaadde asuma jira. (DEMO)",
-    "source_file": "general/general_om.csv",
+    "source_file": "general\\general_om.csv",
     "id": 13
   },
   {
@@ -108,7 +108,7 @@
     "language": "am",
     "question": "የመኖሪያ ቤት ፍቃድ ለማግኘት ምን ያስፈልጋል?",
     "answer": "የመኖሪያ ቤት ፍቃድ ለማግኘት ማመልከቻ፣ የቦታው ካርታ፣ የባለቤትነት ማረጋገጫ እና የንብረት ታክስ ክፍያ ደረሰኝ ማቅረብ ያስፈልጋል። (DEMO)",
-    "source_file": "municipality/municipality_am.csv",
+    "source_file": "municipality\\municipality_am.csv",
     "id": 14
   },
   {
@@ -116,7 +116,7 @@
     "language": "am",
     "question": "አዲስ የንግድ ሥራ እንዴት ማስመዝገብ እችላለሁ?",
     "answer": "አዲስ ንግድ ለማስመዝገብ መታወቂያዎን ይዘው ወደ ንግድ ቢሮ መሄድ ይኖርብዎታል። (DEMO)",
-    "source_file": "municipality/municipality_am.csv",
+    "source_file": "municipality\\municipality_am.csv",
     "id": 15
   },
   {
@@ -124,7 +124,7 @@
     "language": "am",
     "question": "የቤት ግብር የት ነው የምከፍለው?",
     "answer": "የቤት ግብር በማዘጋጃ ቤት የግብር ቢሮዎች ወይም በመንግስት የክፍያ አማራጮች መክፈል ይቻላል። (DEMO)",
-    "source_file": "municipality/municipality_am.csv",
+    "source_file": "municipality\\municipality_am.csv",
     "id": 16
   },
   {
@@ -132,7 +132,7 @@
     "language": "am",
     "question": "የልደት ምስክር ወረቀት እንዴት ማግኘት እችላለሁ?",
     "answer": "የልደት ምስክር ወረቀትን በአቅራቢያዎ በሚገኝ የቀበሌ ወይም የከተማ አስተዳደር ቢሮ ማመልከት ይችላሉ። (DEMO)",
-    "source_file": "municipality/municipality_am.csv",
+    "source_file": "municipality\\municipality_am.csv",
     "id": 17
   },
   {
@@ -140,7 +140,7 @@
     "language": "en",
     "question": "What documents are required to obtain a house permit?",
     "answer": "To obtain a house permit, you need to submit an application, land map, proof of ownership, and a property tax payment receipt. (DEMO)",
-    "source_file": "municipality/municipality_en.csv",
+    "source_file": "municipality\\municipality_en.csv",
     "id": 18
   },
   {
@@ -148,7 +148,7 @@
     "language": "en",
     "question": "How do I register a new business?",
     "answer": "To register a new business, you need to visit the local trade bureau with your ID and completion of the required forms. (DEMO)",
-    "source_file": "municipality/municipality_en.csv",
+    "source_file": "municipality\\municipality_en.csv",
     "id": 19
   },
   {
@@ -156,7 +156,7 @@
     "language": "en",
     "question": "Where can I pay my property tax?",
     "answer": "Property taxes can be paid at any designated municipality tax office or via official online portals. (DEMO)",
-    "source_file": "municipality/municipality_en.csv",
+    "source_file": "municipality\\municipality_en.csv",
     "id": 20
   },
   {
@@ -164,7 +164,7 @@
     "language": "en",
     "question": "How can I get a birth certificate?",
     "answer": "You can apply for a birth certificate at your local Kebele or City Administration office. (DEMO)",
-    "source_file": "municipality/municipality_en.csv",
+    "source_file": "municipality\\municipality_en.csv",
     "id": 21
   },
   {
@@ -172,7 +172,7 @@
     "language": "om",
     "question": "Ijaarsa mana jireenyaaaf Injinerri ni barbaachisaa?",
     "answer": "Ijaarsa mana jireenyaaaf Injinerri barbaachisaa miti, garuu qabxiwwan armaan gadii guutuun dirqama: (DEMO)",
-    "source_file": "municipality/municipality_om.csv",
+    "source_file": "municipality\\municipality_om.csv",
     "id": 22
   },
   {
@@ -180,7 +180,7 @@
     "language": "om",
     "question": "Galmeessa daldalaa haaraa akkamitti raawwadha?",
     "answer": "Galmeessa daldalaa haaraaf ragaa eenyummaa keettiin gara biiroo daldalaatti deemuu qabdu. (DEMO)",
-    "source_file": "municipality/municipality_om.csv",
+    "source_file": "municipality\\municipality_om.csv",
     "id": 23
   },
   {
@@ -188,7 +188,7 @@
     "language": "om",
     "question": "Kaffaltii gibira manaa eessatti kaffaluu danda'a?",
     "answer": "Gibira manaa waajjiraalee munisipaalaatti ykn karaa kallattii onlaayinii kaffaluun ni danda'ama. (DEMO)",
-    "source_file": "municipality/municipality_om.csv",
+    "source_file": "municipality\\municipality_om.csv",
     "id": 24
   },
   {
@@ -196,199 +196,3423 @@
     "language": "om",
     "question": "Ragaa dhalootaa akkamitti argachuu danda'a?",
     "answer": "Ragaa dhalootaa argachuuf waajjira bulchiinsa gandaa keetii gaafachuun ni danda'ama. (DEMO)",
-    "source_file": "municipality/municipality_om.csv",
+    "source_file": "municipality\\municipality_om.csv",
     "id": 25
   },
   {
     "sector": "passport",
     "language": "am",
-    "question": "የፓስፖርት ለማውጣት ምን ያስፈልጋል?",
-    "answer": "የፓስፖርት ለማውጣት ማመልከቻ፣ የቦታው ካርታ፣ የባለቤትነት ማረጋገጫ እና የንብረት ታክስ ክፍያ ደረሰኝ ማቅረብ ያስፈልጋል። (DEMO)",
-    "source_file": "passport/passport_am.csv",
+    "question": "ፓስፖርት ለማውጣት ምን ዓይነት ሰነዶች ያስፈልጋሉ?",
+    "answer": "የተሞላ ማመልከቻ፣ መታወቂያ/የትውልድ ማረጋገጫ፣ የቅርብ ጊዜ ፎቶ፣ እና የክፍያ ደረሰኝ ይያዙ። (DEMO)",
+    "source_file": "passport\\passport_am.csv",
     "id": 26
   },
   {
     "sector": "passport",
     "language": "am",
-    "question": "ፓስፖርት ለማውጣት ምን ያህል ጊዜ ይወስዳል?",
-    "answer": "መደበኛ የፓስፖርት ዝግጅት ከ15 እስከ 30 የሥራ ቀናት ሊወስድ ይችላል። (DEMO)",
-    "source_file": "passport/passport_am.csv",
+    "question": "ፓስፖርት የት ላይ መጠየቅ ይቻላል?",
+    "answer": "በዋና የኢሚግሬሽን ቢሮ ወይም በተመዘገቡ የክልል ፓስፖርት አገልግሎት ቢሮዎች መጠየቅ ይቻላል። (DEMO)",
+    "source_file": "passport\\passport_am.csv",
     "id": 27
   },
   {
     "sector": "passport",
     "language": "am",
-    "question": "አዲስ ፓስፖርት ለማውጣት ክፍያው ስንት ነው?",
-    "answer": "ለአዲስ ፓስፖርት ክፍያ እንደ አገልግሎት ፍጥነት ከ2000 እስከ 5000 ብር ሊሆን ይችላል። (DEMO)",
-    "source_file": "passport/passport_am.csv",
+    "question": "የፓስፖርት ክፍያ ስንት ነው?",
+    "answer": "ክፍያው እንደ አገልግሎት ፍጥነትና የፓስፖርት አይነት ይለያያል፤ ኦፊሴላዊ የክፍያ መረጃን ይመልከቱ። (DEMO)",
+    "source_file": "passport\\passport_am.csv",
     "id": 28
   },
   {
     "sector": "passport",
     "language": "am",
-    "question": "የጊዜው ያለፈበትን ፓስፖርት ማደስ እችላለሁ?",
-    "answer": "አዎ፣ የቆየውን ፓስፖርት እና አስፈላጊ መረጃዎችን በመያዝ ማደስ ይችላሉ። (DEMO)",
-    "source_file": "passport/passport_am.csv",
+    "question": "ፓስፖርት ለመውጣት ስንት ጊዜ ይወስዳል?",
+    "answer": "መደበኛ ሂደት ብዙ ሳምንታት ሊወስድ ይችላል፤ ፈጣን አገልግሎት ግን በተጨማሪ ክፍያ እንዲቀጥን ይችላል። (DEMO)",
+    "source_file": "passport\\passport_am.csv",
     "id": 29
   },
   {
     "sector": "passport",
-    "language": "en",
-    "question": "What documents are required to obtain a passport?",
-    "answer": "To obtain a passport, you need to submit an application, land map, proof of ownership, and a property tax payment receipt. (DEMO)",
-    "source_file": "passport/passport_en.csv",
+    "language": "am",
+    "question": "ፓስፖርት በመስመር ላይ መጠየቅ ይቻላል?",
+    "answer": "አንዳንድ ደረጃዎች ኦንላይን ሊሰሩ ይችላሉ፣ ነገር ግን ለባዮሜትሪክ መመዝገብ በአካል መገኘት ያስፈልጋል። (DEMO)",
+    "source_file": "passport\\passport_am.csv",
     "id": 30
+  },
+  {
+    "sector": "passport",
+    "language": "am",
+    "question": "ፓስፖርት ለስንት ዓመት ይሠራል?",
+    "answer": "የትክክለኛ ጊዜ ቆይታ እንደ አመልካቹ ምድብ 5 ወይም 10 ዓመት ሊሆን ይችላል። (DEMO)",
+    "source_file": "passport\\passport_am.csv",
+    "id": 31
+  },
+  {
+    "sector": "passport",
+    "language": "am",
+    "question": "የጊዜው ያለፈ ፓስፖርት እንዴት እታደሳለሁ?",
+    "answer": "የቀድሞ ፓስፖርት፣ የማሻሻያ ማመልከቻ፣ ፎቶዎች እና የክፍያ ደረሰኝ በማቅረብ መታደስ ይቻላል። (DEMO)",
+    "source_file": "passport\\passport_am.csv",
+    "id": 32
+  },
+  {
+    "sector": "passport",
+    "language": "am",
+    "question": "ፓስፖርትን ከመጨረሻ ቀኑ በፊት መታደስ እችላለሁ?",
+    "answer": "አዎ፣ ከመያዣ ጊዜው በፊት በተወሰነ ወቅት ውስጥ ቀድሞ መታደስ ይፈቀዳል። (DEMO)",
+    "source_file": "passport\\passport_am.csv",
+    "id": 33
+  },
+  {
+    "sector": "passport",
+    "language": "am",
+    "question": "ፓስፖርት ቢጠፋ ምን ማድረግ አለብኝ?",
+    "answer": "ወዲያውኑ ለፖሊስ ሪፖርት አድርጉ እና ከሪፖርቱ ጋር የመተካት ማመልከቻ ያቅርቡ። (DEMO)",
+    "source_file": "passport\\passport_am.csv",
+    "id": 34
+  },
+  {
+    "sector": "passport",
+    "language": "am",
+    "question": "ፓስፖርት ቢበላሽ ምን ይደረጋል?",
+    "answer": "የተበላሸውን ፓስፖርት ከማብራሪያ ደብዳቤ ጋር በማቅረብ መተካት ይቻላል። (DEMO)",
+    "source_file": "passport\\passport_am.csv",
+    "id": 35
+  },
+  {
+    "sector": "passport",
+    "language": "am",
+    "question": "ህፃናት ፓስፖርት መውጣት ይችላሉ?",
+    "answer": "አዎ፣ ለአነስተኛ ዕድሜ የወላጅ/አሳዳጊ ፈቃድ እና የህጋዊ ማረጋገጫ ሰነዶች ያስፈልጋሉ። (DEMO)",
+    "source_file": "passport\\passport_am.csv",
+    "id": 36
+  },
+  {
+    "sector": "passport",
+    "language": "am",
+    "question": "ለህፃን ፓስፖርት ምን ሰነዶች ያስፈልጋሉ?",
+    "answer": "የትውልድ ማረጋገጫ፣ የወላጆች መታወቂያ፣ የፈቃድ ደብዳቤ እና ፎቶ ይጠየቃሉ። (DEMO)",
+    "source_file": "passport\\passport_am.csv",
+    "id": 37
+  },
+  {
+    "sector": "passport",
+    "language": "am",
+    "question": "ለህፃን ፓስፖርት ሁለቱም ወላጆች መገኘት ያስፈልጋል?",
+    "answer": "ብዙ ጊዜ አዎ፤ ካልተቻለ ግን የህግ ማረጋገጫ (ለምሳሌ የፍርድ ቤት ውሳኔ) ሊጠየቅ ይችላል። (DEMO)",
+    "source_file": "passport\\passport_am.csv",
+    "id": 38
+  },
+  {
+    "sector": "passport",
+    "language": "am",
+    "question": "አሳዳጊ በህፃን ስም መጠየቅ ይችላል?",
+    "answer": "አዎ፣ የአሳዳጊነት ህጋዊ ሰነድ ካለ መመልከት ይቻላል። (DEMO)",
+    "source_file": "passport\\passport_am.csv",
+    "id": 39
+  },
+  {
+    "sector": "passport",
+    "language": "am",
+    "question": "ባዮሜትሪክ ምዝገባ ምንድነው?",
+    "answer": "የጣት አሻራ፣ ፎቶ እና ፊርማ ያሉ የመለያ መረጃዎችን በቢሮ ላይ መመዝገብ ነው። (DEMO)",
+    "source_file": "passport\\passport_am.csv",
+    "id": 40
+  },
+  {
+    "sector": "passport",
+    "language": "am",
+    "question": "ባዮሜትሪክ መመዝገብ ግዴታ ነው?",
+    "answer": "አዎ፣ ብዙ አገልግሎቶች ለመስጠት የባዮሜትሪክ መረጃ መመዝገብ ያስፈልጋል። (DEMO)",
+    "source_file": "passport\\passport_am.csv",
+    "id": 41
+  },
+  {
+    "sector": "passport",
+    "language": "am",
+    "question": "አረጋውያን ባዮሜትሪክ ሳይሰጡ መውጣት ይቻላል?",
+    "answer": "በዕድሜ ወይም በጤና ሁኔታ መሰረት ልዩ መተግበሪያ ሊኖር ይችላል፤ ቢሮውን ይጠይቁ። (DEMO)",
+    "source_file": "passport\\passport_am.csv",
+    "id": 42
+  },
+  {
+    "sector": "passport",
+    "language": "am",
+    "question": "ለፓስፖርት የሚያስፈልገው ፎቶ እንዴት መሆን አለበት?",
+    "answer": "ነጭ ጀርባ፣ ግልጽ ፊት፣ የቅርብ ጊዜ ፎቶ እና መመሪያዎችን የሚከተል መሆን አለበት። (DEMO)",
+    "source_file": "passport\\passport_am.csv",
+    "id": 43
+  },
+  {
+    "sector": "passport",
+    "language": "am",
+    "question": "በፓስፖርት ፎቶ ላይ ፈገግታ ማድረግ ይፈቀዳል?",
+    "answer": "ብዙ ጊዜ አይፈቀድም፤ አስተዳደራዊ ምርመራ ስለሚያስፈልግ ነጻ/መደበኛ ፊት ተጠያቂ ነው። (DEMO)",
+    "source_file": "passport\\passport_am.csv",
+    "id": 44
+  },
+  {
+    "sector": "passport",
+    "language": "am",
+    "question": "ማመልከቻዬ ቢቀርብ እና ቢታቀቅ ምን ይሆናል?",
+    "answer": "ምክንያቱ ይገለጻል እና ምን መስተካከል እንዳለብዎ መመሪያ ይሰጥዎታል። (DEMO)",
+    "source_file": "passport\\passport_am.csv",
+    "id": 45
+  },
+  {
+    "sector": "passport",
+    "language": "am",
+    "question": "የፓስፖርት ማመልከቻ ሁኔታ መከታተል እችላለሁ?",
+    "answer": "አዎ፣ በማመልከቻ መመዝገቢያ ቁጥር/ሪፈረንስ ሁኔታውን ማየት ይቻላል። (DEMO)",
+    "source_file": "passport\\passport_am.csv",
+    "id": 46
+  },
+  {
+    "sector": "passport",
+    "language": "am",
+    "question": "ፈጣን የፓስፖርት አገልግሎት ምንድነው?",
+    "answer": "በተጨማሪ ክፍያ የማስፈጸሚያ ጊዜን የሚቀንስ አማራጭ አገልግሎት ነው። (DEMO)",
+    "source_file": "passport\\passport_am.csv",
+    "id": 47
+  },
+  {
+    "sector": "passport",
+    "language": "am",
+    "question": "ፈጣን አገልግሎት ለማግኘት ማን ይችላል?",
+    "answer": "በአስቸኳይ ጉዞ ምክንያት ያለው ሰው ማስረጃ ካቀረበ ሊያገኝ ይችላል። (DEMO)",
+    "source_file": "passport\\passport_am.csv",
+    "id": 48
+  },
+  {
+    "sector": "passport",
+    "language": "am",
+    "question": "በፓስፖርት ላይ ስሜን መቀየር እችላለሁ?",
+    "answer": "አዎ፣ የፍርድ ቤት ውሳኔ ወይም የጋብቻ ማረጋገጫ ያሉ ህጋዊ ሰነዶች ካሉ ይቻላል። (DEMO)",
+    "source_file": "passport\\passport_am.csv",
+    "id": 49
+  },
+  {
+    "sector": "passport",
+    "language": "am",
+    "question": "በፓስፖርት ላይ ስህተት ካለ እንዴት እጠግናለሁ?",
+    "answer": "ስህተቱን የሚያሳይ ማስረጃ ሰነዶች በማቅረብ የማስተካከያ ሂደት መጀመር ይቻላል። (DEMO)",
+    "source_file": "passport\\passport_am.csv",
+    "id": 50
+  },
+  {
+    "sector": "passport",
+    "language": "am",
+    "question": "ስህተቱ ከቢሮ ከሆነ ክፍያ ይኖራል?",
+    "answer": "አንዳንድ ጊዜ የቢሮ ስህተት ከሆነ ክፍያ ሳይኖር ሊታረም ይችላል። (DEMO)",
+    "source_file": "passport\\passport_am.csv",
+    "id": 51
+  },
+  {
+    "sector": "passport",
+    "language": "am",
+    "question": "ፓስፖርት ሊያልቅ ከሆነ መጓዝ እችላለሁ?",
+    "answer": "ብዙ አገሮች ቢያንስ 6 ወር የቀረ ትክክለኛነት ይጠይቃሉ፤ ቅድሚያ ያረጋግጡ። (DEMO)",
+    "source_file": "passport\\passport_am.csv",
+    "id": 52
+  },
+  {
+    "sector": "passport",
+    "language": "am",
+    "question": "ከአገር ውጭ ሳለሁ ፓስፖርቴ ቢያልቅ ምን አድርጋለሁ?",
+    "answer": "ቅርብ ያለ ኤምባሲ/ኮንሱላት ያነጋግሩ እና የሚሰጠውን መመሪያ ይከተሉ። (DEMO)",
+    "source_file": "passport\\passport_am.csv",
+    "id": 53
+  },
+  {
+    "sector": "passport",
+    "language": "am",
+    "question": "ሁለት ፓስፖርት መያዝ ይቻላል?",
+    "answer": "በህግ ስር በተወሰኑ ሁኔታዎች ብቻ ሊፈቀድ ይችላል፤ የአገሩን መመሪያ ይመልከቱ። (DEMO)",
+    "source_file": "passport\\passport_am.csv",
+    "id": 54
+  },
+  {
+    "sector": "passport",
+    "language": "am",
+    "question": "ማሽን-ሪዳብል (Machine-readable) ፓስፖርት ምንድነው?",
+    "answer": "በስካነር ሊነበብ የሚችል የኮድ መረጃ ያለበት ፓስፖርት ነው። (DEMO)",
+    "source_file": "passport\\passport_am.csv",
+    "id": 55
+  },
+  {
+    "sector": "passport",
+    "language": "am",
+    "question": "ኢ-ፓስፖርት (e-Passport) ምንድነው?",
+    "answer": "የባዮሜትሪክ መረጃ የያዘ ቺፕ ያለበት ኤሌክትሮኒክ ፓስፖርት ነው። (DEMO)",
+    "source_file": "passport\\passport_am.csv",
+    "id": 56
+  },
+  {
+    "sector": "passport",
+    "language": "am",
+    "question": "ኢ-ፓስፖርት መውጣት ግዴታ ነው?",
+    "answer": "እየተለመደ ቢሆንም አገልግሎቱ እና አይነቱ እንደ አገር/ቢሮ ሊለያይ ይችላል። (DEMO)",
+    "source_file": "passport\\passport_am.csv",
+    "id": 57
+  },
+  {
+    "sector": "passport",
+    "language": "am",
+    "question": "ከአገር ውጭ ሆኜ ፓስፖርት መውጣት እችላለሁ?",
+    "answer": "አዎ፣ በኤምባሲ/ኮንሱላት በኩል ማመልከት ይቻላል። (DEMO)",
+    "source_file": "passport\\passport_am.csv",
+    "id": 58
+  },
+  {
+    "sector": "passport",
+    "language": "am",
+    "question": "ከውጭ አገር ፓስፖርት ማውጣት ስንት ጊዜ ይወስዳል?",
+    "answer": "ብዙ ጊዜ ከውስጥ አገር አገልግሎት ይልቅ ሊዘገይ ይችላል። (DEMO)",
+    "source_file": "passport\\passport_am.csv",
+    "id": 59
+  },
+  {
+    "sector": "passport",
+    "language": "am",
+    "question": "የፓስፖርት ክፍያ እንዴት ይከፈላል?",
+    "answer": "በባንክ ዲፖዚት ወይም በተፈቀዱ የክፍያ ቻናሎች መክፈል ይቻላል። (DEMO)",
+    "source_file": "passport\\passport_am.csv",
+    "id": 60
+  },
+  {
+    "sector": "passport",
+    "language": "am",
+    "question": "የፓስፖርት ክፍያ መመለስ ይቻላል?",
+    "answer": "ብዙ ጊዜ የፓስፖርት ክፍያ አይመለስም። (DEMO)",
+    "source_file": "passport\\passport_am.csv",
+    "id": 61
+  },
+  {
+    "sector": "passport",
+    "language": "am",
+    "question": "ጊዜያዊ የጉዞ ሰነድ ምንድነው?",
+    "answer": "ፓስፖርት ሲጠፋ/ሲያገለግል በአስቸኳይ ጉዞ ለማድረግ የሚሰጥ ሰነድ ነው። (DEMO)",
+    "source_file": "passport\\passport_am.csv",
+    "id": 62
+  },
+  {
+    "sector": "passport",
+    "language": "am",
+    "question": "ጊዜያዊ የጉዞ ሰነድ ማን ሊያገኝ ይችላል?",
+    "answer": "የአስቸኳይ ጉዞ ምክንያት ያለው ዜጋ ማስረጃ ካቀረበ ሊቀበል ይችላል። (DEMO)",
+    "source_file": "passport\\passport_am.csv",
+    "id": 63
+  },
+  {
+    "sector": "passport",
+    "language": "am",
+    "question": "በፓስፖርት ላይ አድራሻዬን ማዘመን ያስፈልጋል?",
+    "answer": "ብዙ ጊዜ አድራሻ መቀየር የፓስፖርት መተካት አያስፈልግም፣ ግን መመሪያ ይጠይቁ። (DEMO)",
+    "source_file": "passport\\passport_am.csv",
+    "id": 64
+  },
+  {
+    "sector": "passport",
+    "language": "am",
+    "question": "ፓስፖርት ለማመልከት ቀጠሮ ያስፈልጋል?",
+    "answer": "እንደ ቢሮው ብዛት ቀጠሮ ማስያዝ ሊያስፈልግ ይችላል። (DEMO)",
+    "source_file": "passport\\passport_am.csv",
+    "id": 65
+  },
+  {
+    "sector": "passport",
+    "language": "am",
+    "question": "የፓስፖርት ቀጠሮ እንዴት እያዝ?",
+    "answer": "በመስመር ላይ ወይም በቢሮ በቀጥታ መቀጠር ይቻላል። (DEMO)",
+    "source_file": "passport\\passport_am.csv",
+    "id": 66
+  },
+  {
+    "sector": "passport",
+    "language": "am",
+    "question": "ቀጠሮዬ በደረሰ ቀን ምን አመጣ?",
+    "answer": "የመጀመሪያ ሰነዶች፣ ኮፒዎች፣ ፎቶ፣ እና የክፍያ ደረሰኝ ይያዙ። (DEMO)",
+    "source_file": "passport\\passport_am.csv",
+    "id": 67
+  },
+  {
+    "sector": "passport",
+    "language": "am",
+    "question": "ሌላ ሰው በስሜ ፓስፖርት ሊወስድ ይችላል?",
+    "answer": "በአንዳንድ ሁኔታ በህጋዊ ውክልና/ፈቃድ ይፈቀዳል። (DEMO)",
+    "source_file": "passport\\passport_am.csv",
+    "id": 68
+  },
+  {
+    "sector": "passport",
+    "language": "am",
+    "question": "ፓስፖርቴ ዝግጁ ሲሆን እንዴት እለቃለሁ?",
+    "answer": "በSMS/ኢሜይል ማሳወቂያ ወይም በሪፈረንስ ቁጥር ሁኔታ በመመልከት መረዳት ይቻላል። (DEMO)",
+    "source_file": "passport\\passport_am.csv",
+    "id": 69
+  },
+  {
+    "sector": "passport",
+    "language": "am",
+    "question": "ቀጠሮዬን ካመለስኩ ምን ይሆናል?",
+    "answer": "እንደ ፖሊሲ ዳግም ማስያዝ/ማቀጠር ሊኖር ይችላል። (DEMO)",
+    "source_file": "passport\\passport_am.csv",
+    "id": 70
+  },
+  {
+    "sector": "passport",
+    "language": "am",
+    "question": "እርጉዝ ሴቶች ቅድሚያ አገልግሎት ያገኛሉ?",
+    "answer": "በጤና ሁኔታ መሰረት ልዩ ድጋፍ/ቅድሚያ ሊሰጥ ይችላል። (DEMO)",
+    "source_file": "passport\\passport_am.csv",
+    "id": 71
+  },
+  {
+    "sector": "passport",
+    "language": "am",
+    "question": "አካል ጉዳተኞች ለፓስፖርት ልዩ ድጋፍ አለ?",
+    "answer": "አዎ፣ የአገልግሎት እርዳታ እና ቅድሚያ ሊሰጥ ይችላል። (DEMO)",
+    "source_file": "passport\\passport_am.csv",
+    "id": 72
+  },
+  {
+    "sector": "passport",
+    "language": "am",
+    "question": "በፓስፖርት አገልግሎት የሚጠቀሙት ቋንቋዎች ምን ናቸው?",
+    "answer": "እንደ ቢሮው አቅም በአገር ዋና ቋንቋዎች አገልግሎት ሊሰጥ ይችላል። (DEMO)",
+    "source_file": "passport\\passport_am.csv",
+    "id": 73
+  },
+  {
+    "sector": "passport",
+    "language": "am",
+    "question": "ስደተኞች የአገር ፓስፖርት መጠየቅ ይችላሉ?",
+    "answer": "እንደ ህግ ልዩ ሂደት ሊኖር ይችላል፤ ተገቢውን ቢሮ ይጠይቁ። (DEMO)",
+    "source_file": "passport\\passport_am.csv",
+    "id": 74
+  },
+  {
+    "sector": "passport",
+    "language": "am",
+    "question": "ዲፕሎማቲክ ፓስፖርት ምንድነው?",
+    "answer": "ለመንግስት ኃላፊዎች እና ዲፕሎማቶች ለመደበኛ የመንግስት ሥራ ጉዞ የሚሰጥ ፓስፖርት ነው። (DEMO)",
+    "source_file": "passport\\passport_am.csv",
+    "id": 75
+  },
+  {
+    "sector": "passport",
+    "language": "am",
+    "question": "የአገልግሎት (Service) ፓስፖርት ምንድነው?",
+    "answer": "ለየተወሰኑ የመንግስት ስራዎች ውጭ ሀገር ሲሄዱ የሚሰጥ ልዩ ፓስፖርት ነው። (DEMO)",
+    "source_file": "passport\\passport_am.csv",
+    "id": 76
+  },
+  {
+    "sector": "passport",
+    "language": "am",
+    "question": "ዲፕሎማቲክ ፓስፖርት ማን ይወስዳል?",
+    "answer": "ከፍተኛ መንግስት ኃላፊዎች እና የዲፕሎማቲክ ኃላፊነት ያላቸው ሰዎች ሊያገኙት ይችላሉ። (DEMO)",
+    "source_file": "passport\\passport_am.csv",
+    "id": 77
+  },
+  {
+    "sector": "passport",
+    "language": "am",
+    "question": "ተራ ዜጋ ዲፕሎማቲክ ፓስፖርት መጠየቅ ይችላል?",
+    "answer": "አይቻልም፤ ተገቢነቱ በህግ የተገደበ ነው። (DEMO)",
+    "source_file": "passport\\passport_am.csv",
+    "id": 78
+  },
+  {
+    "sector": "passport",
+    "language": "am",
+    "question": "ፓስፖርት ላይ ስንት ባዶ ገጽ መቀረት ይመከራል?",
+    "answer": "ለቪዛ እና ማህተም ቢያንስ ሁለት ባዶ ገጾች መኖር ይመከራል። (DEMO)",
+    "source_file": "passport\\passport_am.csv",
+    "id": 79
+  },
+  {
+    "sector": "passport",
+    "language": "am",
+    "question": "በፓስፖርት ላይ ተጨማሪ ገጽ መጨመር ይቻላል?",
+    "answer": "አብዛኛውን ጊዜ ተጨማሪ ገጽ አይጨመርም፤ መታደስ/መተካት ያስፈልጋል። (DEMO)",
+    "source_file": "passport\\passport_am.csv",
+    "id": 80
+  },
+  {
+    "sector": "passport",
+    "language": "am",
+    "question": "አዲስ ፓስፖርት ሲወጣ አሮጌው ምን ይሆናል?",
+    "answer": "አሮጌው ብዙ ጊዜ በመሰረዝ ምልክት ተደርጎ ሊመለስ ይችላል። (DEMO)",
+    "source_file": "passport\\passport_am.csv",
+    "id": 81
+  },
+  {
+    "sector": "passport",
+    "language": "am",
+    "question": "አሮጌ ፓስፖርቴን ከታደስኩ በኋላ ልያዝ እችላለሁ?",
+    "answer": "አዎ፣ ነገር ግን ለጉዞ አይጠቅምም (ተሰርዟል ተብሎ ይቆጠራል)። (DEMO)",
+    "source_file": "passport\\passport_am.csv",
+    "id": 82
+  },
+  {
+    "sector": "passport",
+    "language": "am",
+    "question": "የማመልከቻ ሪፈረንስ ቁጥር ምንድነው?",
+    "answer": "ማመልከቻዎን ለመከታተል የሚጠቅም ልዩ መለያ ቁጥር ነው። (DEMO)",
+    "source_file": "passport\\passport_am.csv",
+    "id": 83
+  },
+  {
+    "sector": "passport",
+    "language": "am",
+    "question": "የጣት አሻራ መረጃ ደህንነቱ የተጠበቀ ነው?",
+    "answer": "አዎ፣ በጥብቅ የመረጃ ደህንነት መመሪያዎች መሠረት ይጠበቃል። (DEMO)",
+    "source_file": "passport\\passport_am.csv",
+    "id": 84
+  },
+  {
+    "sector": "passport",
+    "language": "am",
+    "question": "ፓስፖርት ሊሰረዝ ይችላል?",
+    "answer": "አዎ፣ በህጋዊ ምክንያቶች (ለምሳሌ የተከለከለ ጉዞ) ሊሰረዝ ይችላል። (DEMO)",
+    "source_file": "passport\\passport_am.csv",
+    "id": 85
+  },
+  {
+    "sector": "passport",
+    "language": "am",
+    "question": "ፓስፖርት መስጠት በምን ህጎች ይመራል?",
+    "answer": "በአገሪቱ የኢሚግሬሽን እና የዜግነት ህጎች መሠረት ይመራል። (DEMO)",
+    "source_file": "passport\\passport_am.csv",
+    "id": 86
+  },
+  {
+    "sector": "passport",
+    "language": "am",
+    "question": "ኦፊሴላዊ የፓስፖርት መረጃ ከየት እገኛለሁ?",
+    "answer": "ከኢሚግሬሽን ቢሮ ድረ-ገጽ ወይም በቢሮዎች በቀጥታ በመጠየቅ ይገኛል። (DEMO)",
+    "source_file": "passport\\passport_am.csv",
+    "id": 87
+  },
+  {
+    "sector": "passport",
+    "language": "am",
+    "question": "ስለ ፓስፖርት ቅሬታ የት ልቀርብ?",
+    "answer": "በቢሮው የደንበኛ አገልግሎት/ቅሬታ መቀበያ ቦታ ማቅረብ ይቻላል። (DEMO)",
+    "source_file": "passport\\passport_am.csv",
+    "id": 88
+  },
+  {
+    "sector": "passport",
+    "language": "am",
+    "question": "መታወቂያዬ ካለቀ ፓስፖርት መጠየቅ እችላለሁ?",
+    "answer": "ተገቢ መለያ ማረጋገጫ እንዲሰጥ ተገቢ የሆነ መታወቂያ መኖር ያስፈልጋል። (DEMO)",
+    "source_file": "passport\\passport_am.csv",
+    "id": 89
+  },
+  {
+    "sector": "passport",
+    "language": "am",
+    "question": "ለፓስፖርት ቃለ-መጠይቅ ይደረጋል?",
+    "answer": "አንዳንድ አመልካቾች የተጨማሪ ማረጋገጫ ሲያስፈልግ ቃለ-መጠይቅ ሊጠሩ ይችላሉ። (DEMO)",
+    "source_file": "passport\\passport_am.csv",
+    "id": 90
+  },
+  {
+    "sector": "passport",
+    "language": "am",
+    "question": "ፓስፖርት ከመሰጠቱ በፊት ምን ዓይነት ምርመራ ይደረጋል?",
+    "answer": "መለያ ማረጋገጫ እና የደህንነት/ህጋዊ ማጣሪያ ይደረጋል። (DEMO)",
+    "source_file": "passport\\passport_am.csv",
+    "id": 91
+  },
+  {
+    "sector": "passport",
+    "language": "am",
+    "question": "በፓስፖርት ላይ የጋብቻ ሁኔታ ማዘመን ይቻላል?",
+    "answer": "አዎ፣ የጋብቻ ማረጋገጫ ወይም የፍቺ ሰነድ ካለ ማዘመን ይቻላል። (DEMO)",
+    "source_file": "passport\\passport_am.csv",
+    "id": 92
+  },
+  {
+    "sector": "passport",
+    "language": "am",
+    "question": "ከአገር ውጭ ፓስፖርቴ ቢሰረቅ ምን አድርግ?",
+    "answer": "ለአካባቢ ፖሊስ ሪፖርት አድርጉ እና ቅርብ ያለ ኤምባሲ/ኮንሱላት ያነጋግሩ። (DEMO)",
+    "source_file": "passport\\passport_am.csv",
+    "id": 93
+  },
+  {
+    "sector": "passport",
+    "language": "am",
+    "question": "ህጋዊ ቅጣት/ችግኝ ካለብኝ ፓስፖርት መውጣት ይቻላል?",
+    "answer": "አንዳንድ የህግ ጉዳዮች ተገቢነትን ሊጎዱ ይችላሉ፤ ቢሮውን ያረጋግጡ። (DEMO)",
+    "source_file": "passport\\passport_am.csv",
+    "id": 94
+  },
+  {
+    "sector": "passport",
+    "language": "am",
+    "question": "ከመጓዝ በፊት ስንት ቀድሞ መጠየቅ ይመከራል?",
+    "answer": "የመስራት ጊዜ ሊዘገይ ስለሚችል ብዙ ወራት ቀድሞ ማመልከት ይመከራል። (DEMO)",
+    "source_file": "passport\\passport_am.csv",
+    "id": 95
+  },
+  {
+    "sector": "passport",
+    "language": "am",
+    "question": "ፓስፖርት ለመውጣት መጀመሪያ እርምጃ ምንድነው?",
+    "answer": "የማመልከቻ ፎርም መሙላት እና ተገቢ ሰነዶችን ማዘጋጀት ነው። (DEMO)",
+    "source_file": "passport\\passport_am.csv",
+    "id": 96
+  },
+  {
+    "sector": "passport",
+    "language": "am",
+    "question": "የፓስፖርት ማመልከቻ ፎርም የት እገኛለሁ?",
+    "answer": "በቢሮ ወይም በኦፊሴላዊ መስመር ላይ መድረክ ሊገኝ ይችላል። (DEMO)",
+    "source_file": "passport\\passport_am.csv",
+    "id": 97
+  },
+  {
+    "sector": "passport",
+    "language": "am",
+    "question": "ማመልከቻ ላይ ስህተት ካደረግሁ ምን ይደረጋል?",
+    "answer": "በመመሪያ መሠረት ማስተካከል ይጠየቃሉ ወይም እንደገና መሞላት ሊኖር ይችላል። (DEMO)",
+    "source_file": "passport\\passport_am.csv",
+    "id": 98
+  },
+  {
+    "sector": "passport",
+    "language": "am",
+    "question": "በፓስፖርት ማመልከቻ ላይ ኢሜይል እና ስልክ ለምን ይፈለጋሉ?",
+    "answer": "ለማሳወቂያ እና ሁኔታ ለማግኘት/ለማረጋገጥ ይጠቅማሉ። (DEMO)",
+    "source_file": "passport\\passport_am.csv",
+    "id": 99
+  },
+  {
+    "sector": "passport",
+    "language": "am",
+    "question": "ፓስፖርት ለመሰብሰብ ማንነት ማረጋገጫ ያስፈልጋል?",
+    "answer": "አዎ፣ በመውሰድ ጊዜ መታወቂያ ወይም የማመልከቻ ደረሰኝ ሊጠየቅ ይችላል። (DEMO)",
+    "source_file": "passport\\passport_am.csv",
+    "id": 100
+  },
+  {
+    "sector": "passport",
+    "language": "am",
+    "question": "ፓስፖርቴን በፖስታ ማግኘት ይቻላል?",
+    "answer": "እንደ ቢሮው ፖሊሲ ሊኖር ይችላል፤ የመላኪያ አማራጮችን ያረጋግጡ። (DEMO)",
+    "source_file": "passport\\passport_am.csv",
+    "id": 101
+  },
+  {
+    "sector": "passport",
+    "language": "am",
+    "question": "የባዮሜትሪክ ፎቶ ከውጭ ስቱዲዮ መመጣት ይችላል?",
+    "answer": "ብዙ ጊዜ ፎቶ ከውጭ ይመጣል ነገር ግን የቢሮ መስፈርት መሟላት አለበት። (DEMO)",
+    "source_file": "passport\\passport_am.csv",
+    "id": 102
+  },
+  {
+    "sector": "passport",
+    "language": "am",
+    "question": "ለፓስፖርት ፎቶ መነጽር መልበስ ይፈቀዳል?",
+    "answer": "እንደ መመሪያ ይለያያል፤ አይኖች ግልጽ እንዲታዩ መሆን አለበት። (DEMO)",
+    "source_file": "passport\\passport_am.csv",
+    "id": 103
+  },
+  {
+    "sector": "passport",
+    "language": "am",
+    "question": "ሃይማኖታዊ ልብስ/መሸፈኛ ከለበስኩ ፎቶ ይቀበላሉ?",
+    "answer": "ሊፈቀድ ይችላል፣ ነገር ግን ፊት ግልጽ መታየት እና መለያ ምርመራ እንዳይከለክል መሆን አለበት። (DEMO)",
+    "source_file": "passport\\passport_am.csv",
+    "id": 104
+  },
+  {
+    "sector": "passport",
+    "language": "am",
+    "question": "የፓስፖርት ቁጥር ምን ይጠቅማል?",
+    "answer": "ለጉዞ ሰነድ ማረጋገጫ፣ ቪዛ መጠየቂያ እና የአውሮፕላን ቅጥያ ሂደቶች ላይ ይጠቅማል። (DEMO)",
+    "source_file": "passport\\passport_am.csv",
+    "id": 105
+  },
+  {
+    "sector": "passport",
+    "language": "am",
+    "question": "ፓስፖርት ውስጥ ያለው መረጃ እንዲረጋገጥ ምን ልፈትሽ?",
+    "answer": "ስም፣ የትውልድ ቀን፣ ፆታ፣ ቁጥር እና የማብቂያ ቀን ትክክል መሆኑን ይፈትሹ። (DEMO)",
+    "source_file": "passport\\passport_am.csv",
+    "id": 106
+  },
+  {
+    "sector": "passport",
+    "language": "am",
+    "question": "ፓስፖርት ከተቀበልኩ በኋላ ስህተት ካገኘሁ ምን አድርግ?",
+    "answer": "በአጭር ጊዜ ውስጥ ቢሮውን በማነጋገር የማስተካከያ ሂደት ጀምሩ። (DEMO)",
+    "source_file": "passport\\passport_am.csv",
+    "id": 107
+  },
+  {
+    "sector": "passport",
+    "language": "am",
+    "question": "ፓስፖርት የማብቂያ ቀን የት ነው የሚገኝ?",
+    "answer": "በመለያ ገጽ ላይ (ID page) በግልጽ መልኩ ይጻፋል። (DEMO)",
+    "source_file": "passport\\passport_am.csv",
+    "id": 108
+  },
+  {
+    "sector": "passport",
+    "language": "am",
+    "question": "ቪዛ ለመጠየቅ ፓስፖርት ምን መስፈርት ይኖረዋል?",
+    "answer": "እንደ ሀገር መስፈርት ይለያያል፣ ብዙ ጊዜ በቂ ቆይታ ጊዜ እና ባዶ ገጾች ይጠየቃሉ። (DEMO)",
+    "source_file": "passport\\passport_am.csv",
+    "id": 109
+  },
+  {
+    "sector": "passport",
+    "language": "am",
+    "question": "ፓስፖርት ለመታደስ የድሮው መቀረብ አለበት?",
+    "answer": "አዎ፣ አብዛኛውን ጊዜ የቀድሞው ፓስፖርት መቅረብ ያስፈልጋል። (DEMO)",
+    "source_file": "passport\\passport_am.csv",
+    "id": 110
+  },
+  {
+    "sector": "passport",
+    "language": "am",
+    "question": "የሚያገለግል ፓስፖርት ማይኖር ከሆነ መታደስ ይቻላል?",
+    "answer": "እንደ ጉዳዩ በፖሊስ ሪፖርት እና ተጨማሪ ማረጋገጫ ሰነዶች መተካት ሊደረግ ይችላል። (DEMO)",
+    "source_file": "passport\\passport_am.csv",
+    "id": 111
+  },
+  {
+    "sector": "passport",
+    "language": "am",
+    "question": "ከመደበኛ በተጨማሪ ሰነዶች ሊጠየቁ ይችላሉ?",
+    "answer": "አዎ፣ እንደ ጉዳይ ዓይነት የተጨማሪ ማስረጃ ሊጠየቅ ይችላል። (DEMO)",
+    "source_file": "passport\\passport_am.csv",
+    "id": 112
+  },
+  {
+    "sector": "passport",
+    "language": "am",
+    "question": "የፓስፖርት አገልግሎት ቀናት/ሰዓት እንዴት አውቃለሁ?",
+    "answer": "በኦፊሴላዊ ማስታወቂያ ወይም በቢሮው ስልክ በመጠየቅ መረጃ ይገኛል። (DEMO)",
+    "source_file": "passport\\passport_am.csv",
+    "id": 113
+  },
+  {
+    "sector": "passport",
+    "language": "am",
+    "question": "ፓስፖርት ለመጠየቅ የእድሜ ገደብ አለ?",
+    "answer": "ብዙ ጊዜ የእድሜ ገደብ የለም፣ ነገር ግን ለአነስተኛ ዕድሜ የወላጅ ሂደት ይኖራል። (DEMO)",
+    "source_file": "passport\\passport_am.csv",
+    "id": 114
+  },
+  {
+    "sector": "passport",
+    "language": "am",
+    "question": "የአነስተኛ ዕድሜ ልጅ ብቻውን መቀጠር ይቻላል?",
+    "answer": "ብዙ ጊዜ አይቻልም፤ ወላጅ/አሳዳጊ መገኘት ያስፈልጋል። (DEMO)",
+    "source_file": "passport\\passport_am.csv",
+    "id": 115
+  },
+  {
+    "sector": "passport",
+    "language": "am",
+    "question": "ፓስፖርት ከጠፋ በኋላ አዲስ ቁጥር ይሰጣል?",
+    "answer": "አዎ፣ የተተካ ፓስፖርት አዲስ መለያ ቁጥር ሊኖረው ይችላል። (DEMO)",
+    "source_file": "passport\\passport_am.csv",
+    "id": 116
+  },
+  {
+    "sector": "passport",
+    "language": "am",
+    "question": "የጠፋ ፓስፖርት ካገኘሁ በኋላ ምን አድርግ?",
+    "answer": "ቢሮውን ወይም ፖሊስን ያሳውቁ እና የተሰጠውን መመሪያ ይከተሉ። (DEMO)",
+    "source_file": "passport\\passport_am.csv",
+    "id": 117
+  },
+  {
+    "sector": "passport",
+    "language": "am",
+    "question": "ፓስፖርት ተመሳሳይ በመተግበር ለመጠየቅ ይከለክላል?",
+    "answer": "ማጭበርበር ሙከራ በህግ ይከለክላል እና ክስ ሊያመጣ ይችላል። (DEMO)",
+    "source_file": "passport\\passport_am.csv",
+    "id": 118
+  },
+  {
+    "sector": "passport",
+    "language": "am",
+    "question": "የፓስፖርት ማረጋገጫ ኮፒ ማቅረብ ያስፈልጋል?",
+    "answer": "አዎ፣ ብዙ ጊዜ ኮፒዎች ይጠየቃሉ፣ ነገር ግን መጀመሪያ ሰነድ ደግሞ ማሳየት ይኖርብዎታል። (DEMO)",
+    "source_file": "passport\\passport_am.csv",
+    "id": 119
+  },
+  {
+    "sector": "passport",
+    "language": "am",
+    "question": "ሰነዶች ትርጉም/ማረጋገጫ ያስፈልጋሉ?",
+    "answer": "እንደ ሰነዱ ቋንቋ እና መስፈርት ህጋዊ ትርጉም ወይም ኖታሪ ሊጠየቅ ይችላል። (DEMO)",
+    "source_file": "passport\\passport_am.csv",
+    "id": 120
+  },
+  {
+    "sector": "passport",
+    "language": "am",
+    "question": "ፓስፖርት የሚያገኙበት ቦታ በክልል ይለያያል?",
+    "answer": "አዎ፣ እንደ ክልል/ከተማ የአገልግሎት ቢሮዎች ሊለያዩ ይችላሉ። (DEMO)",
+    "source_file": "passport\\passport_am.csv",
+    "id": 121
+  },
+  {
+    "sector": "passport",
+    "language": "am",
+    "question": "ለውጭ ጉዞ ቅድሚያ ማስረጃ ምን ሊሆን ይችላል?",
+    "answer": "የአውሮፕላን ቲኬት፣ የህክምና ማስረጃ፣ የትምህርት/ስራ ጥሪ ደብዳቤ ወዘተ ሊሆን ይችላል። (DEMO)",
+    "source_file": "passport\\passport_am.csv",
+    "id": 122
+  },
+  {
+    "sector": "passport",
+    "language": "am",
+    "question": "ባዮሜትሪክ መረጃዬ ወደ ሌላ አገር ይተላለፋል?",
+    "answer": "በመሠረቱ ለመለያ ደህንነት ይጠቅማል፤ የመረጃ ማስተዳደር ፖሊሲ እንደ ህግ ይመራል። (DEMO)",
+    "source_file": "passport\\passport_am.csv",
+    "id": 123
+  },
+  {
+    "sector": "passport",
+    "language": "am",
+    "question": "ፓስፖርት ለመተካት ስንት ጊዜ ይወስዳል?",
+    "answer": "የመተካት ሂደት እንደ ምክንያት እና ማጣሪያ ብዛት ሊረዝም ይችላል። (DEMO)",
+    "source_file": "passport\\passport_am.csv",
+    "id": 124
+  },
+  {
+    "sector": "passport",
+    "language": "am",
+    "question": "የተበላሸ ፓስፖርት ተቀባይነት የለውም ብለው ከአየር ማረፊያ መመለስ ይቻላል?",
+    "answer": "አዎ፣ ከፍተኛ ጉዳት ካለ አገልግሎት ሊከለክል ይችላል፤ ቅድሚያ ይተኩ። (DEMO)",
+    "source_file": "passport\\passport_am.csv",
+    "id": 125
+  },
+  {
+    "sector": "passport",
+    "language": "am",
+    "question": "ፓስፖርት መለያ ገጽ ላይ ፎቶ ካልተመሳሰለ ምን ይደረጋል?",
+    "answer": "በጉዞ ላይ ችግኝ ሊፈጥር ይችላል፤ ከቢሮ ጋር ማስተካከል ይመከራል። (DEMO)",
+    "source_file": "passport\\passport_am.csv",
+    "id": 126
+  },
+  {
+    "sector": "passport",
+    "language": "am",
+    "question": "ፓስፖርት ማደስ ሲደረግ ቪዛዎቼ ምን ይሆናሉ?",
+    "answer": "ቪዛዎች በአሮጌው ፓስፖርት ላይ ሊቀሩ ይችላሉ፤ ጉዞ ላይ ሁለቱንም መያዝ ሊያስፈልግ ይችላል። (DEMO)",
+    "source_file": "passport\\passport_am.csv",
+    "id": 127
+  },
+  {
+    "sector": "passport",
+    "language": "am",
+    "question": "ፓስፖርት መውጣት ለመጀመሪያ ጊዜ እና ለእንደገና መታደስ ሂደት ይለያያል?",
+    "answer": "መሠረታዊ ደረጃዎች ተመሳሳይ ሊሆኑ ይችላሉ፣ ነገር ግን የድሮ ፓስፖርት እና ታሪክ ማረጋገጫ ሊጨምር ይችላል። (DEMO)",
+    "source_file": "passport\\passport_am.csv",
+    "id": 128
+  },
+  {
+    "sector": "passport",
+    "language": "am",
+    "question": "ፓስፖርት ለመውጣት የንብረት ሰነድ ያስፈልጋል?",
+    "answer": "በአብዛኛው አያስፈልግም፤ ዋናው መለያ ማረጋገጫ እና የክፍያ ማስረጃ ነው። (DEMO)",
+    "source_file": "passport\\passport_am.csv",
+    "id": 129
+  },
+  {
+    "sector": "passport",
+    "language": "am",
+    "question": "የወንጀል መዝገብ መረጃ ሊጠየቅ ይችላል?",
+    "answer": "እንደ ህግ እና ማጣሪያ ፍላጎት ሊጠየቅ ይችላል። (DEMO)",
+    "source_file": "passport\\passport_am.csv",
+    "id": 130
+  },
+  {
+    "sector": "passport",
+    "language": "am",
+    "question": "ተማሪ ነኝ፣ ልዩ ቅናሽ አለ?",
+    "answer": "ቅናሽ ካለ በመንግስት መመሪያ ይገለጻል፤ ኦፊሴላዊ መረጃ ይፈልጉ። (DEMO)",
+    "source_file": "passport\\passport_am.csv",
+    "id": 131
+  },
+  {
+    "sector": "passport",
+    "language": "am",
+    "question": "የክፍያ ደረሰኝ ካጠፋሁ ምን አድርግ?",
+    "answer": "ከባንክ/የክፍያ ቻናል ቅጂ ማግኘት ወይም ቢሮውን ማነጋገር ይቻላል። (DEMO)",
+    "source_file": "passport\\passport_am.csv",
+    "id": 132
+  },
+  {
+    "sector": "passport",
+    "language": "am",
+    "question": "ባንክ ክፍያ ሳላደርግ ማመልከቻ ማስገባት እችላለሁ?",
+    "answer": "ብዙ ጊዜ ክፍያ በመጀመሪያ ይጠየቃል፤ የቢሮ ደንብ ይመልከቱ። (DEMO)",
+    "source_file": "passport\\passport_am.csv",
+    "id": 133
+  },
+  {
+    "sector": "passport",
+    "language": "am",
+    "question": "በኢሚግሬሽን ቢሮ ላይ መስመር ብዙ ከሆነ ምን ልሥራ?",
+    "answer": "ቀጠሮ ማስያዝ ወይም የሰዓት እና የቀን ትክክለኛ እቅድ ማድረግ ይረዳል። (DEMO)",
+    "source_file": "passport\\passport_am.csv",
+    "id": 134
+  },
+  {
+    "sector": "passport",
+    "language": "am",
+    "question": "ፓስፖርት አገልግሎት የውስጥ አገር ወይም የውጭ አገር ልዩ መስፈርት አለው?",
+    "answer": "መሠረታዊ መስፈርቶች ተመሳሳይ ሊሆኑ ይችላሉ፣ ግን በኤምባሲ የማቅረብ ሂደት ሊጨምር ይችላል። (DEMO)",
+    "source_file": "passport\\passport_am.csv",
+    "id": 135
+  },
+  {
+    "sector": "passport",
+    "language": "am",
+    "question": "ኤምባሲ ላይ ማመልከት ሲሆን ባዮሜትሪክ የት ይወሰዳል?",
+    "answer": "በኤምባሲ/ኮንሱላት ባለው የመመዝገቢያ መድረክ ላይ ይወሰዳል። (DEMO)",
+    "source_file": "passport\\passport_am.csv",
+    "id": 136
+  },
+  {
+    "sector": "passport",
+    "language": "am",
+    "question": "በውጭ አገር የጠፋ ፓስፖርት መተካት ይቻላል?",
+    "answer": "አዎ፣ በፖሊስ ሪፖርት እና በኤምባሲ/ኮንሱላት ሂደት መተካት ይቻላል። (DEMO)",
+    "source_file": "passport\\passport_am.csv",
+    "id": 137
+  },
+  {
+    "sector": "passport",
+    "language": "am",
+    "question": "ጊዜያዊ የጉዞ ሰነድ ከተሰጠ በኋላ ፓስፖርት ማመልከት አለብኝ?",
+    "answer": "አዎ፣ ጊዜያዊ ሰነድ ለአንድ ጉዞ ብቻ ሊሆን ይችላል፤ ቋሚ ፓስፖርት ለማግኘት የተለመደ ሂደት ይከተላሉ። (DEMO)",
+    "source_file": "passport\\passport_am.csv",
+    "id": 138
+  },
+  {
+    "sector": "passport",
+    "language": "am",
+    "question": "ፓስፖርት ተይዞ ለቪዛ ቢሄድ እኔ እንዴት እጓዛለሁ?",
+    "answer": "ቪዛ ሂደት ሲኖር ፓስፖርት በሚቆይበት ጊዜ ሌላ ጉዞ ማድረግ ሊከብድ ይችላል፤ ቅድሚያ ይንገሩ። (DEMO)",
+    "source_file": "passport\\passport_am.csv",
+    "id": 139
+  },
+  {
+    "sector": "passport",
+    "language": "am",
+    "question": "ለፓስፖርት ቅድሚያ አገልግሎት የሚጠየቅ ሰነድ ምን ሊሆን ይችላል?",
+    "answer": "የአስቸኳይ ሁኔታ ማስረጃ (ህክምና ደብዳቤ፣ ትምህርት/ስራ ጥሪ፣ ቲኬት) ሊጠየቅ ይችላል። (DEMO)",
+    "source_file": "passport\\passport_am.csv",
+    "id": 140
+  },
+  {
+    "sector": "passport",
+    "language": "am",
+    "question": "ስሜን ከቀየርሁ የድሮ ፓስፖርት ልጠቀም እችላለሁ?",
+    "answer": "ስም ከተቀየረ መረጃ መመሳሰል ያስፈልጋል፤ ብዙ ጊዜ መተካት/ማስተካከል ይመከራል። (DEMO)",
+    "source_file": "passport\\passport_am.csv",
+    "id": 141
+  },
+  {
+    "sector": "passport",
+    "language": "am",
+    "question": "ፓስፖርት ላይ የጾታ መረጃ ማስተካከል ይቻላል?",
+    "answer": "እንደ ህግ የሚያስፈልጉ ማረጋገጫ ሰነዶች ካሉ ማስተካከል ሊቻል ይችላል። (DEMO)",
+    "source_file": "passport\\passport_am.csv",
+    "id": 142
+  },
+  {
+    "sector": "passport",
+    "language": "am",
+    "question": "ፓስፖርት የማመልከቻ መረጃ ከሰጠሁ በኋላ መቀየር እችላለሁ?",
+    "answer": "እንደ ሂደቱ ደረጃ ሊቻል ይችላል፤ ቢሮውን በፍጥነት ያነጋግሩ። (DEMO)",
+    "source_file": "passport\\passport_am.csv",
+    "id": 143
+  },
+  {
+    "sector": "passport",
+    "language": "am",
+    "question": "ማመልከቻ ላይ የተሳሳተ የትውልድ ቀን ቢጻፍ ምን ይሆናል?",
+    "answer": "ሊታቀቅ ወይም ለማስተካከያ ሊመለስ ይችላል፤ ትክክለኛ ማስረጃ ያቅርቡ። (DEMO)",
+    "source_file": "passport\\passport_am.csv",
+    "id": 144
+  },
+  {
+    "sector": "passport",
+    "language": "am",
+    "question": "ፓስፖርት እየሰራ ሳለ ተጨማሪ ሰነድ ካስፈለገ እንዴት እነገራለሁ?",
+    "answer": "በስልክ/SMS/ኢሜይል ማሳወቂያ ወይም በማመልከቻ ሁኔታ ላይ መልዕክት ሊታይ ይችላል። (DEMO)",
+    "source_file": "passport\\passport_am.csv",
+    "id": 145
+  },
+  {
+    "sector": "passport",
+    "language": "am",
+    "question": "ከባዮሜትሪክ በኋላ ማመልከቻዬ ሊቆም ይችላል?",
+    "answer": "አዎ፣ ካልተሟሉ ሰነዶች ወይም የማረጋገጫ ጉድለት ካለ ሊቆም ይችላል። (DEMO)",
+    "source_file": "passport\\passport_am.csv",
+    "id": 146
+  },
+  {
+    "sector": "passport",
+    "language": "am",
+    "question": "በፓስፖርት ሂደት ላይ የደላላ አገልግሎት መጠቀም ይመከራል?",
+    "answer": "የህጋዊ ሂደትን በቀጥታ መከተል ይመከራል፤ ማጭበርበር እና ስጋቶችን ይቆጠቡ። (DEMO)",
+    "source_file": "passport\\passport_am.csv",
+    "id": 147
+  },
+  {
+    "sector": "passport",
+    "language": "am",
+    "question": "የፓስፖርት ማብቂያ ቀን ቅርብ ከሆነ ቪዛ ሊከለክል ይችላል?",
+    "answer": "አዎ፣ ብዙ አገሮች የተወሰነ ቆይታ ጊዜ ያስፈልጋል ብለው ሊከለክሉ ይችላሉ። (DEMO)",
+    "source_file": "passport\\passport_am.csv",
+    "id": 148
+  },
+  {
+    "sector": "passport",
+    "language": "am",
+    "question": "ፓስፖርት በስራ ላይ ሳለ ሌላ ሀገር ቪዛ መጠየቅ እችላለሁ?",
+    "answer": "ፓስፖርት ዋና ሰነድ ስለሆነ አብዛኛውን ጊዜ እጅዎ ላይ መሆን ያስፈልጋል። (DEMO)",
+    "source_file": "passport\\passport_am.csv",
+    "id": 149
+  },
+  {
+    "sector": "passport",
+    "language": "am",
+    "question": "የፓስፖርት ማመልከቻ ከተሳካ በኋላ መሰረዝ እችላለሁ?",
+    "answer": "እንደ ፖሊሲ ሊቻል ይችላል፣ ግን ክፍያ መመለስ ብዙ ጊዜ አይኖርም። (DEMO)",
+    "source_file": "passport\\passport_am.csv",
+    "id": 150
+  },
+  {
+    "sector": "passport",
+    "language": "am",
+    "question": "ፓስፖርት እቃዬ በሌላ ስም ተገኝቷል ብለው ካሉ ምን አድርግ?",
+    "answer": "ቢሮውን በቀጥታ ያነጋግሩ እና የማንነት ማረጋገጫ ሰነዶች ያቅርቡ። (DEMO)",
+    "source_file": "passport\\passport_am.csv",
+    "id": 151
+  },
+  {
+    "sector": "passport",
+    "language": "am",
+    "question": "ፓስፖርት የሚያወጣ ቢሮ ስም እና አድራሻ እንዴት አገኛለሁ?",
+    "answer": "በኦፊሴላዊ ድረ-ገጽ ወይም በመረጃ መስመር በመጠየቅ መረጃ ይገኛል። (DEMO)",
+    "source_file": "passport\\passport_am.csv",
+    "id": 152
+  },
+  {
+    "sector": "passport",
+    "language": "am",
+    "question": "ፓስፖርት ለመውጣት የትውልድ ሰርቲፊኬት ካልኖረ ምን ይሆናል?",
+    "answer": "በምትኩ የመንግስት መታወቂያ ወይም ሌሎች ህጋዊ የማንነት ማረጋገጫዎች ሊጠየቁ ይችላሉ። (DEMO)",
+    "source_file": "passport\\passport_am.csv",
+    "id": 153
+  },
+  {
+    "sector": "passport",
+    "language": "am",
+    "question": "ስለ ፓስፖርት ሂደት ከቢሮ ጋር ለመነጋገር የት እጠራ?",
+    "answer": "የቢሮውን የደንበኛ አገልግሎት መስመር/መገናኛ መረጃ በኦፊሴላዊ ማስታወቂያ ይፈልጉ። (DEMO)",
+    "source_file": "passport\\passport_am.csv",
+    "id": 154
+  },
+  {
+    "sector": "passport",
+    "language": "am",
+    "question": "የፓስፖርት መረጃ ላይ የሚጠቅሙ ተለመዱ ቃላት ምን ናቸው?",
+    "answer": "ሪፈረንስ ቁጥር፣ ባዮሜትሪክ፣ መታደስ፣ መተካት፣ ቆይታ ጊዜ ወዘተ ናቸው። (DEMO)",
+    "source_file": "passport\\passport_am.csv",
+    "id": 155
+  },
+  {
+    "sector": "passport",
+    "language": "am",
+    "question": "ፓስፖርት ሲወጣ በራሱ ስር የቤተሰብ መረጃ ይካተታል?",
+    "answer": "እንደ አይነቱ ሊለያይ ይችላል፣ ብዙ ጊዜ እያንዳንዱ ሰው የራሱ ፓስፖርት ይኖረዋል። (DEMO)",
+    "source_file": "passport\\passport_am.csv",
+    "id": 156
+  },
+  {
+    "sector": "passport",
+    "language": "am",
+    "question": "ለህፃን ፓስፖርት የተጠቃሚ ልዩ ቆይታ ጊዜ አለ?",
+    "answer": "እንደ መመሪያ ይለያያል፤ አነስተኛ ዕድሜ ፓስፖርት አነስተኛ ቆይታ ሊኖረው ይችላል። (DEMO)",
+    "source_file": "passport\\passport_am.csv",
+    "id": 157
+  },
+  {
+    "sector": "passport",
+    "language": "am",
+    "question": "ፓስፖርት መተካት ሲደረግ የባዮሜትሪክ መደገም ያስፈልጋል?",
+    "answer": "አብዛኛውን ጊዜ አዲስ ፓስፖርት ሲወጣ ባዮሜትሪክ ደግሞ ሊወሰድ ይችላል። (DEMO)",
+    "source_file": "passport\\passport_am.csv",
+    "id": 158
+  },
+  {
+    "sector": "passport",
+    "language": "am",
+    "question": "የፓስፖርት መከላከያ መንገዶች ምን ናቸው?",
+    "answer": "ፓስፖርትን በደህንነት መያዝ፣ ኮፒ በተለየ ቦታ መቆየት እና ከማጠፋት መጠንቀቅ ይረዳል። (DEMO)",
+    "source_file": "passport\\passport_am.csv",
+    "id": 159
+  },
+  {
+    "sector": "passport",
+    "language": "am",
+    "question": "ፓስፖርት ኮፒ በስልክ ማስቀመጥ ይመከራል?",
+    "answer": "እንደ ጥንቃቄ ሊረዳ ይችላል፣ ነገር ግን የግል መረጃ ደህንነት ይጠብቁ። (DEMO)",
+    "source_file": "passport\\passport_am.csv",
+    "id": 160
+  },
+  {
+    "sector": "passport",
+    "language": "am",
+    "question": "የፓስፖርት ጥራት የተሻለ እንዲሆን ምን እንደምጠብቅ?",
+    "answer": "ሰነዶችን ትክክል መሙላት፣ የፎቶ መስፈርት መከተል እና መረጃ ሁሉን ማረጋገጥ ይረዳል። (DEMO)",
+    "source_file": "passport\\passport_am.csv",
+    "id": 161
+  },
+  {
+    "sector": "passport",
+    "language": "am",
+    "question": "ምን ዓይነት ነገር ማመልከቻ እንዲዘገይ ያደርጋል?",
+    "answer": "ያልተሟሉ ሰነዶች፣ የተሳሳተ መረጃ፣ የፎቶ ችግኝ፣ እና የማጣሪያ ጉዳዮች ሊዘግዩ ይችላሉ። (DEMO)",
+    "source_file": "passport\\passport_am.csv",
+    "id": 162
+  },
+  {
+    "sector": "passport",
+    "language": "am",
+    "question": "ፓስፖርት ሲወጣ የማንነት ዳታ በቺፕ ውስጥ ይገባል?",
+    "answer": "ኢ-ፓስፖርት ከሆነ የባዮሜትሪክ መረጃ ቺፕ ውስጥ ሊያካትት ይችላል። (DEMO)",
+    "source_file": "passport\\passport_am.csv",
+    "id": 163
+  },
+  {
+    "sector": "passport",
+    "language": "am",
+    "question": "ኢ-ፓስፖርት ቺፕ ቢበላሽ ምን ይደረጋል?",
+    "answer": "ቢሮውን በማነጋገር የመተካት ወይም የማስተካከያ ሂደት ሊጀምር ይችላል። (DEMO)",
+    "source_file": "passport\\passport_am.csv",
+    "id": 164
+  },
+  {
+    "sector": "passport",
+    "language": "am",
+    "question": "የፓስፖርት ገጾች ቢቀጠቀጡ ችግኝ ይፈጥራል?",
+    "answer": "አዎ፣ ማህተም/ቪዛ ያለባቸው ገጾች ቢጎዱ ተቀባይነት ሊከለክል ይችላል። (DEMO)",
+    "source_file": "passport\\passport_am.csv",
+    "id": 165
+  },
+  {
+    "sector": "passport",
+    "language": "am",
+    "question": "በፓስፖርት ላይ ማህተም ማስተካከል ወይም መጻፍ ይፈቀዳል?",
+    "answer": "አይፈቀድም፤ ማንኛውም ማሻሻያ መተካት ያስፈልጋል። (DEMO)",
+    "source_file": "passport\\passport_am.csv",
+    "id": 166
+  },
+  {
+    "sector": "passport",
+    "language": "am",
+    "question": "በፓስፖርት ላይ ስም ላቲን አጻጻፍ እንዴት ይመረጣል?",
+    "answer": "ብዙ ጊዜ ከኦፊሴላዊ ሰነዶች የተለመደ ስፔሊንግ ይወሰዳል፤ ከተለያየ ግን ማስረጃ ሊጠየቅ ይችላል። (DEMO)",
+    "source_file": "passport\\passport_am.csv",
+    "id": 167
+  },
+  {
+    "sector": "passport",
+    "language": "am",
+    "question": "የፓስፖርት ማረጋገጫ ሰነድ በፍርድ ቤት ሊጠቅም ይችላል?",
+    "answer": "ፓስፖርት ኦፊሴላዊ መለያ ስለሆነ በብዙ ህጋዊ ሂደቶች ላይ ይጠቅማል። (DEMO)",
+    "source_file": "passport\\passport_am.csv",
+    "id": 168
+  },
+  {
+    "sector": "passport",
+    "language": "am",
+    "question": "ፓስፖርት ሲታደስ የድሮ መረጃ ይቀየራል?",
+    "answer": "አዲሱ ፓስፖርት አዲስ ቀናት/መለያ ሊኖረው ይችላል፤ ዋና መለያ መረጃ ግን እንደ ማስረጃ ይቀጥላል። (DEMO)",
+    "source_file": "passport\\passport_am.csv",
+    "id": 169
+  },
+  {
+    "sector": "passport",
+    "language": "am",
+    "question": "ከልጄ ጋር የምጓዝ ከሆነ ተጨማሪ ሰነድ ያስፈልጋል?",
+    "answer": "አንዳንድ አገሮች የወላጅ ፈቃድ ደብዳቤ ወይም የቤተሰብ ማረጋገጫ ሊጠይቁ ይችላሉ። (DEMO)",
+    "source_file": "passport\\passport_am.csv",
+    "id": 170
+  },
+  {
+    "sector": "passport",
+    "language": "am",
+    "question": "አንድ ወላጅ ብቻ ከህፃን ጋር ቢጓዝ ምን ይጠየቃል?",
+    "answer": "የሌላው ወላጅ ፈቃድ ወይም የህጋዊ ተጠሪነት ማስረጃ ሊጠየቅ ይችላል። (DEMO)",
+    "source_file": "passport\\passport_am.csv",
+    "id": 171
+  },
+  {
+    "sector": "passport",
+    "language": "am",
+    "question": "ፓስፖርት በተለያዩ ሀገሮች ላይ የመግባት መብት ይሰጣል?",
+    "answer": "ፓስፖርት የመለያ ሰነድ ነው፤ መግባት ብዙ ጊዜ ቪዛ/የጉዞ ፈቃድ ይፈልጋል። (DEMO)",
+    "source_file": "passport\\passport_am.csv",
+    "id": 172
+  },
+  {
+    "sector": "passport",
+    "language": "am",
+    "question": "ፓስፖርት ማለት ቪዛ ማለት ነው?",
+    "answer": "አይደለም፤ ፓስፖርት መለያ ሰነድ ነው፣ ቪዛ ግን የመግባት/መቆየት ፈቃድ ነው። (DEMO)",
+    "source_file": "passport\\passport_am.csv",
+    "id": 173
+  },
+  {
+    "sector": "passport",
+    "language": "am",
+    "question": "የማመልከቻ ሁኔታ “Under Review” ብሎ ካሳየ ምን ማለት ነው?",
+    "answer": "ሰነዶችና መረጃዎች እየተረጋገጡ እንዳሉ ይጠቁማል። (DEMO)",
+    "source_file": "passport\\passport_am.csv",
+    "id": 174
+  },
+  {
+    "sector": "passport",
+    "language": "am",
+    "question": "የማመልከቻ ሁኔታ “Rejected” ብሎ ካሳየ ምን ማለት ነው?",
+    "answer": "ማመልከቻው እንደ መመሪያ አልተሟላም ማለት ነው፤ ምክንያቱ ይገለጻል። (DEMO)",
+    "source_file": "passport\\passport_am.csv",
+    "id": 175
+  },
+  {
+    "sector": "passport",
+    "language": "am",
+    "question": "የማመልከቻ ሁኔታ “Ready for Collection” ብሎ ካሳየ ምን ማለት ነው?",
+    "answer": "ፓስፖርቱ ተዘጋጅቶ ለመውሰድ ዝግጁ መሆኑን ይጠቁማል። (DEMO)",
+    "source_file": "passport\\passport_am.csv",
+    "id": 176
+  },
+  {
+    "sector": "passport",
+    "language": "am",
+    "question": "ፓስፖርት መውሰድ ሲሆን የቀጠሮ ደረሰኝ ያስፈልጋል?",
+    "answer": "አብዛኛውን ጊዜ የማመልከቻ ደረሰኝ/ሪፈረንስ ቁጥር መያዝ ይጠቅማል። (DEMO)",
+    "source_file": "passport\\passport_am.csv",
+    "id": 177
+  },
+  {
+    "sector": "passport",
+    "language": "am",
+    "question": "የፓስፖርት ቆይታ ጊዜ ከተለያዩ አይነቶች ጋር ይለያያል?",
+    "answer": "አዎ፣ እንደ አመልካች ምድብ ወይም እንደ አገልግሎት ስርዓት ሊለያይ ይችላል። (DEMO)",
+    "source_file": "passport\\passport_am.csv",
+    "id": 178
+  },
+  {
+    "sector": "passport",
+    "language": "am",
+    "question": "የፓስፖርት አገልግሎት የሚሰጥበት ቦታ ለማረጋገጥ ምን አድርግ?",
+    "answer": "ኦፊሴላዊ መረጃ ከድረ-ገጽ ወይም በቢሮ ስልክ ይያዙ። (DEMO)",
+    "source_file": "passport\\passport_am.csv",
+    "id": 179
+  },
+  {
+    "sector": "passport",
+    "language": "am",
+    "question": "ለፓስፖርት መውጣት የተለያዩ ምድቦች አሉ?",
+    "answer": "አዎ፣ መደበኛ፣ አገልግሎት እና ዲፕሎማቲክ እንደሚሉ ምድቦች ሊኖሩ ይችላሉ። (DEMO)",
+    "source_file": "passport\\passport_am.csv",
+    "id": 180
+  },
+  {
+    "sector": "passport",
+    "language": "am",
+    "question": "በፓስፖርት ላይ ፊርማ መስጠት ግዴታ ነው?",
+    "answer": "አብዛኛውን ጊዜ ፊርማ ይፈለጋል፣ ነገር ግን ለህፃናት የተለየ መመሪያ ሊኖር ይችላል። (DEMO)",
+    "source_file": "passport\\passport_am.csv",
+    "id": 181
+  },
+  {
+    "sector": "passport",
+    "language": "am",
+    "question": "ህፃናት ፓስፖርት ላይ ፊርማ ይፈለጋል?",
+    "answer": "ብዙ ጊዜ አይፈለግም ወይም በወላጅ/አሳዳጊ ፊርማ ሊተካ ይችላል። (DEMO)",
+    "source_file": "passport\\passport_am.csv",
+    "id": 182
+  },
+  {
+    "sector": "passport",
+    "language": "am",
+    "question": "በስልክ የተላከ SMS ማሳወቂያ ካልደረሰ ምን አድርግ?",
+    "answer": "በሪፈረንስ ቁጥር ሁኔታ ይመልከቱ ወይም የደንበኛ አገልግሎትን ያነጋግሩ። (DEMO)",
+    "source_file": "passport\\passport_am.csv",
+    "id": 183
+  },
+  {
+    "sector": "passport",
+    "language": "am",
+    "question": "የፓስፖርት ሂደት ላይ የማንነት ማረጋገጫ ከማን ይቀርባል?",
+    "answer": "ከመንግስት የተሰጠ መታወቂያ/ህጋዊ ሰነዶች በመሠረት ይረጋገጣል። (DEMO)",
+    "source_file": "passport\\passport_am.csv",
+    "id": 184
+  },
+  {
+    "sector": "passport",
+    "language": "am",
+    "question": "ፓስፖርት ማስተካከል በምን ሁኔታ ይፈለጋል?",
+    "answer": "ስም፣ የትውልድ ቀን፣ ፆታ ወይም ሌሎች መረጃዎች ስህተት ካለ ማስተካከል ይፈለጋል። (DEMO)",
+    "source_file": "passport\\passport_am.csv",
+    "id": 185
+  },
+  {
+    "sector": "passport",
+    "language": "am",
+    "question": "ፓስፖርት መተካት እና መታደስ ልዩነታቸው ምንድነው?",
+    "answer": "መታደስ በብዛት ለጊዜ ማብቂያ ነው፤ መተካት ግን ጠፍቶ/ተበላሽቶ/መረጃ ሲቀየር ይሆናል። (DEMO)",
+    "source_file": "passport\\passport_am.csv",
+    "id": 186
+  },
+  {
+    "sector": "passport",
+    "language": "am",
+    "question": "የፓስፖርት ጉዳይ ላይ መረጃ ለማወቅ በቢሮ ላይ ማን ልጠይቅ?",
+    "answer": "የደንበኛ አገልግሎት ወይም የመረጃ መስኮት ቦታ ይረዳዎታል። (DEMO)",
+    "source_file": "passport\\passport_am.csv",
+    "id": 187
+  },
+  {
+    "sector": "passport",
+    "language": "am",
+    "question": "ፓስፖርት በህግ ሊያዝ ይችላል?",
+    "answer": "አዎ፣ በህጋዊ ችግኝ ወይም በፍርድ ቤት ውሳኔ መሰረት ሊገደብ ይችላል። (DEMO)",
+    "source_file": "passport\\passport_am.csv",
+    "id": 188
+  },
+  {
+    "sector": "passport",
+    "language": "am",
+    "question": "በፓስፖርት ሂደት ላይ ስለ ግል መረጃ መጠበቅ ምን ልጠንቀቅ?",
+    "answer": "መረጃዎን ለማያስፈልጋቸው ሰዎች አታጋሩ፣ ኦፊሴላዊ ቻናሎችን ብቻ ይጠቀሙ። (DEMO)",
+    "source_file": "passport\\passport_am.csv",
+    "id": 189
+  },
+  {
+    "sector": "passport",
+    "language": "am",
+    "question": "ፓስፖርት ሲጠፋ የፖሊስ ሪፖርት ለምን ያስፈልጋል?",
+    "answer": "የጠፋው መሆኑን ለማረጋገጥ እና አጠቃቀም እንዳይቀጥል ለመቆጣጠር ይጠቅማል። (DEMO)",
+    "source_file": "passport\\passport_am.csv",
+    "id": 190
+  },
+  {
+    "sector": "passport",
+    "language": "am",
+    "question": "በፓስፖርት ላይ የማንነት መረጃ ተመሳሳይ ካልሆነ ባንክ/ቪዛ ሊከለክል ይችላል?",
+    "answer": "አዎ፣ ስም እና መለያ መረጃ መመሳሰል አስፈላጊ ነው። (DEMO)",
+    "source_file": "passport\\passport_am.csv",
+    "id": 191
+  },
+  {
+    "sector": "passport",
+    "language": "am",
+    "question": "የመንግስት ስራ ሰራተኛ ለፓስፖርት ልዩ አገልግሎት አለ?",
+    "answer": "እንደ መመሪያ ሊኖር ይችላል፤ በኦፊሴላዊ መረጃ ያረጋግጡ። (DEMO)",
+    "source_file": "passport\\passport_am.csv",
+    "id": 192
+  },
+  {
+    "sector": "passport",
+    "language": "am",
+    "question": "ፓስፖርት ለመውጣት የአድራሻ ማረጋገጫ ይጠየቃል?",
+    "answer": "አንዳንድ ጊዜ የመኖሪያ ማረጋገጫ ሊጠየቅ ይችላል፣ ነገር ግን በአብዛኛው መታወቂያ በቂ ይሆናል። (DEMO)",
+    "source_file": "passport\\passport_am.csv",
+    "id": 193
+  },
+  {
+    "sector": "passport",
+    "language": "am",
+    "question": "ፓስፖርት ለማመልከት ማንኛውም የጤና ምርመራ ይፈለጋል?",
+    "answer": "ብዙ ጊዜ አይፈለግም፣ ነገር ግን ልዩ አገልግሎት ሲጠየቅ ማስረጃ ሊኖር ይችላል። (DEMO)",
+    "source_file": "passport\\passport_am.csv",
+    "id": 194
+  },
+  {
+    "sector": "passport",
+    "language": "am",
+    "question": "ፓስፖርት መታደስ ሲደረግ የክፍያ መጠን ይቀየራል?",
+    "answer": "አዎ፣ እንደ ክፍያ መመሪያ እና አገልግሎት ፍጥነት መጠኑ ሊለያይ ይችላል። (DEMO)",
+    "source_file": "passport\\passport_am.csv",
+    "id": 195
+  },
+  {
+    "sector": "passport",
+    "language": "am",
+    "question": "መረጃ ማረጋገጫ ሲደረግ የቤተሰብ መረጃ ሊጠየቅ ይችላል?",
+    "answer": "አንዳንድ ጊዜ ለማንነት ማረጋገጫ ተጨማሪ መረጃ ሊጠየቅ ይችላል። (DEMO)",
+    "source_file": "passport\\passport_am.csv",
+    "id": 196
+  },
+  {
+    "sector": "passport",
+    "language": "am",
+    "question": "የፓስፖርት መውጣት ካልተቻለ የመብት መለያያት አለ?",
+    "answer": "እንደ ህግ መመሪያ ቅሬታ ማቅረብ ወይም የግልጽ ምክንያት መጠየቅ ይቻላል። (DEMO)",
+    "source_file": "passport\\passport_am.csv",
+    "id": 197
+  },
+  {
+    "sector": "passport",
+    "language": "am",
+    "question": "እስከ መጨረሻው እንደሚያስፈልጉ የፓስፖርት ጥያቄዎች ምን ናቸው?",
+    "answer": "ብዙ ጊዜ ስለ ሰነዶች፣ ክፍያ፣ ቀጠሮ፣ ባዮሜትሪክ፣ ሁኔታ ክትትል እና መተካት/መታደስ ይመራሉ። (DEMO)",
+    "source_file": "passport\\passport_am.csv",
+    "id": 198
+  },
+  {
+    "sector": "passport",
+    "language": "en",
+    "question": "What documents are required to apply for a passport?",
+    "answer": "You need a completed application form, national ID or birth certificate, recent passport-size photos, and proof of payment. (DEMO)",
+    "source_file": "passport\\passport_en.csv",
+    "id": 199
+  },
+  {
+    "sector": "passport",
+    "language": "en",
+    "question": "Where can I apply for a passport?",
+    "answer": "You can apply at the main immigration office or designated regional passport offices. (DEMO)",
+    "source_file": "passport\\passport_en.csv",
+    "id": 200
+  },
+  {
+    "sector": "passport",
+    "language": "en",
+    "question": "How much does a passport cost?",
+    "answer": "The passport fee depends on the type and processing speed. Please check the official fee schedule. (DEMO)",
+    "source_file": "passport\\passport_en.csv",
+    "id": 201
   },
   {
     "sector": "passport",
     "language": "en",
     "question": "How long does it take to get a passport?",
-    "answer": "Standard passport processing usually takes 15 to 30 working days after application approval. (DEMO)",
-    "source_file": "passport/passport_en.csv",
-    "id": 31
+    "answer": "Normal processing takes several weeks, while expedited services are faster. (DEMO)",
+    "source_file": "passport\\passport_en.csv",
+    "id": 202
   },
   {
     "sector": "passport",
     "language": "en",
-    "question": "How much does it cost for a new passport?",
-    "answer": "The fee for a new passport is typically around 2000 ETB for standard service, but check the latest official rates. (DEMO)",
-    "source_file": "passport/passport_en.csv",
-    "id": 32
+    "question": "Can I apply for a passport online?",
+    "answer": "Some steps may be completed online, but physical presence is required for biometrics. (DEMO)",
+    "source_file": "passport\\passport_en.csv",
+    "id": 203
   },
   {
     "sector": "passport",
     "language": "en",
-    "question": "Can I renew my expired passport?",
-    "answer": "Yes, you can renew your expired passport by providing your old passport and updated identification documents. (DEMO)",
-    "source_file": "passport/passport_en.csv",
-    "id": 33
+    "question": "What is the validity period of a passport?",
+    "answer": "Passports are usually valid for 5 or 10 years depending on applicant category. (DEMO)",
+    "source_file": "passport\\passport_en.csv",
+    "id": 204
+  },
+  {
+    "sector": "passport",
+    "language": "en",
+    "question": "How do I renew an expired passport?",
+    "answer": "You must submit the old passport, renewal form, photos, and pay the renewal fee. (DEMO)",
+    "source_file": "passport\\passport_en.csv",
+    "id": 205
+  },
+  {
+    "sector": "passport",
+    "language": "en",
+    "question": "Can I renew my passport before it expires?",
+    "answer": "Yes, early renewal is allowed within a specified period before expiry. (DEMO)",
+    "source_file": "passport\\passport_en.csv",
+    "id": 206
+  },
+  {
+    "sector": "passport",
+    "language": "en",
+    "question": "What should I do if my passport is lost?",
+    "answer": "Report the loss immediately and apply for a replacement with a police report. (DEMO)",
+    "source_file": "passport\\passport_en.csv",
+    "id": 207
+  },
+  {
+    "sector": "passport",
+    "language": "en",
+    "question": "What should I do if my passport is damaged?",
+    "answer": "Submit the damaged passport with an explanation letter and apply for replacement. (DEMO)",
+    "source_file": "passport\\passport_en.csv",
+    "id": 208
+  },
+  {
+    "sector": "passport",
+    "language": "en",
+    "question": "Can children apply for passports?",
+    "answer": "Yes, minors can apply with parental consent and guardian documents. (DEMO)",
+    "source_file": "passport\\passport_en.csv",
+    "id": 209
+  },
+  {
+    "sector": "passport",
+    "language": "en",
+    "question": "What documents are required for a child passport?",
+    "answer": "Birth certificate, parent IDs, consent letter, and photos are required. (DEMO)",
+    "source_file": "passport\\passport_en.csv",
+    "id": 210
+  },
+  {
+    "sector": "passport",
+    "language": "en",
+    "question": "Do both parents need to be present for a child passport?",
+    "answer": "Usually yes, unless legal documents state otherwise. (DEMO)",
+    "source_file": "passport\\passport_en.csv",
+    "id": 211
+  },
+  {
+    "sector": "passport",
+    "language": "en",
+    "question": "Can a guardian apply on behalf of a minor?",
+    "answer": "Yes, with valid guardianship documents. (DEMO)",
+    "source_file": "passport\\passport_en.csv",
+    "id": 212
+  },
+  {
+    "sector": "passport",
+    "language": "en",
+    "question": "What is biometric enrollment?",
+    "answer": "It includes capturing fingerprints, photo, and signature at the passport office. (DEMO)",
+    "source_file": "passport\\passport_en.csv",
+    "id": 213
+  },
+  {
+    "sector": "passport",
+    "language": "en",
+    "question": "Is biometric data mandatory?",
+    "answer": "Yes, biometric data is required for passport issuance. (DEMO)",
+    "source_file": "passport\\passport_en.csv",
+    "id": 214
+  },
+  {
+    "sector": "passport",
+    "language": "en",
+    "question": "Can elderly applicants skip biometrics?",
+    "answer": "Certain exemptions may apply based on age or health conditions. (DEMO)",
+    "source_file": "passport\\passport_en.csv",
+    "id": 215
+  },
+  {
+    "sector": "passport",
+    "language": "en",
+    "question": "What type of photos are required for passport application?",
+    "answer": "Recent passport-size photos with a white background are required. (DEMO)",
+    "source_file": "passport\\passport_en.csv",
+    "id": 216
+  },
+  {
+    "sector": "passport",
+    "language": "en",
+    "question": "Can I smile in my passport photo?",
+    "answer": "No, a neutral facial expression is required. (DEMO)",
+    "source_file": "passport\\passport_en.csv",
+    "id": 217
+  },
+  {
+    "sector": "passport",
+    "language": "en",
+    "question": "What happens if my application is rejected?",
+    "answer": "You will be informed of the reason and advised on corrective steps. (DEMO)",
+    "source_file": "passport\\passport_en.csv",
+    "id": 218
+  },
+  {
+    "sector": "passport",
+    "language": "en",
+    "question": "Can I track my passport application status?",
+    "answer": "Yes, you can track status using the reference number provided. (DEMO)",
+    "source_file": "passport\\passport_en.csv",
+    "id": 219
+  },
+  {
+    "sector": "passport",
+    "language": "en",
+    "question": "What is an expedited passport service?",
+    "answer": "It is a faster processing option available for additional fees. (DEMO)",
+    "source_file": "passport\\passport_en.csv",
+    "id": 220
+  },
+  {
+    "sector": "passport",
+    "language": "en",
+    "question": "Who is eligible for expedited passport processing?",
+    "answer": "Applicants with urgent travel needs may qualify. (DEMO)",
+    "source_file": "passport\\passport_en.csv",
+    "id": 221
+  },
+  {
+    "sector": "passport",
+    "language": "en",
+    "question": "Can I change my name on my passport?",
+    "answer": "Yes, with legal proof such as a court order or marriage certificate. (DEMO)",
+    "source_file": "passport\\passport_en.csv",
+    "id": 222
+  },
+  {
+    "sector": "passport",
+    "language": "en",
+    "question": "How do I correct errors on my passport?",
+    "answer": "Apply for correction with supporting documents showing the error. (DEMO)",
+    "source_file": "passport\\passport_en.csv",
+    "id": 223
+  },
+  {
+    "sector": "passport",
+    "language": "en",
+    "question": "Is passport replacement free if the error is not mine?",
+    "answer": "Corrections due to official error may be free of charge. (DEMO)",
+    "source_file": "passport\\passport_en.csv",
+    "id": 224
+  },
+  {
+    "sector": "passport",
+    "language": "en",
+    "question": "Can I travel if my passport is about to expire?",
+    "answer": "Most countries require at least six months validity. (DEMO)",
+    "source_file": "passport\\passport_en.csv",
+    "id": 225
+  },
+  {
+    "sector": "passport",
+    "language": "en",
+    "question": "What should I do if my passport expires abroad?",
+    "answer": "Contact the nearest embassy or consulate for assistance. (DEMO)",
+    "source_file": "passport\\passport_en.csv",
+    "id": 226
+  },
+  {
+    "sector": "passport",
+    "language": "en",
+    "question": "Can I hold two passports?",
+    "answer": "Dual passports are only allowed under specific legal conditions. (DEMO)",
+    "source_file": "passport\\passport_en.csv",
+    "id": 227
+  },
+  {
+    "sector": "passport",
+    "language": "en",
+    "question": "What is a machine-readable passport?",
+    "answer": "It is a passport with encoded data readable by scanners. (DEMO)",
+    "source_file": "passport\\passport_en.csv",
+    "id": 228
+  },
+  {
+    "sector": "passport",
+    "language": "en",
+    "question": "What is an e-passport?",
+    "answer": "An electronic passport contains a biometric chip for security. (DEMO)",
+    "source_file": "passport\\passport_en.csv",
+    "id": 229
+  },
+  {
+    "sector": "passport",
+    "language": "en",
+    "question": "Is an e-passport mandatory?",
+    "answer": "E-passports are becoming standard but availability may vary. (DEMO)",
+    "source_file": "passport\\passport_en.csv",
+    "id": 230
+  },
+  {
+    "sector": "passport",
+    "language": "en",
+    "question": "Can I apply for a passport while abroad?",
+    "answer": "Yes, through embassies or consulates. (DEMO)",
+    "source_file": "passport\\passport_en.csv",
+    "id": 231
+  },
+  {
+    "sector": "passport",
+    "language": "en",
+    "question": "How long does overseas passport processing take?",
+    "answer": "It may take longer than domestic processing. (DEMO)",
+    "source_file": "passport\\passport_en.csv",
+    "id": 232
+  },
+  {
+    "sector": "passport",
+    "language": "en",
+    "question": "What payment methods are accepted for passport fees?",
+    "answer": "Payments can be made via bank deposit or approved payment channels. (DEMO)",
+    "source_file": "passport\\passport_en.csv",
+    "id": 233
+  },
+  {
+    "sector": "passport",
+    "language": "en",
+    "question": "Is the passport fee refundable?",
+    "answer": "Passport fees are generally non-refundable. (DEMO)",
+    "source_file": "passport\\passport_en.csv",
+    "id": 234
+  },
+  {
+    "sector": "passport",
+    "language": "en",
+    "question": "What is a temporary travel document?",
+    "answer": "It is issued for emergency travel when a passport is unavailable. (DEMO)",
+    "source_file": "passport\\passport_en.csv",
+    "id": 235
+  },
+  {
+    "sector": "passport",
+    "language": "en",
+    "question": "Who can get a temporary travel document?",
+    "answer": "Citizens with urgent travel needs may qualify. (DEMO)",
+    "source_file": "passport\\passport_en.csv",
+    "id": 236
+  },
+  {
+    "sector": "passport",
+    "language": "en",
+    "question": "Can I update my address on my passport?",
+    "answer": "Address updates usually do not require passport reissue. (DEMO)",
+    "source_file": "passport\\passport_en.csv",
+    "id": 237
+  },
+  {
+    "sector": "passport",
+    "language": "en",
+    "question": "Does passport issuance require an appointment?",
+    "answer": "Appointments may be required depending on office capacity. (DEMO)",
+    "source_file": "passport\\passport_en.csv",
+    "id": 238
+  },
+  {
+    "sector": "passport",
+    "language": "en",
+    "question": "How do I book a passport appointment?",
+    "answer": "Appointments can be booked online or at the service office. (DEMO)",
+    "source_file": "passport\\passport_en.csv",
+    "id": 239
+  },
+  {
+    "sector": "passport",
+    "language": "en",
+    "question": "What should I bring on my appointment day?",
+    "answer": "Original documents, copies, photos, and payment receipt. (DEMO)",
+    "source_file": "passport\\passport_en.csv",
+    "id": 240
+  },
+  {
+    "sector": "passport",
+    "language": "en",
+    "question": "Can someone else collect my passport for me?",
+    "answer": "Collection by proxy may be allowed with authorization. (DEMO)",
+    "source_file": "passport\\passport_en.csv",
+    "id": 241
+  },
+  {
+    "sector": "passport",
+    "language": "en",
+    "question": "How will I be notified when my passport is ready?",
+    "answer": "You may receive SMS or email notification. (DEMO)",
+    "source_file": "passport\\passport_en.csv",
+    "id": 242
+  },
+  {
+    "sector": "passport",
+    "language": "en",
+    "question": "What if I miss my passport appointment?",
+    "answer": "You may need to reschedule or rebook a new appointment. (DEMO)",
+    "source_file": "passport\\passport_en.csv",
+    "id": 243
+  },
+  {
+    "sector": "passport",
+    "language": "en",
+    "question": "Can pregnant women get priority service?",
+    "answer": "Priority may be given based on medical need. (DEMO)",
+    "source_file": "passport\\passport_en.csv",
+    "id": 244
+  },
+  {
+    "sector": "passport",
+    "language": "en",
+    "question": "Are persons with disabilities given special support?",
+    "answer": "Yes, assistance and priority service may be provided. (DEMO)",
+    "source_file": "passport\\passport_en.csv",
+    "id": 245
+  },
+  {
+    "sector": "passport",
+    "language": "en",
+    "question": "What languages are supported in passport services?",
+    "answer": "Services are usually provided in major national languages. (DEMO)",
+    "source_file": "passport\\passport_en.csv",
+    "id": 246
+  },
+  {
+    "sector": "passport",
+    "language": "en",
+    "question": "Can refugees apply for national passports?",
+    "answer": "Refugees must follow specific legal procedures. (DEMO)",
+    "source_file": "passport\\passport_en.csv",
+    "id": 247
+  },
+  {
+    "sector": "passport",
+    "language": "en",
+    "question": "What is a diplomatic passport?",
+    "answer": "It is issued to government officials for official travel. (DEMO)",
+    "source_file": "passport\\passport_en.csv",
+    "id": 248
+  },
+  {
+    "sector": "passport",
+    "language": "en",
+    "question": "What is a service passport?",
+    "answer": "It is issued for official government duties abroad. (DEMO)",
+    "source_file": "passport\\passport_en.csv",
+    "id": 249
+  },
+  {
+    "sector": "passport",
+    "language": "en",
+    "question": "Who qualifies for a diplomatic passport?",
+    "answer": "High-level officials and diplomats qualify. (DEMO)",
+    "source_file": "passport\\passport_en.csv",
+    "id": 250
+  },
+  {
+    "sector": "passport",
+    "language": "en",
+    "question": "Can ordinary citizens apply for diplomatic passports?",
+    "answer": "No, eligibility is restricted by law. (DEMO)",
+    "source_file": "passport\\passport_en.csv",
+    "id": 251
+  },
+  {
+    "sector": "passport",
+    "language": "en",
+    "question": "How many blank pages should a passport have?",
+    "answer": "At least two blank pages are recommended for travel. (DEMO)",
+    "source_file": "passport\\passport_en.csv",
+    "id": 252
+  },
+  {
+    "sector": "passport",
+    "language": "en",
+    "question": "Can I add extra pages to my passport?",
+    "answer": "Extra pages are not added; renewal is required. (DEMO)",
+    "source_file": "passport\\passport_en.csv",
+    "id": 253
+  },
+  {
+    "sector": "passport",
+    "language": "en",
+    "question": "What happens to my old passport after renewal?",
+    "answer": "It may be returned with cancellation marks. (DEMO)",
+    "source_file": "passport\\passport_en.csv",
+    "id": 254
+  },
+  {
+    "sector": "passport",
+    "language": "en",
+    "question": "Can I keep my old passport after renewal?",
+    "answer": "Yes, but it will be invalid for travel. (DEMO)",
+    "source_file": "passport\\passport_en.csv",
+    "id": 255
+  },
+  {
+    "sector": "passport",
+    "language": "en",
+    "question": "What is the passport application reference number?",
+    "answer": "It is a unique number used to track your application. (DEMO)",
+    "source_file": "passport\\passport_en.csv",
+    "id": 256
+  },
+  {
+    "sector": "passport",
+    "language": "en",
+    "question": "Is fingerprint data stored securely?",
+    "answer": "Yes, biometric data is stored under strict security rules. (DEMO)",
+    "source_file": "passport\\passport_en.csv",
+    "id": 257
+  },
+  {
+    "sector": "passport",
+    "language": "en",
+    "question": "Can my passport be revoked?",
+    "answer": "Yes, under certain legal circumstances. (DEMO)",
+    "source_file": "passport\\passport_en.csv",
+    "id": 258
+  },
+  {
+    "sector": "passport",
+    "language": "en",
+    "question": "What laws govern passport issuance?",
+    "answer": "Passport services are governed by national immigration laws. (DEMO)",
+    "source_file": "passport\\passport_en.csv",
+    "id": 259
+  },
+  {
+    "sector": "passport",
+    "language": "en",
+    "question": "Where can I get official passport information?",
+    "answer": "From the official immigration authority website or offices. (DEMO)",
+    "source_file": "passport\\passport_en.csv",
+    "id": 260
+  },
+  {
+    "sector": "passport",
+    "language": "en",
+    "question": "Who should I contact for passport complaints?",
+    "answer": "Contact the customer service desk or complaint office. (DEMO)",
+    "source_file": "passport\\passport_en.csv",
+    "id": 261
+  },
+  {
+    "sector": "passport",
+    "language": "en",
+    "question": "Can I apply for a passport with an expired ID?",
+    "answer": "Valid identification is required for application. (DEMO)",
+    "source_file": "passport\\passport_en.csv",
+    "id": 262
+  },
+  {
+    "sector": "passport",
+    "language": "en",
+    "question": "Is an interview required for passport application?",
+    "answer": "Some applicants may be required to attend an interview. (DEMO)",
+    "source_file": "passport\\passport_en.csv",
+    "id": 263
+  },
+  {
+    "sector": "passport",
+    "language": "en",
+    "question": "What security checks are done before issuing a passport?",
+    "answer": "Identity verification and background checks are performed. (DEMO)",
+    "source_file": "passport\\passport_en.csv",
+    "id": 264
+  },
+  {
+    "sector": "passport",
+    "language": "en",
+    "question": "Can I update my marital status on my passport?",
+    "answer": "Marital status changes require legal proof. (DEMO)",
+    "source_file": "passport\\passport_en.csv",
+    "id": 265
+  },
+  {
+    "sector": "passport",
+    "language": "en",
+    "question": "What should I do if my passport is stolen abroad?",
+    "answer": "Report to local police and contact your embassy immediately. (DEMO)",
+    "source_file": "passport\\passport_en.csv",
+    "id": 266
+  },
+  {
+    "sector": "passport",
+    "language": "en",
+    "question": "Can I apply for a passport if I owe legal fines?",
+    "answer": "Outstanding legal issues may affect eligibility. (DEMO)",
+    "source_file": "passport\\passport_en.csv",
+    "id": 267
+  },
+  {
+    "sector": "passport",
+    "language": "en",
+    "question": "How early should I apply before traveling?",
+    "answer": "Apply several months before your planned travel date. (DEMO)",
+    "source_file": "passport\\passport_en.csv",
+    "id": 268
   },
   {
     "sector": "passport",
     "language": "om",
-    "question": "passport baasuuf maal na barbaachisa?",
-    "answer": "passport baasuf, suura gabaabaa fi waraqaa eenyummaa, akkasumas galmeessa ragaa hawwaasumma qabaachuu qabdu. (DEMO)",
-    "source_file": "passport/passport_om.csv",
-    "id": 34
+    "question": "Paaspoortii gaafachuuf sanadoonni maalii barbaachisu?",
+    "answer": "Fooramii iyyataa guutuu, ID mootummaa ykn ragaa dhalootaa, suuraa paaspoortii dhiyeenyaan kaafame, fi ragaa kaffaltii dhiyeessuun barbaachisa. (DEMO)",
+    "source_file": "passport\\passport_om.csv",
+    "id": 269
   },
   {
     "sector": "passport",
     "language": "om",
-    "question": "Passport baasuuf yeroo hammam fudhata?",
-    "answer": "Passport baasuuf baruma deeman yoo ta'e guyyaa 15 hanga 30 fudhata. (DEMO)",
-    "source_file": "passport/passport_om.csv",
-    "id": 35
+    "question": "Paaspoortii eessa irratti iyyachuu danda’a?",
+    "answer": "Waajjira Imigireeshinii mootummaa keessaa isa guddaa ykn waajjira paaspoortii naannoo/ulaagaaleen itti ramadaman irratti iyyachuu ni dandeessa. (DEMO)",
+    "source_file": "passport\\passport_om.csv",
+    "id": 270
   },
   {
     "sector": "passport",
     "language": "om",
-    "question": "Passport haaraa baasuuf kaffaltiin isaa meeqa?",
-    "answer": "Kaffaltiin paaspoortii haaraa kaffaltii tajaajilaa waliin qarshii 2000 hanga 5000 ta'uu danda'a. (DEMO)",
-    "source_file": "passport/passport_om.csv",
-    "id": 36
+    "question": "Paaspoortii baasuun gatii hangamii qaba?",
+    "answer": "Gatiin isaa gosa paaspoortii fi saffisa tajaajilaa irratti hundaa’a; tarree kaffaltii mootummaa irraa mirkaneessi. (DEMO)",
+    "source_file": "passport\\passport_om.csv",
+    "id": 271
   },
   {
     "sector": "passport",
     "language": "om",
-    "question": "Passpoortii koo kan yeroon itti darbe renew gochuu nan danda'aa?",
-    "answer": "Eeyyee, paaspoortii kee kan yeroon itti darbe ragaalee barbaachisoo dhiyeessuun renew gochuu dandeessa. (DEMO)",
-    "source_file": "passport/passport_om.csv",
-    "id": 37
+    "question": "Paaspoortii argachuuf yeroo hangamii fudhata?",
+    "answer": "Tajaajilli idile torbanoota hedduu fudhachuu danda’a; tajaajilli ariifachiisaa immoo yeroo gabaabaa keessatti xumurama. (DEMO)",
+    "source_file": "passport\\passport_om.csv",
+    "id": 272
+  },
+  {
+    "sector": "passport",
+    "language": "om",
+    "question": "Onlaayinii irratti paaspoortii iyyachuu danda’a?",
+    "answer": "Tarkaanfii muraasni onlaayinii ta’uu danda’a; garuu baayomeetirii (fingerprint/suuraa) kennuuf qaamaan argamuu barbaachisa. (DEMO)",
+    "source_file": "passport\\passport_om.csv",
+    "id": 273
+  },
+  {
+    "sector": "passport",
+    "language": "om",
+    "question": "Paaspoortiin waggaa meeqaaf tajaajila?",
+    "answer": "Yeroon hojii isaa yeroo baay’ee waggaa 5 ykn 10 ta’uu danda’a; irratti iyyattee akkaataa ramaddii irratti hundaa’a. (DEMO)",
+    "source_file": "passport\\passport_om.csv",
+    "id": 274
+  },
+  {
+    "sector": "passport",
+    "language": "om",
+    "question": "Paaspoortii xumurame (expire) akkamitti haaromsa?",
+    "answer": "Paaspoortii duraanii, fooramii haaromsaa, suuraa, fi ragaa kaffaltii waliin dhiyeessi. (DEMO)",
+    "source_file": "passport\\passport_om.csv",
+    "id": 275
+  },
+  {
+    "sector": "passport",
+    "language": "om",
+    "question": "Paaspoortii xumuruun dura haaromsuun ni danda’amaa?",
+    "answer": "Eeyyee; yeroo murtaa’e dura haaromsiin ni eeyyamama. (DEMO)",
+    "source_file": "passport\\passport_om.csv",
+    "id": 276
+  },
+  {
+    "sector": "passport",
+    "language": "om",
+    "question": "Paaspoortiin yoo na bade maal godha?",
+    "answer": "Battalumatti gabaasa poolisii godhi, booda ragaa gabaasaa waliin bakka bu’iinsa (replacement) iyyadhu. (DEMO)",
+    "source_file": "passport\\passport_om.csv",
+    "id": 277
+  },
+  {
+    "sector": "passport",
+    "language": "om",
+    "question": "Paaspoortiin yoo miidhame maal godha?",
+    "answer": "Paaspoortii miidhame sana, ibsa gabaabaa (letter) fi sanadoota barbaachisan waliin dhiyeessuun bakka bu’iinsa iyyadhu. (DEMO)",
+    "source_file": "passport\\passport_om.csv",
+    "id": 278
+  },
+  {
+    "sector": "passport",
+    "language": "om",
+    "question": "Daa’imni paaspoortii iyyachuu ni danda’a?",
+    "answer": "Eeyyee; garuu eeyyama maatii (warraa/abbaa fi haadha) fi sanadoota daa’imaaf barbaachisan qabaachuu qaba. (DEMO)",
+    "source_file": "passport\\passport_om.csv",
+    "id": 279
+  },
+  {
+    "sector": "passport",
+    "language": "om",
+    "question": "Daa’imaaf paaspoortii iyyachuuf sanadoonni maalii?",
+    "answer": "Ragaa dhalootaa, ID warraa, xalayaa eeyyamaa, suuraa, fi ragaa kaffaltii barbaachisa. (DEMO)",
+    "source_file": "passport\\passport_om.csv",
+    "id": 280
+  },
+  {
+    "sector": "passport",
+    "language": "om",
+    "question": "Daa’imaaf paaspoortii irratti abbaa fi haati lamaan argamuu qabu?",
+    "answer": "Yeroo baay’ee eeyyee; yoo hin danda’amne sanada seeraa (murtii mana murtii/fkn) dhiyeessuu danda’ama. (DEMO)",
+    "source_file": "passport\\passport_om.csv",
+    "id": 281
+  },
+  {
+    "sector": "passport",
+    "language": "om",
+    "question": "Abbaa seeraa/abbaa guddisaa daa’ima bakka bu’ee iyyachuu ni danda’a?",
+    "answer": "Eeyyee; sanada mootummaa irraa mirkaneessa abbaa guddisummaa/guardianship qabaachuun ni danda’ama. (DEMO)",
+    "source_file": "passport\\passport_om.csv",
+    "id": 282
+  },
+  {
+    "sector": "passport",
+    "language": "om",
+    "question": "Baayomeetirii (biometric) jechuun maalidha?",
+    "answer": "Mallattoolee eenyummaa kan akka farra barmoo (fingerprint), suuraa dijitaalaa, fi mallattoo (signature) galmeessuu dha. (DEMO)",
+    "source_file": "passport\\passport_om.csv",
+    "id": 283
+  },
+  {
+    "sector": "passport",
+    "language": "om",
+    "question": "Baayomeetirii kennuun dirqamaa?",
+    "answer": "Eeyyee; paaspoortii baasuuf baayomeetirii galmeessuun yeroo baay’ee dirqama. (DEMO)",
+    "source_file": "passport\\passport_om.csv",
+    "id": 284
+  },
+  {
+    "sector": "passport",
+    "language": "om",
+    "question": "Jaarsa/jaartiin baayomeetirii osoo hin kennin ni tajaajilama?",
+    "answer": "Haala fayyaa ykn umrii irratti hundaa’uun qajeelfamni addaa jiraachuu danda’a; waajjira irraa mirkaneessi. (DEMO)",
+    "source_file": "passport\\passport_om.csv",
+    "id": 285
+  },
+  {
+    "sector": "passport",
+    "language": "om",
+    "question": "Suuraan paaspoortii akkam ta’uu qaba?",
+    "answer": "Suuraa haaraa, duubbee adii, ifa walfakkaataa, fuula ifatti mul’atu, fi seera suuraa kan guutu ta’uu qaba. (DEMO)",
+    "source_file": "passport\\passport_om.csv",
+    "id": 286
+  },
+  {
+    "sector": "passport",
+    "language": "om",
+    "question": "Suuraa paaspoortii irratti kolfachuun ni eeyyamama?",
+    "answer": "Yeroo baay’ee hin eeyyamamu; fuula tasgabbaa’aa (neutral expression) barbaadu. (DEMO)",
+    "source_file": "passport\\passport_om.csv",
+    "id": 287
+  },
+  {
+    "sector": "passport",
+    "language": "om",
+    "question": "Iyyanni koo yoo didame maal ta’a?",
+    "answer": "Sababni ni ibsama; maal akka sirreessu fi akkamitti deebitee iyyattu si qajeelchu. (DEMO)",
+    "source_file": "passport\\passport_om.csv",
+    "id": 288
+  },
+  {
+    "sector": "passport",
+    "language": "om",
+    "question": "Haala iyyata paaspoortii koo hordofuu ni danda’a?",
+    "answer": "Eeyyee; lakkoofsa ragaalee (reference number) fayyadamuun haala isaa ilaalu ni dandeessa. (DEMO)",
+    "source_file": "passport\\passport_om.csv",
+    "id": 289
+  },
+  {
+    "sector": "passport",
+    "language": "om",
+    "question": "Tajaajilli ariifachiisaa paaspoortii maalidha?",
+    "answer": "Tajaajila yeroo gabaabduu keessatti xumuramu; yeroo baay’ee kaffaltii dabalataa qaba. (DEMO)",
+    "source_file": "passport\\passport_om.csv",
+    "id": 290
+  },
+  {
+    "sector": "passport",
+    "language": "om",
+    "question": "Eenyyutu tajaajila ariifachiisaa argachuu danda’a?",
+    "answer": "Namni dhimma daandii/imaltoota ariifachiisaa qabu ragaa dhiyeesseen ni argata. (DEMO)",
+    "source_file": "passport\\passport_om.csv",
+    "id": 291
+  },
+  {
+    "sector": "passport",
+    "language": "om",
+    "question": "Maqaa paaspoortii irratti jijjiiruun ni danda’amaa?",
+    "answer": "Eeyyee; ragaa seeraa akka murtii mana murtii ykn ragaa fuudha/heerumaatiin ni danda’ama. (DEMO)",
+    "source_file": "passport\\passport_om.csv",
+    "id": 292
+  },
+  {
+    "sector": "passport",
+    "language": "om",
+    "question": "Dogoggora paaspoortii irratti argame akkamitti sirreessa?",
+    "answer": "Dogoggora agarsiisu sanadoota ragaa waliin iyyata sirreeffamaa (correction) dhiyeessi. (DEMO)",
+    "source_file": "passport\\passport_om.csv",
+    "id": 293
+  },
+  {
+    "sector": "passport",
+    "language": "om",
+    "question": "Dogoggora mootummaa irraa ta’e yoo ta’e kaffaltiin jiraa?",
+    "answer": "Yeroo muraasa dogoggora waajjiraa ta’e keessatti kaffaltiin malee sirreessuun ni danda’ama. (DEMO)",
+    "source_file": "passport\\passport_om.csv",
+    "id": 294
+  },
+  {
+    "sector": "passport",
+    "language": "om",
+    "question": "Paaspoortiin koo yeroon isaa dhiyaate yoo ta’e imaluun ni danda’amaa?",
+    "answer": "Biyya hedduun ji’a 6 ol yeroo hojii (validity) akka hafu barbaadu; dura mirkaneessi. (DEMO)",
+    "source_file": "passport\\passport_om.csv",
+    "id": 295
+  },
+  {
+    "sector": "passport",
+    "language": "om",
+    "question": "Ala jiruun paaspoortiin koo yoo xumure maal godha?",
+    "answer": "Embassy/consulate dhihoo qunnami; qajeelfama isaanii hordofi. (DEMO)",
+    "source_file": "passport\\passport_om.csv",
+    "id": 296
+  },
+  {
+    "sector": "passport",
+    "language": "om",
+    "question": "Paaspoortii lama qabachuun ni danda’amaa?",
+    "answer": "Haala seeraa murtaa’e keessatti qofa ni danda’ama; qajeelfama biyya keetii ilaali. (DEMO)",
+    "source_file": "passport\\passport_om.csv",
+    "id": 297
+  },
+  {
+    "sector": "passport",
+    "language": "om",
+    "question": "Paaspoortiin machine-readable jechuun maalidha?",
+    "answer": "Paaspoortii odeeffannoo koodiin (scanner) dubbifamu qabu jechuudha. (DEMO)",
+    "source_file": "passport\\passport_om.csv",
+    "id": 298
+  },
+  {
+    "sector": "passport",
+    "language": "om",
+    "question": "E-passport jechuun maalidha?",
+    "answer": "Paaspoortii ‘chip’ baayomeetirii keessa qabu; nageenya guddisuuf. (DEMO)",
+    "source_file": "passport\\passport_om.csv",
+    "id": 299
+  },
+  {
+    "sector": "passport",
+    "language": "om",
+    "question": "E-passport dirqamaa moo?",
+    "answer": "Biyya/waajjira irratti hundaa’uun gara-gara; yeroo baay’ee immoo gara tarsiimoo haaraa ta’aa jira. (DEMO)",
+    "source_file": "passport\\passport_om.csv",
+    "id": 300
+  },
+  {
+    "sector": "passport",
+    "language": "om",
+    "question": "Ala irraa iyyachuun ni danda’amaa?",
+    "answer": "Eeyyee; embassy ykn consulate keessaatiin iyyachuu ni dandeessa. (DEMO)",
+    "source_file": "passport\\passport_om.csv",
+    "id": 301
+  },
+  {
+    "sector": "passport",
+    "language": "om",
+    "question": "Ala irraa iyyachuun yeroo hangamii fudhata?",
+    "answer": "Yeroo baay’ee tajaajila biyya keessaa caalaa dheeraa fudhachuu danda’a. (DEMO)",
+    "source_file": "passport\\passport_om.csv",
+    "id": 302
+  },
+  {
+    "sector": "passport",
+    "language": "om",
+    "question": "Kaffaltiin paaspoortii akkamitti kaffalama?",
+    "answer": "Baankii keessatti galii (deposit) gochuu ykn karaa kaffaltii mootummaa eeyyamameen. (DEMO)",
+    "source_file": "passport\\passport_om.csv",
+    "id": 303
+  },
+  {
+    "sector": "passport",
+    "language": "om",
+    "question": "Kaffaltiin paaspoortii ni deebi’a?",
+    "answer": "Yeroo baay’ee kaffaltiin hin deebi’u. (DEMO)",
+    "source_file": "passport\\passport_om.csv",
+    "id": 304
+  },
+  {
+    "sector": "passport",
+    "language": "om",
+    "question": "Sanada imala yeroo gabaabaa (temporary travel document) jechuun maalidha?",
+    "answer": "Paaspoortiin yeroo hin jirre (bade/miidhame) imala ariifachiisaa irratti tajaajiluuf kan kennamu dha. (DEMO)",
+    "source_file": "passport\\passport_om.csv",
+    "id": 305
+  },
+  {
+    "sector": "passport",
+    "language": "om",
+    "question": "Eenyutu sanada imala yeroo gabaabaa argata?",
+    "answer": "Namni imala ariifachiisaa qabu ragaa waliin iyyateen ni argata. (DEMO)",
+    "source_file": "passport\\passport_om.csv",
+    "id": 306
+  },
+  {
+    "sector": "passport",
+    "language": "om",
+    "question": "Teessoo (address) paaspoortii irratti haaromsuun barbaachisaa?",
+    "answer": "Yeroo baay’ee teessoo jijjiiruun paaspoortii haaraa hin barbaachisu; garuu qajeelfama irraa mirkaneessi. (DEMO)",
+    "source_file": "passport\\passport_om.csv",
+    "id": 307
+  },
+  {
+    "sector": "passport",
+    "language": "om",
+    "question": "Paaspoortii iyyachuuf beellama (appointment) qabachuun barbaachisaa?",
+    "answer": "Waajjira irratti baay’ina tajaajilamtootaa irratti hundaa’uun beellamni barbaachisaa ta’uu danda’a. (DEMO)",
+    "source_file": "passport\\passport_om.csv",
+    "id": 308
+  },
+  {
+    "sector": "passport",
+    "language": "om",
+    "question": "Beellama paaspoortii akkamitti qabata?",
+    "answer": "Karaa onlaayinii ykn waajjira irratti sirnaan beellama qabachuun ni danda’ama. (DEMO)",
+    "source_file": "passport\\passport_om.csv",
+    "id": 309
+  },
+  {
+    "sector": "passport",
+    "language": "om",
+    "question": "Guyyaa beellamaa maal fida?",
+    "answer": "Sanadoota aslii, kooppii, suuraa, fi ragaa kaffaltii fidi. (DEMO)",
+    "source_file": "passport\\passport_om.csv",
+    "id": 310
+  },
+  {
+    "sector": "passport",
+    "language": "om",
+    "question": "Namni biraa paaspoortii koo fudhachuu ni danda’a?",
+    "answer": "Haala muraasa keessatti waraqaa eeyyamaa/authorization waliin ni danda’ama. (DEMO)",
+    "source_file": "passport\\passport_om.csv",
+    "id": 311
+  },
+  {
+    "sector": "passport",
+    "language": "om",
+    "question": "Paaspoortiin koo yeroo qophaa’e akkamitti beeka?",
+    "answer": "Ergaa SMS/imeeyilii ykn lakkoofsa referenceiin haala isaa ilaaluun ni danda’ama. (DEMO)",
+    "source_file": "passport\\passport_om.csv",
+    "id": 312
+  },
+  {
+    "sector": "passport",
+    "language": "om",
+    "question": "Beellama koo yoo dabarse maal ta’a?",
+    "answer": "Deebitee beellama haaraa qabachuun ykn yeroo biroo irratti qindeessuun si barbaachisa. (DEMO)",
+    "source_file": "passport\\passport_om.csv",
+    "id": 313
+  },
+  {
+    "sector": "passport",
+    "language": "om",
+    "question": "Haati ulfaa tajaajila dursa (priority) ni argatti?",
+    "answer": "Haala fayyaa irratti hundaa’uun tajaajila dursa kennamuu danda’a. (DEMO)",
+    "source_file": "passport\\passport_om.csv",
+    "id": 314
+  },
+  {
+    "sector": "passport",
+    "language": "om",
+    "question": "Namoota qaama miidhamtootaaf gargaarsi addaa jiraa?",
+    "answer": "Eeyyee; deeggarsa fi tajaajila dursa ni kennamuu danda’a. (DEMO)",
+    "source_file": "passport\\passport_om.csv",
+    "id": 315
+  },
+  {
+    "sector": "passport",
+    "language": "om",
+    "question": "Tajaajilli paaspoortii afaan maaliin kennama?",
+    "answer": "Afaanota mootummaa/naannoo beekamoo keessatti tajaajilli kennamuu danda’a. (DEMO)",
+    "source_file": "passport\\passport_om.csv",
+    "id": 316
+  },
+  {
+    "sector": "passport",
+    "language": "om",
+    "question": "Refugee/saddeetummaa qabus paaspoortii biyyaatiif iyyachuu ni danda’a?",
+    "answer": "Haala seeraa addaa qabaachuu danda’a; qaama dhimmi ilaallatu irraa odeeffannoo argadhu. (DEMO)",
+    "source_file": "passport\\passport_om.csv",
+    "id": 317
+  },
+  {
+    "sector": "passport",
+    "language": "om",
+    "question": "Paaspoortiin diplomatic jechuun maalidha?",
+    "answer": "Tajaajila mootummaa/diiploomaasii irratti imalan mootummaaaf kan kennamu paaspoortii addaa dha. (DEMO)",
+    "source_file": "passport\\passport_om.csv",
+    "id": 318
+  },
+  {
+    "sector": "passport",
+    "language": "om",
+    "question": "Paaspoortiin service (tajaajila) jechuun maalidha?",
+    "answer": "Hojii mootummaa addaa keessatti biyya alaa deemaniif kan kennamu paaspoortii dha. (DEMO)",
+    "source_file": "passport\\passport_om.csv",
+    "id": 319
+  },
+  {
+    "sector": "passport",
+    "language": "om",
+    "question": "Eenyutu paaspoortii diplomatic argata?",
+    "answer": "Hoggantoota mootummaa fi diiploomaatoonni ulaagaa guutan ni argatu. (DEMO)",
+    "source_file": "passport\\passport_om.csv",
+    "id": 320
+  },
+  {
+    "sector": "passport",
+    "language": "om",
+    "question": "Namni mootummaa hin taane diplomatic iyyachuu ni danda’a?",
+    "answer": "Hin danda’u; ulaagaan isaa seeraan daangeffameera. (DEMO)",
+    "source_file": "passport\\passport_om.csv",
+    "id": 321
+  },
+  {
+    "sector": "passport",
+    "language": "om",
+    "question": "Paaspoortii irratti fuula duwwaa meeqa qabaachuun gaarii dha?",
+    "answer": "Visa fi chaappaaaf (stamp) fuula duwwaa yoo xiqqaate lama qabaachuun ni gorfama. (DEMO)",
+    "source_file": "passport\\passport_om.csv",
+    "id": 322
+  },
+  {
+    "sector": "passport",
+    "language": "om",
+    "question": "Paaspoortii irratti fuula dabalataa dabaluun ni danda’amaa?",
+    "answer": "Yeroo baay’ee hin dabalamuu; fuula xumurame yoo ta’e haaromsa barbaachisa. (DEMO)",
+    "source_file": "passport\\passport_om.csv",
+    "id": 323
+  },
+  {
+    "sector": "passport",
+    "language": "om",
+    "question": "Haaromsaan booda paaspoortii duraanii maal ta’a?",
+    "answer": "Yeroo baay’ee ‘cancelled’ jechuun mallatteeffamee siif deebi’uu danda’a. (DEMO)",
+    "source_file": "passport\\passport_om.csv",
+    "id": 324
+  },
+  {
+    "sector": "passport",
+    "language": "om",
+    "question": "Haaromsaan booda paaspoortii duraanii of harkaa qabaachuun ni danda’amaa?",
+    "answer": "Eeyyee; garuu imaluuf hin fayyadu (akka seeraan hojii keessaa bahe). (DEMO)",
+    "source_file": "passport\\passport_om.csv",
+    "id": 325
+  },
+  {
+    "sector": "passport",
+    "language": "om",
+    "question": "Lakkoofsi reference iyyataa maal tajaajila?",
+    "answer": "Iyyata kee hordofuuf lakkoofsa addaa siif kennamu dha. (DEMO)",
+    "source_file": "passport\\passport_om.csv",
+    "id": 326
+  },
+  {
+    "sector": "passport",
+    "language": "om",
+    "question": "Odeeffannoon fingerprint akka nageenyaan tursiifamaa?",
+    "answer": "Eeyyee; seera nageenya odeeffannoo jabeessaatiin tursiifama jedhamee fudhatama. (DEMO)",
+    "source_file": "passport\\passport_om.csv",
+    "id": 327
+  },
+  {
+    "sector": "passport",
+    "language": "om",
+    "question": "Paaspoortiin haala seeraan haqamuu ni danda’a?",
+    "answer": "Eeyyee; sababoota seeraa muraasa keessatti paaspoortiin haqamuu danda’a. (DEMO)",
+    "source_file": "passport\\passport_om.csv",
+    "id": 328
+  },
+  {
+    "sector": "passport",
+    "language": "om",
+    "question": "Seerotni paaspoortii kennuuf fayyadan maalii?",
+    "answer": "Tajaajilli paaspoortii seerota imigireeshinii fi lammummaa biyyattii jalatti hogganama. (DEMO)",
+    "source_file": "passport\\passport_om.csv",
+    "id": 329
+  },
+  {
+    "sector": "passport",
+    "language": "om",
+    "question": "Odeeffannoo paaspoortii mootummaa sirrii eessaa argadha?",
+    "answer": "Marsariitii mootummaa/waajjira imigireeshinii irraa ykn waajjira tajaajilaa irratti. (DEMO)",
+    "source_file": "passport\\passport_om.csv",
+    "id": 330
+  },
+  {
+    "sector": "passport",
+    "language": "om",
+    "question": "Komiin paaspoortii eessaaf dhiyeeffama?",
+    "answer": "Kutaa tajaajila maamila ykn bakka komii fudhatuutti dhiyeessi. (DEMO)",
+    "source_file": "passport\\passport_om.csv",
+    "id": 331
+  },
+  {
+    "sector": "passport",
+    "language": "om",
+    "question": "ID koo yeroon isaa darbe yoo ta’e iyyachuu danda’a?",
+    "answer": "ID hojiirra jiru/valid ta’e barbaachisa; yoo hin jirre dura haaromsuu si barbaachisa. (DEMO)",
+    "source_file": "passport\\passport_om.csv",
+    "id": 332
+  },
+  {
+    "sector": "passport",
+    "language": "om",
+    "question": "Paaspoortii iyyachuun interviewer (gaaffii) qaba?",
+    "answer": "Namoota muraasaaf yeroo mirkaneessa dabalataa barbaachisu gaafii/warraaqsi ni ta’uu danda’a. (DEMO)",
+    "source_file": "passport\\passport_om.csv",
+    "id": 333
+  },
+  {
+    "sector": "passport",
+    "language": "om",
+    "question": "Paaspoortii kennuun dura mirkaneessi akkamiin gaggeeffama?",
+    "answer": "Eenummaa mirkaneessu, sakatta’iinsa seeraa/nageenyaa, fi qulqullina sanadootaa ilaaluu ni dabalata. (DEMO)",
+    "source_file": "passport\\passport_om.csv",
+    "id": 334
+  },
+  {
+    "sector": "passport",
+    "language": "om",
+    "question": "Haala heeruma (marital status) paaspoortii irratti haaromsuun ni danda’amaa?",
+    "answer": "Eeyyee; ragaa heeruma/furriqa (divorce) ykn sanada seeraa waliin ni danda’ama. (DEMO)",
+    "source_file": "passport\\passport_om.csv",
+    "id": 335
+  },
+  {
+    "sector": "passport",
+    "language": "om",
+    "question": "Ala irratti paaspoortiin yoo na saame/hatame maal godha?",
+    "answer": "Poolisii biyya sanaatti gabaasi, booda embassy/consulate qunnami. (DEMO)",
+    "source_file": "passport\\passport_om.csv",
+    "id": 336
+  },
+  {
+    "sector": "passport",
+    "language": "om",
+    "question": "Adabbii seeraa (fines/case) yoo qabaadhe paaspoortii iyyachuu ni danda’a?",
+    "answer": "Dhimmootni seeraa muraasni ulaagaa irratti dhiibbaa qabaachuu danda’u; waajjira irraa mirkaneessi. (DEMO)",
+    "source_file": "passport\\passport_om.csv",
+    "id": 337
+  },
+  {
+    "sector": "passport",
+    "language": "om",
+    "question": "Imaaluun dura hangam dursee iyyachuun gaarii?",
+    "answer": "Iyyanni dheerachuu danda’a; kanaaf ji’oota hedduu dursee iyyachuun ni gorfama. (DEMO)",
+    "source_file": "passport\\passport_om.csv",
+    "id": 338
+  },
+  {
+    "sector": "passport",
+    "language": "om",
+    "question": "Paaspoortii iyyachuuf tarkaanfiin jalqabaa maal?",
+    "answer": "Fooramii guutuu fi sanadoota barbaachisan qopheessuu dha. (DEMO)",
+    "source_file": "passport\\passport_om.csv",
+    "id": 339
+  },
+  {
+    "sector": "passport",
+    "language": "om",
+    "question": "Fooramiin iyyataa eessaa argama?",
+    "answer": "Waajjira tajaajilaa irraa ykn karaa onlaayinii (yoo jirate) irraa argamuu danda’a. (DEMO)",
+    "source_file": "passport\\passport_om.csv",
+    "id": 340
+  },
+  {
+    "sector": "passport",
+    "language": "om",
+    "question": "Fooramii irratti dogoggora yoo godhe maal ta’a?",
+    "answer": "Sirreessuuf ni qajeelchu; yeroo muraasa keessatti fooramii haaromsee guutuu si barbaachisuu danda’a. (DEMO)",
+    "source_file": "passport\\passport_om.csv",
+    "id": 341
+  },
+  {
+    "sector": "passport",
+    "language": "om",
+    "question": "Fooramii irratti bilbila fi imeeyiliin maaliif barbaadama?",
+    "answer": "Beeksisa (notification), mirkaneessa, fi haala iyyataa sitti himuuf tajaajila. (DEMO)",
+    "source_file": "passport\\passport_om.csv",
+    "id": 342
+  },
+  {
+    "sector": "passport",
+    "language": "om",
+    "question": "Paaspoortii fudhachuuf eenyummaa mirkaneessuun barbaachisaa?",
+    "answer": "Eeyyee; yeroo fudhattu ID/receipt ykn reference number ni gaafatu. (DEMO)",
+    "source_file": "passport\\passport_om.csv",
+    "id": 343
+  },
+  {
+    "sector": "passport",
+    "language": "om",
+    "question": "Paaspoortii poostaan naaf erguun ni danda’amaa?",
+    "answer": "Policy waajjiraa irratti hundaa’a; filannoowwan ergaa/collection mirkaneessi. (DEMO)",
+    "source_file": "passport\\passport_om.csv",
+    "id": 344
+  },
+  {
+    "sector": "passport",
+    "language": "om",
+    "question": "Suuraa baayomeetirii waajjira keessatti kaafama moo studio irraa?",
+    "answer": "Yeroo baay’ee suuraan studio irraa ni dhiyaata; garuu seera suuraa waajjiraa guutuu qaba. (DEMO)",
+    "source_file": "passport\\passport_om.csv",
+    "id": 345
+  },
+  {
+    "sector": "passport",
+    "language": "om",
+    "question": "Suuraa paaspoortii irratti gilaasii ijaa uffachuun ni eeyyamama?",
+    "answer": "Qajeelfama irratti hundaa’a; ija ifatti akka mul’atu mirkaneessi. (DEMO)",
+    "source_file": "passport\\passport_om.csv",
+    "id": 346
+  },
+  {
+    "sector": "passport",
+    "language": "om",
+    "question": "Uffata amantii (head covering) suura keessatti ni eeyyamama?",
+    "answer": "Eeyyamamuu danda’a; garuu fuulli guutuun ifatti mul’achuu fi mirkaneessa hin gufachiifne ta’uu qaba. (DEMO)",
+    "source_file": "passport\\passport_om.csv",
+    "id": 347
+  },
+  {
+    "sector": "passport",
+    "language": "om",
+    "question": "Lakkoofsi paaspoortii maal tajaajila?",
+    "answer": "Visa iyyachuu, tikkeeta imalaa, fi mirkaneessa eenyummaa keessatti barbaachisaa dha. (DEMO)",
+    "source_file": "passport\\passport_om.csv",
+    "id": 348
+  },
+  {
+    "sector": "passport",
+    "language": "om",
+    "question": "Paaspoortii argadhee booda maal sakatta’uu qaba?",
+    "answer": "Maqaa, guyyaa dhalootaa, saala, lakkoofsa paaspoortii, fi guyyaa dhumtii sirrii ta’uu mirkaneessi. (DEMO)",
+    "source_file": "passport\\passport_om.csv",
+    "id": 349
+  },
+  {
+    "sector": "passport",
+    "language": "om",
+    "question": "Paaspoortii booda dogoggora arge yoo ta’e maal godha?",
+    "answer": "Yeroo gabaabaa keessatti waajjira qunnami; sirreeffama/correction iyyadhu. (DEMO)",
+    "source_file": "passport\\passport_om.csv",
+    "id": 350
+  },
+  {
+    "sector": "passport",
+    "language": "om",
+    "question": "Guyyaan dhumtii (expiry) paaspoortii eessa irratti barreeffama?",
+    "answer": "Fuula eenyummaa (ID page) irratti ifatti ni barreeffama. (DEMO)",
+    "source_file": "passport\\passport_om.csv",
+    "id": 351
+  },
+  {
+    "sector": "passport",
+    "language": "om",
+    "question": "Visa iyyachuuf paaspoortiin ulaagaa maalii qabaachuu qaba?",
+    "answer": "Biyya irratti hundaa’a; yeroo hojii gahaa fi fuula duwwaa gahaa qabaachuun ni barbaachisa. (DEMO)",
+    "source_file": "passport\\passport_om.csv",
+    "id": 352
+  },
+  {
+    "sector": "passport",
+    "language": "om",
+    "question": "Haaromsuuf paaspoortii duraanii dhiyeessuun dirqamaa?",
+    "answer": "Eeyyee; yeroo baay’ee paaspoortii duraanii dhiyeessuun barbaachisa. (DEMO)",
+    "source_file": "passport\\passport_om.csv",
+    "id": 353
+  },
+  {
+    "sector": "passport",
+    "language": "om",
+    "question": "Paaspoortii duraanii yoo hin qabne haaromsuun ni danda’amaa?",
+    "answer": "Haala irratti hundaa’uun gabaasa poolisii fi mirkaneessa dabalataa waliin bakka bu’iinsa iyyachuun ni danda’ama. (DEMO)",
+    "source_file": "passport\\passport_om.csv",
+    "id": 354
+  },
+  {
+    "sector": "passport",
+    "language": "om",
+    "question": "Sanadoota dabalataa gaafatamuu ni danda’a?",
+    "answer": "Eeyyee; haala iyyataa irratti hundaa’uun mirkaneessa dabalataa ni gaafatama. (DEMO)",
+    "source_file": "passport\\passport_om.csv",
+    "id": 355
+  },
+  {
+    "sector": "passport",
+    "language": "om",
+    "question": "Sa’aatii fi guyyaa tajaajilaa eessaa beeka?",
+    "answer": "Beeksisa mootummaa/waajjira irraa ykn bilbila waajjiraa irratti gaafattee ni argatta. (DEMO)",
+    "source_file": "passport\\passport_om.csv",
+    "id": 356
+  },
+  {
+    "sector": "passport",
+    "language": "om",
+    "question": "Iyyata paaspoortii irratti daangaan umurii jiraa?",
+    "answer": "Daangaan guddaan hin jiru; garuu daa’imaaf qajeelfamni addaa ni jira. (DEMO)",
+    "source_file": "passport\\passport_om.csv",
+    "id": 357
+  },
+  {
+    "sector": "passport",
+    "language": "om",
+    "question": "Daa’imni ofumaan beellama deemuu ni danda’a?",
+    "answer": "Yeroo baay’ee hin danda’u; abbaa/haadha ykn abbaa guddisaa waliin deemuu qaba. (DEMO)",
+    "source_file": "passport\\passport_om.csv",
+    "id": 358
+  },
+  {
+    "sector": "passport",
+    "language": "om",
+    "question": "Bakka bu’iinsi paaspoortii (replacement) lakkoofsa haaraa qabaataa?",
+    "answer": "Eeyyee; paaspoortiin bakka bu’iinsa ta’e yeroo baay’ee lakkoofsa addaa haaraa qaba. (DEMO)",
+    "source_file": "passport\\passport_om.csv",
+    "id": 359
+  },
+  {
+    "sector": "passport",
+    "language": "om",
+    "question": "Paaspoortii bade booda deebisee argadhe maal godha?",
+    "answer": "Waajjira/poolisii beeksisi; qajeelfama isaanii hordofi. (DEMO)",
+    "source_file": "passport\\passport_om.csv",
+    "id": 360
+  },
+  {
+    "sector": "passport",
+    "language": "om",
+    "question": "Iyyata sobaa/fakkeessuun paaspoortii argachuun ni danda’amaa?",
+    "answer": "Seeraan dhoorkamaa dha; adabbii fi dhimmi seeraa irratti si geessuu danda’a. (DEMO)",
+    "source_file": "passport\\passport_om.csv",
+    "id": 361
+  },
+  {
+    "sector": "passport",
+    "language": "om",
+    "question": "Koophiyaa sanadoota paaspoortii dhiyeessuun ni barbaachisaa?",
+    "answer": "Eeyyee; koophiyaa ni gaafatu, garuu sanada aslii agarsiisuu dabalata. (DEMO)",
+    "source_file": "passport\\passport_om.csv",
+    "id": 362
+  },
+  {
+    "sector": "passport",
+    "language": "om",
+    "question": "Sanadoonni hiika (translation) ykn notary barbaadu?",
+    "answer": "Afaan sanadaa fi seera waajjiraa irratti hundaa’uun hiika seeraa/notary ni gaafachuu danda’a. (DEMO)",
+    "source_file": "passport\\passport_om.csv",
+    "id": 363
+  },
+  {
+    "sector": "passport",
+    "language": "om",
+    "question": "Bakka tajaajilli kenname naannoo keessatti ni jijjiiramaa?",
+    "answer": "Eeyyee; naannoo/ magaalaa irratti hundaa’uun waajjirri tajaajila ni garaagara. (DEMO)",
+    "source_file": "passport\\passport_om.csv",
+    "id": 364
+  },
+  {
+    "sector": "passport",
+    "language": "om",
+    "question": "Tajaajila ariifachiisaaf ragaan “urgency” maal ta’uu danda’a?",
+    "answer": "Tikkeeta imalaa, xalayaa hospitaalaa, xalayaa barnoota hojii/affeerraa, fi kkf ta’uu danda’a. (DEMO)",
+    "source_file": "passport\\passport_om.csv",
+    "id": 365
+  },
+  {
+    "sector": "passport",
+    "language": "om",
+    "question": "Odeeffannoon baayomeetirii gara biyya biraatti darbama?",
+    "answer": "Qajeelfama tursiisaa odeeffannoo mootummaa irratti hundaa’a; yeroo baay’ee tajaajila nageenya eenyummaa irratti fayyada. (DEMO)",
+    "source_file": "passport\\passport_om.csv",
+    "id": 366
+  },
+  {
+    "sector": "passport",
+    "language": "om",
+    "question": "Paaspoortii bakka bu’iinsa iyyachuun yeroo hangamii fudhata?",
+    "answer": "Sababa fi sakatta’iinsa irratti hundaa’uun dheeraa fudhachuu danda’a. (DEMO)",
+    "source_file": "passport\\passport_om.csv",
+    "id": 367
+  },
+  {
+    "sector": "passport",
+    "language": "om",
+    "question": "Paaspoortii miidhameen airport irraa deebisamuu danda’a?",
+    "answer": "Eeyyee; miidhaan cimaa yoo jiraate tajaajilli imalaa ni gufata; dura bakka bu’iinsa gochuu gaarii dha. (DEMO)",
+    "source_file": "passport\\passport_om.csv",
+    "id": 368
+  },
+  {
+    "sector": "passport",
+    "language": "om",
+    "question": "Suuraan paaspoortii fuula eenyummaa irratti ana hin fakkaatu yoo ta’e maal ta’a?",
+    "answer": "Imala irratti rakkoo uuma; waajjira waliin sirreeffama/replace gochuu barbaachisa. (DEMO)",
+    "source_file": "passport\\passport_om.csv",
+    "id": 369
+  },
+  {
+    "sector": "passport",
+    "language": "om",
+    "question": "Haaromsaan booda visa duraanii maal ta’a?",
+    "answer": "Visa duraanii paaspoortii moofa irratti turuu danda’a; yeroo imalu paaspoortii haaraa fi moofa waliin qabachuun ni barbaachisa. (DEMO)",
+    "source_file": "passport\\passport_om.csv",
+    "id": 370
+  },
+  {
+    "sector": "passport",
+    "language": "om",
+    "question": "Iyyata yeroo jalqabaatiif fi haaromsaaf adeemsi ni adda?",
+    "answer": "Bu’uuraan walfakkaata; garuu haaromsa keessatti paaspoortii duraanii fi mirkaneessa dabalataa ni dabalata. (DEMO)",
+    "source_file": "passport\\passport_om.csv",
+    "id": 371
+  },
+  {
+    "sector": "passport",
+    "language": "om",
+    "question": "Paaspoortii iyyachuuf ragaa qabeenyaa (property) barbaachisaa?",
+    "answer": "Yeroo baay’ee miti; bu’uuraan eenyummaa mirkaneessaa fi ragaa kaffaltii dha. (DEMO)",
+    "source_file": "passport\\passport_om.csv",
+    "id": 372
+  },
+  {
+    "sector": "passport",
+    "language": "om",
+    "question": "Ragaan yakkaa (criminal record) ni gaafama?",
+    "answer": "Haala seeraa fi sakatta’iinsa irratti hundaa’uun ni gaafachuu danda’a. (DEMO)",
+    "source_file": "passport\\passport_om.csv",
+    "id": 373
+  },
+  {
+    "sector": "passport",
+    "language": "om",
+    "question": "Ani barataa dha; hir’ina kaffaltii (discount) jiraa?",
+    "answer": "Yoo jiraate qajeelfama mootummaa keessatti ibsama; odeeffannoo mootummaa irraa mirkaneessi. (DEMO)",
+    "source_file": "passport\\passport_om.csv",
+    "id": 374
+  },
+  {
+    "sector": "passport",
+    "language": "om",
+    "question": "Receipt kaffaltii yoo na bade maal godha?",
+    "answer": "Baankii/kanal kaffaltii irraa copy argachuu ykn waajjira qunnachuun ni danda’ama. (DEMO)",
+    "source_file": "passport\\passport_om.csv",
+    "id": 375
+  },
+  {
+    "sector": "passport",
+    "language": "om",
+    "question": "Kaffaltii osoo hin raawwachin iyyata galchuu ni danda’a?",
+    "answer": "Yeroo baay’ee kaffaltiin dura barbaachisa; seera waajjiraa ilaali. (DEMO)",
+    "source_file": "passport\\passport_om.csv",
+    "id": 376
+  },
+  {
+    "sector": "passport",
+    "language": "om",
+    "question": "Waajjira irratti sarara dheerinaan yoo jiraate maal gorsa?",
+    "answer": "Beellama qabachuun, yeroo gad-aanaa filachuun, fi sanadoota hunda dursee qopheessuun ni gargaara. (DEMO)",
+    "source_file": "passport\\passport_om.csv",
+    "id": 377
+  },
+  {
+    "sector": "passport",
+    "language": "om",
+    "question": "Iyyanni biyya keessaa fi ala irratti ulaagaan ni garaagara?",
+    "answer": "Bu’uuraan walfakkaata; garuu adeemsi embassy keessatti dabalata qabaachuu danda’a. (DEMO)",
+    "source_file": "passport\\passport_om.csv",
+    "id": 378
+  },
+  {
+    "sector": "passport",
+    "language": "om",
+    "question": "Ala iyyachuun baayomeetirii eessa irratti kennama?",
+    "answer": "Embassy/consulate keessatti bakka galmee baayomeetirii irratti ni kennama. (DEMO)",
+    "source_file": "passport\\passport_om.csv",
+    "id": 379
+  },
+  {
+    "sector": "passport",
+    "language": "om",
+    "question": "Ala jiraachuun paaspoortii bade bakka bu’u ni danda’a?",
+    "answer": "Eeyyee; gabaasa poolisii fi adeemsa embassy/consulateen ni danda’ama. (DEMO)",
+    "source_file": "passport\\passport_om.csv",
+    "id": 380
+  },
+  {
+    "sector": "passport",
+    "language": "om",
+    "question": "Temporary travel document booda paaspoortii idilee iyyachuun barbaachisaa?",
+    "answer": "Eeyyee; kan yeroo muraasaaf tajaajilu; paaspoortii idilee argachuuf adeemsa idilee hordofuu qabda. (DEMO)",
+    "source_file": "passport\\passport_om.csv",
+    "id": 381
+  },
+  {
+    "sector": "passport",
+    "language": "om",
+    "question": "Visaaf paaspoortiin yeroo dheeraa waajjira/embassy bira turuun maal miidha?",
+    "answer": "Yeroo paaspoortiin harkaa si hin jirre imala biraa gochuun rakkisaa ta’a; hojii kee dursee qindeessi. (DEMO)",
+    "source_file": "passport\\passport_om.csv",
+    "id": 382
+  },
+  {
+    "sector": "passport",
+    "language": "om",
+    "question": "Priority service argachuuf ragaan akkam ta’uu qaba?",
+    "answer": "Ragaa ariifachiisummaa (hospitaal, hojii/barnoota affeerraa, tikkeeta) dhiyeessuu dandeessa. (DEMO)",
+    "source_file": "passport\\passport_om.csv",
+    "id": 383
+  },
+  {
+    "sector": "passport",
+    "language": "om",
+    "question": "Maqaa jijjiirameen paaspoortii moofa itti fufuun ni danda’amaa?",
+    "answer": "Rakkoo walsimsiisaa uuma; yeroo baay’ee sirreeffama/bakka bu’iinsa gochuu barbaachisa. (DEMO)",
+    "source_file": "passport\\passport_om.csv",
+    "id": 384
+  },
+  {
+    "sector": "passport",
+    "language": "om",
+    "question": "Saala (gender) paaspoortii irratti sirreessuun ni danda’amaa?",
+    "answer": "Seera irratti hundaa’uun sanadoota mirkaneessaa waliin sirreeffachuun ni danda’ama. (DEMO)",
+    "source_file": "passport\\passport_om.csv",
+    "id": 385
+  },
+  {
+    "sector": "passport",
+    "language": "om",
+    "question": "Iyyata erga galchee booda odeeffannoo jijjiiruun ni danda’amaa?",
+    "answer": "Sadarkaa adeemsaa irratti hundaa’uun ni danda’ama; waajjira saffisaan qunnami. (DEMO)",
+    "source_file": "passport\\passport_om.csv",
+    "id": 386
+  },
+  {
+    "sector": "passport",
+    "language": "om",
+    "question": "Guyyaa dhalootaa dogoggoraan guute yoo ta’e maal ta’a?",
+    "answer": "Iyyanni didamuu ykn sirreeffamaaf deebiuu danda’a; ragaa sirrii dhiyeessi. (DEMO)",
+    "source_file": "passport\\passport_om.csv",
+    "id": 387
+  },
+  {
+    "sector": "passport",
+    "language": "om",
+    "question": "Sanada dabalataa yoo barbaadan akkamitti na beeksisu?",
+    "answer": "SMS/imeeyil, bilbila, ykn status tracker irratti ergaa ni mul’ata. (DEMO)",
+    "source_file": "passport\\passport_om.csv",
+    "id": 388
+  },
+  {
+    "sector": "passport",
+    "language": "om",
+    "question": "Baayomeetirii booda iyyanni koo dhaabbachuu ni danda’a?",
+    "answer": "Eeyyee; sanadoota hanqina, dogoggora odeeffannoo, ykn sakatta’iinsa irratti rakkoon yoo jiraate ni dhaabbata. (DEMO)",
+    "source_file": "passport\\passport_om.csv",
+    "id": 389
+  },
+  {
+    "sector": "passport",
+    "language": "om",
+    "question": "Adeemsa paaspoortii keessatti dallalaa (broker) fayyadamuun ni gorfama?",
+    "answer": "Hin gorfamu; karaa mootummaa sirrii qofaan deemi, sobaa fi saaxilamuu irraa of eegi. (DEMO)",
+    "source_file": "passport\\passport_om.csv",
+    "id": 390
+  },
+  {
+    "sector": "passport",
+    "language": "om",
+    "question": "Yeroon dhumtii paaspoortii gabaabaa yoo ta’e visa ni gufata?",
+    "answer": "Eeyyee; biyyoonni hedduun yeroon hojii gahaa akka hafu ni gaafatu. (DEMO)",
+    "source_file": "passport\\passport_om.csv",
+    "id": 391
+  },
+  {
+    "sector": "passport",
+    "language": "om",
+    "question": "Paaspoortiin yeroo hojjetamu osoo jiruu visa biraa iyyachuu ni danda’a?",
+    "answer": "Baay’ee rakkisaa; visa iyyachuuf paaspoortiin harkaa si keessa jiraachuun yeroo baay’ee barbaachisa. (DEMO)",
+    "source_file": "passport\\passport_om.csv",
+    "id": 392
+  },
+  {
+    "sector": "passport",
+    "language": "om",
+    "question": "Iyyata koo erga fudhatan booda haquu/cancel gochuu ni danda’a?",
+    "answer": "Policy irratti hundaa’a; garuu kaffaltiin deebi’uu yeroo baay’ee hin jiru. (DEMO)",
+    "source_file": "passport\\passport_om.csv",
+    "id": 393
+  },
+  {
+    "sector": "passport",
+    "language": "om",
+    "question": "Paaspoortiin koo maqaa nama biraatiin qophaa’e jedhanii yoo jedhan maal godha?",
+    "answer": "Waajjira irratti qaamaan deemi; ID fi sanadoota eenyummaa sirrii dhiyeessi. (DEMO)",
+    "source_file": "passport\\passport_om.csv",
+    "id": 394
+  },
+  {
+    "sector": "passport",
+    "language": "om",
+    "question": "Maqaa fi teessoon waajjira paaspoortii eessa irraa argama?",
+    "answer": "Marsariitii mootummaa, beeksisa waajjiraa, ykn bilbila tajaajila maamilaatiin argama. (DEMO)",
+    "source_file": "passport\\passport_om.csv",
+    "id": 395
+  },
+  {
+    "sector": "passport",
+    "language": "om",
+    "question": "Ragaan dhalootaa yoo hin jirre paaspoortii iyyachuu ni danda’a?",
+    "answer": "Sanadoota eenyummaa mootummaa biroo (ID, ragaa mootummaa) bakka bu’uutti dhiyeessuun ni danda’ama. (DEMO)",
+    "source_file": "passport\\passport_om.csv",
+    "id": 396
+  },
+  {
+    "sector": "passport",
+    "language": "om",
+    "question": "Gaaffii paaspoortii irratti waajjira qunnamuuf eessa bilbila?",
+    "answer": "Lakkoofsa tajaajila maamila waajjiraa (hotline/contact) beeksisa mootummaa irraa barbaadi. (DEMO)",
+    "source_file": "passport\\passport_om.csv",
+    "id": 397
+  },
+  {
+    "sector": "passport",
+    "language": "om",
+    "question": "Jechaalee irratti yeroo baay’ee dhaga’aman (reference/biometric/renewal) jechuun maal?",
+    "answer": "Reference = lakkoofsa hordoffii; Biometric = fingerprint/suuraa; Renewal = haaromsa; Replacement = bakka bu’iinsa. (DEMO)",
+    "source_file": "passport\\passport_om.csv",
+    "id": 398
+  },
+  {
+    "sector": "passport",
+    "language": "om",
+    "question": "Daa’imni paaspoortii maatii keessatti waliin galmaa’aa?",
+    "answer": "Yeroo baay’ee miti; namni hundi paaspoortii ofii qabaachuu qaba. (DEMO)",
+    "source_file": "passport\\passport_om.csv",
+    "id": 399
+  },
+  {
+    "sector": "passport",
+    "language": "om",
+    "question": "Daa’imaaf yeroon hojii paaspoortii ni gabaabaa?",
+    "answer": "Qajeelfama irratti hundaa’uun ni danda’a; daa’imaaf yeroo hojii gabaabaa kennamuu danda’a. (DEMO)",
+    "source_file": "passport\\passport_om.csv",
+    "id": 400
+  },
+  {
+    "sector": "passport",
+    "language": "om",
+    "question": "Bakka bu’iinsa yeroo godhamu baayomeetirii irra deebi’anii ni fudhatu?",
+    "answer": "Eeyyee; yeroo baay’ee paaspoortii haaraa waliin baayomeetirii haaraa ni galmeessu. (DEMO)",
+    "source_file": "passport\\passport_om.csv",
+    "id": 401
+  },
+  {
+    "sector": "passport",
+    "language": "om",
+    "question": "Paaspoortii koo akkamitti eega (protect) godha?",
+    "answer": "Bakka nageenya qabu keessatti kaa’i, kooppii addaan tursiisi, bishaan/miidhaadhaan irraa eegi. (DEMO)",
+    "source_file": "passport\\passport_om.csv",
+    "id": 402
+  },
+  {
+    "sector": "passport",
+    "language": "om",
+    "question": "Koophiyaa paaspoortii bilbilaan (scan/photo) qabachuun ni gorfama?",
+    "answer": "Bakka badii keessatti ni gargaara; garuu odeeffannoo dhuunfaa eegumsa (privacy) tiksuu yaadadhu. (DEMO)",
+    "source_file": "passport\\passport_om.csv",
+    "id": 403
+  },
+  {
+    "sector": "passport",
+    "language": "om",
+    "question": "Iyyanni koo akka hin turre (delay) maal gochuu qaba?",
+    "answer": "Sanadoota hunda guuti, suuraa seera guutu dhiyeessi, odeeffannoo sirrii barreessi, beellama sirnaan kabaji. (DEMO)",
+    "source_file": "passport\\passport_om.csv",
+    "id": 404
+  },
+  {
+    "sector": "passport",
+    "language": "om",
+    "question": "E-passport chip keessatti odeeffannoon maal galma’a?",
+    "answer": "Gosa e-passport yoo ta’e, odeeffannoo baayomeetirii fi eenyummaa muraasa chip keessatti qabata. (DEMO)",
+    "source_file": "passport\\passport_om.csv",
+    "id": 405
+  },
+  {
+    "sector": "passport",
+    "language": "om",
+    "question": "Chip e-passport yoo miidhame maal godha?",
+    "answer": "Waajjira tajaajilaa qunnami; adeemsa sirreeffamaa ykn bakka bu’iinsa si qajeelchu. (DEMO)",
+    "source_file": "passport\\passport_om.csv",
+    "id": 406
+  },
+  {
+    "sector": "passport",
+    "language": "om",
+    "question": "Fuulonni paaspoortii yoo ciccitan rakkoo uuma?",
+    "answer": "Eeyyee; visa/stamp irratti miidhaan yoo jiraate buufata daangaa irratti rakkoo uuma. (DEMO)",
+    "source_file": "passport\\passport_om.csv",
+    "id": 407
+  },
+  {
+    "sector": "passport",
+    "language": "om",
+    "question": "Paaspoortii irratti barreessuun ykn fooyyessuun ni eeyyamama?",
+    "answer": "Hin eeyyamamu; paaspoortii miidhuun seeraan hin hayyamamu. (DEMO)",
+    "source_file": "passport\\passport_om.csv",
+    "id": 408
+  },
+  {
+    "sector": "passport",
+    "language": "om",
+    "question": "Maqaan koo Latin (ingiliffaan) akkamitti barreessama?",
+    "answer": "Yeroo baay’ee sanadoota mootummaa irratti akka barreeffametti fudhatama; yoo garaagarummaa jiraate ragaan ni gaafama. (DEMO)",
+    "source_file": "passport\\passport_om.csv",
+    "id": 409
+  },
+  {
+    "sector": "passport",
+    "language": "om",
+    "question": "Paaspoortiin seera keessatti eenyummaa mirkaneessuuf ni fayyada?",
+    "answer": "Eeyyee; paaspoortiin sanada mootummaa eenyummaa mirkaneessuuf bal’inaan fayyadu dha. (DEMO)",
+    "source_file": "passport\\passport_om.csv",
+    "id": 410
+  },
+  {
+    "sector": "passport",
+    "language": "om",
+    "question": "Haaromsaan booda odeeffannoon duraanii ni jijjiirama?",
+    "answer": "Paaspoortiin haaraan lakkoofsa/daataa haaraa qabaachuu danda’a; odeeffannoon eenyummaa garuu sanadoota irratti hundaa’uun tura. (DEMO)",
+    "source_file": "passport\\passport_om.csv",
+    "id": 411
+  },
+  {
+    "sector": "passport",
+    "language": "om",
+    "question": "Daa’ima waliin imaluuf sanada dabalataa barbaachisaa?",
+    "answer": "Biyyoonni muraasni xalayaa eeyyamaa warraa, ragaa walitti dhufeenya maatii, ykn guardianship ni gaafatu. (DEMO)",
+    "source_file": "passport\\passport_om.csv",
+    "id": 412
+  },
+  {
+    "sector": "passport",
+    "language": "om",
+    "question": "Abbaan ykn haati tokko qofa daa’ima waliin yoo deeme maal gaafatama?",
+    "answer": "Eeyyama waaldaa/waajjira seeraa irraa kan biraa (consent) ykn murtii mana murtii ni gaafachuu danda’a. (DEMO)",
+    "source_file": "passport\\passport_om.csv",
+    "id": 413
+  },
+  {
+    "sector": "passport",
+    "language": "om",
+    "question": "Paaspoortiin qofti biyya kamiiyyuu seenuuf hayyama kennaa?",
+    "answer": "Miti; paaspoortiin eenyummaa agarsiisa; seenuuf visa ykn hayyama imalaa biyya sanaa barbaachisuu danda’a. (DEMO)",
+    "source_file": "passport\\passport_om.csv",
+    "id": 414
+  },
+  {
+    "sector": "passport",
+    "language": "om",
+    "question": "Paaspoortii jechuun visa jechuun moo?",
+    "answer": "Miti; paaspoortiin sanada eenyummaa; visa immoo hayyama seensaa/taa’umsa biyya biraa dha. (DEMO)",
+    "source_file": "passport\\passport_om.csv",
+    "id": 415
+  },
+  {
+    "sector": "passport",
+    "language": "om",
+    "question": "Status “Under Review” jechuun maal?",
+    "answer": "Sanadoota fi odeeffannoo kee sakatta’uun/ irratti hojjechuun jiruu jechuudha. (DEMO)",
+    "source_file": "passport\\passport_om.csv",
+    "id": 416
+  },
+  {
+    "sector": "passport",
+    "language": "om",
+    "question": "Status “Rejected” jechuun maal?",
+    "answer": "Iyyanni ulaagaa hin guunne jechuudha; sababni ni ibsama. (DEMO)",
+    "source_file": "passport\\passport_om.csv",
+    "id": 417
+  },
+  {
+    "sector": "passport",
+    "language": "om",
+    "question": "Status “Ready for Collection” jechuun maal?",
+    "answer": "Paaspoortiin qophaa’e; dhuftee fudhachuuf qophiidha jechuudha. (DEMO)",
+    "source_file": "passport\\passport_om.csv",
+    "id": 418
+  },
+  {
+    "sector": "passport",
+    "language": "om",
+    "question": "Paaspoortii fudhachuuf receipt beellamaa qabachuun barbaachisaa?",
+    "answer": "Ni gorfama; receipt/reference number fi ID qabachuun fudhannaa saffisa. (DEMO)",
+    "source_file": "passport\\passport_om.csv",
+    "id": 419
+  },
+  {
+    "sector": "passport",
+    "language": "om",
+    "question": "Yeroon hojii (validity) paaspoortii gosaan ni garaagara?",
+    "answer": "Eeyyee; ramaddii fi tajaajila irratti hundaa’uun ni garaagara. (DEMO)",
+    "source_file": "passport\\passport_om.csv",
+    "id": 420
+  },
+  {
+    "sector": "passport",
+    "language": "om",
+    "question": "Bakka tajaajilli jiraachu isaa akkamitti mirkaneessa?",
+    "answer": "Odeeffannoo mootummaa (marsariitii/beeksisa) irraa ykn waajjira bilbilaan mirkaneessi. (DEMO)",
+    "source_file": "passport\\passport_om.csv",
+    "id": 421
+  },
+  {
+    "sector": "passport",
+    "language": "om",
+    "question": "Paaspoortii keessatti gosoonni tajaajilaa adda addaa jiru?",
+    "answer": "Eeyyee; idile, tajaajila (service), fi diiploomaasii (diplomatic) fakkeenya. (DEMO)",
+    "source_file": "passport\\passport_om.csv",
+    "id": 422
+  },
+  {
+    "sector": "passport",
+    "language": "om",
+    "question": "Paaspoortii irratti mallattoon (signature) barbaachisaa?",
+    "answer": "Yeroo baay’ee eeyyee; daa’imaaf garuu qajeelfamni addaa jiraachuu danda’a. (DEMO)",
+    "source_file": "passport\\passport_om.csv",
+    "id": 423
+  },
+  {
+    "sector": "passport",
+    "language": "om",
+    "question": "Daa’imni signature paaspoortii irratti ni barbaachisaa?",
+    "answer": "Yeroo baay’ee hin barbaachisu; yookaan mallattoo warraa/guardianiitti hirkata. (DEMO)",
+    "source_file": "passport\\passport_om.csv",
+    "id": 424
+  },
+  {
+    "sector": "passport",
+    "language": "om",
+    "question": "SMS beeksisaa yoo na hin geenye maal gochuu danda’a?",
+    "answer": "Reference numberiin status ilaali; yoo barbaachise tajaajila maamila waajjiraa qunnami. (DEMO)",
+    "source_file": "passport\\passport_om.csv",
+    "id": 425
+  },
+  {
+    "sector": "passport",
+    "language": "om",
+    "question": "Eenummaan iyyataa akkamitti mirkanaa’a?",
+    "answer": "ID mootummaa, ragaa dhalootaa, fi sanadoota seeraa birootiin mirkanaa’a. (DEMO)",
+    "source_file": "passport\\passport_om.csv",
+    "id": 426
+  },
+  {
+    "sector": "passport",
+    "language": "om",
+    "question": "Sirreeffama paaspoortii yeroo kamiif barbaachisa?",
+    "answer": "Maqaa, guyyaa dhalootaa, saala, ykn odeeffannoo biroo dogoggora yoo qabaate. (DEMO)",
+    "source_file": "passport\\passport_om.csv",
+    "id": 427
+  },
+  {
+    "sector": "passport",
+    "language": "om",
+    "question": "Haaromsa fi bakka bu’iinsa paaspoortii gidduutti maal garaagarummaa?",
+    "answer": "Haaromsa = yeroon dhumtii irratti; bakka bu’iinsa = baduu/miidhamuu/ykn odeeffannoo jijjiiruu irratti. (DEMO)",
+    "source_file": "passport\\passport_om.csv",
+    "id": 428
+  },
+  {
+    "sector": "passport",
+    "language": "om",
+    "question": "Gaaffii paaspoortii irratti waajjira keessatti eenyu gaafadha?",
+    "answer": "Bakka tajaajila maamila (information desk) ykn window qajeelchaatti gaafadhu. (DEMO)",
+    "source_file": "passport\\passport_om.csv",
+    "id": 429
+  },
+  {
+    "sector": "passport",
+    "language": "om",
+    "question": "Paaspoortiin seeraan qabamee turuu ni danda’a?",
+    "answer": "Eeyyee; dhimmoota seeraa murtaa’oo (murtii mana murtii) keessatti daangeffamuu danda’a. (DEMO)",
+    "source_file": "passport\\passport_om.csv",
+    "id": 430
+  },
+  {
+    "sector": "passport",
+    "language": "om",
+    "question": "Odeeffannoo dhuunfaa koo akka hin miidhamne maal eeguu qaba?",
+    "answer": "Namoota hin amanamneef hin kennin; karaa mootummaa (official channels) qofaan hojjedhu. (DEMO)",
+    "source_file": "passport\\passport_om.csv",
+    "id": 431
+  },
+  {
+    "sector": "passport",
+    "language": "om",
+    "question": "Paaspoortiin yoo bade gabaasni poolisii maaliif barbaachisa?",
+    "answer": "Badii mirkaneessuuf, hammeenya ittisuuf, fi bakka bu’iinsa iyyachuuf ragaa ta’a. (DEMO)",
+    "source_file": "passport\\passport_om.csv",
+    "id": 432
+  },
+  {
+    "sector": "passport",
+    "language": "om",
+    "question": "Odeeffannoon paaspoortii fi sanada baankii/visa yoo hin wal simu maal ta’a?",
+    "answer": "Tajaajila baankii/visa irratti gufuu uuma; odeeffannoo hunda walfakkaataa taasisuu barbaachisa. (DEMO)",
+    "source_file": "passport\\passport_om.csv",
+    "id": 433
+  },
+  {
+    "sector": "passport",
+    "language": "om",
+    "question": "Hojjetaan mootummaa tajaajila addaa (priority) ni argata?",
+    "answer": "Yoo jiraate qajeelfama mootummaa irratti ibsama; odeeffannoo rasmiitti mirkaneessi. (DEMO)",
+    "source_file": "passport\\passport_om.csv",
+    "id": 434
+  },
+  {
+    "sector": "passport",
+    "language": "om",
+    "question": "Paaspoortii iyyachuuf ragaa teessoo ni barbaachisaa?",
+    "answer": "Yeroo muraasa ni gaafamuu danda’a; garuu yeroo baay’ee ID fi sanadoota eenyummaa qofaan ni danda’ama. (DEMO)",
+    "source_file": "passport\\passport_om.csv",
+    "id": 435
+  },
+  {
+    "sector": "passport",
+    "language": "om",
+    "question": "Paaspoortii iyyachuuf qorannoo fayyaa ni barbaachisaa?",
+    "answer": "Yeroo baay’ee miti; garuu haala addaa (priority) irratti ragaa fayyaa ni barbaachisa. (DEMO)",
+    "source_file": "passport\\passport_om.csv",
+    "id": 436
+  },
+  {
+    "sector": "passport",
+    "language": "om",
+    "question": "Haaromsaan kaffaltiin ni jijjiiramaa?",
+    "answer": "Eeyyee; gatiin tajaajila fi saffisa irratti hundaa’uun ni jijjiirama. (DEMO)",
+    "source_file": "passport\\passport_om.csv",
+    "id": 437
+  },
+  {
+    "sector": "passport",
+    "language": "om",
+    "question": "Mirkaneessaaf odeeffannoo maatii ni gaafamuu danda’a?",
+    "answer": "Eeyyee; yeroo muraasa eenyummaa mirkaneessuuf odeeffannoo dabalataa ni gaafatu. (DEMO)",
+    "source_file": "passport\\passport_om.csv",
+    "id": 438
+  },
+  {
+    "sector": "passport",
+    "language": "om",
+    "question": "Iyyanni yoo hin milkoofne mirgi kootii maal?",
+    "answer": "Sababa ifatti gaafachuu, komii dhiyeessuu, fi qajeelfama seeraa hordofuu ni danda’a. (DEMO)",
+    "source_file": "passport\\passport_om.csv",
+    "id": 439
+  },
+  {
+    "sector": "passport",
+    "language": "om",
+    "question": "Gaaffii baay’ee common paaspoortii irratti maali?",
+    "answer": "Sanadoota barbaachisan, kaffaltii, beellama, baayomeetirii, status, haaromsa, fi bakka bu’iinsa irratti gaaffiin baay’ee ka’a. (DEMO)",
+    "source_file": "passport\\passport_om.csv",
+    "id": 440
   },
   {
     "sector": "utilities",
     "language": "am",
     "question": "የውሃ ክፍያ ለመክፈል ምን ያስፈልጋል?",
     "answer": "የውሃ ክፍያ ለመክፈል ማመልከቻ፣ የቦታው ካርታ፣ የባለቤትነት ማረጋገጫ እና የንብረት ታክስ ክፍያ ደረሰኝ ማቅረብ ያስፈልጋል፡፡ (DEMO)",
-    "source_file": "utilities/utilities_am.csv",
-    "id": 38
+    "source_file": "utilities\\utilities_am.csv",
+    "id": 441
   },
   {
     "sector": "utilities",
     "language": "am",
     "question": "የመብራት ክፍያ እንዴት መክፈል እችላለሁ?",
     "answer": "የመብራት ክፍያ በኢትዮጵያ ንግድ ባንክ ወይም በሞባይል ባንኪንግ መክፈል ይችላሉ። (DEMO)",
-    "source_file": "utilities/utilities_am.csv",
-    "id": 39
+    "source_file": "utilities\\utilities_am.csv",
+    "id": 442
   },
   {
     "sector": "utilities",
     "language": "am",
     "question": "የውሃ ሂሳቤን በኢንተርኔት ማየት እችላለሁ?",
     "answer": "አዎ፣ የውሃ ሂሳብዎን በрегиዮናል የውሃ አገልግሎት ድህረ ገጽ ወይም በ *889# ማየት ይችላሉ። (DEMO)",
-    "source_file": "utilities/utilities_am.csv",
-    "id": 40
+    "source_file": "utilities\\utilities_am.csv",
+    "id": 443
   },
   {
     "sector": "utilities",
     "language": "am",
     "question": "መብራት ቢጠፋ ምን ማድረግ አለኝ?",
     "answer": "መብራት ቢጠፋ በአቅራቢያዎ ለሚገኝ የጥገና ክፍል በ 905 ይደውሉ። (DEMO)",
-    "source_file": "utilities/utilities_am.csv",
-    "id": 41
+    "source_file": "utilities\\utilities_am.csv",
+    "id": 444
   },
   {
     "sector": "utilities",
     "language": "en",
     "question": "What documents are required to pay water bill?",
     "answer": "To pay water bill, you need to submit an application, land map, proof of ownership, and a property tax payment receipt. (DEMO)",
-    "source_file": "utilities/utilities_en.csv",
-    "id": 42
+    "source_file": "utilities\\utilities_en.csv",
+    "id": 445
   },
   {
     "sector": "utilities",
     "language": "en",
     "question": "How do I pay my electricity bill?",
     "answer": "You can pay your electricity bill at any Commercial Bank of Ethiopia branch or via mobile banking apps. (DEMO)",
-    "source_file": "utilities/utilities_en.csv",
-    "id": 43
+    "source_file": "utilities\\utilities_en.csv",
+    "id": 446
   },
   {
     "sector": "utilities",
     "language": "en",
     "question": "Can I check my water bill balance online?",
     "answer": "Yes, you can check your water balance through the official regional utility portal or by dialing *889#. (DEMO)",
-    "source_file": "utilities/utilities_en.csv",
-    "id": 44
+    "source_file": "utilities\\utilities_en.csv",
+    "id": 447
   },
   {
     "sector": "utilities",
     "language": "en",
     "question": "What should I do if I have a power outage?",
     "answer": "In case of a power outage, please contact the emergency maintenance line at 905. (DEMO)",
-    "source_file": "utilities/utilities_en.csv",
-    "id": 45
+    "source_file": "utilities\\utilities_en.csv",
+    "id": 448
   },
   {
     "sector": "utilities",
     "language": "om",
     "question": "Hojiiwwan mana fincaanii keessatti raawwataman kam fa’a?",
     "answer": "Hojiiwwan mana fincaanii keessatti raawwataman, hojiiwwan armaan gadii fa’a: (DEMO)",
-    "source_file": "utilities/utilities_om.csv",
-    "id": 46
+    "source_file": "utilities\\utilities_om.csv",
+    "id": 449
   },
   {
     "sector": "utilities",
     "language": "om",
     "question": "Kaffaltii ibsaa akkamittin kaffala?",
     "answer": "Kaffaltii ibsaa baankota daldalaa ykn tajaajila mobaayilii baankiin kaffaluun ni danda'ama. (DEMO)",
-    "source_file": "utilities/utilities_om.csv",
-    "id": 47
+    "source_file": "utilities\\utilities_om.csv",
+    "id": 450
   },
   {
     "sector": "utilities",
     "language": "om",
     "question": "Herrega bishaanii kiyya onlaayiniin ilaaluu nan danda'aa?",
     "answer": "Eeyyee, itti fayyadama bishaanii kee karaa poortaalii tajaajila bishaanii ykn lakkoofsa *889# argachuu dandeessa. (DEMO)",
-    "source_file": "utilities/utilities_om.csv",
-    "id": 48
+    "source_file": "utilities\\utilities_om.csv",
+    "id": 451
   },
   {
     "sector": "utilities",
     "language": "om",
     "question": "Yoo ibsaan bade maal gochuu qaba?",
     "answer": "Yoo humni ibsaa itti kute, lakkoofsa gargaarsaa ariifachiisaa 905 bilbiluun gabaasuu dandeessa. (DEMO)",
-    "source_file": "utilities/utilities_om.csv",
-    "id": 49
+    "source_file": "utilities\\utilities_om.csv",
+    "id": 452
   }
 ]
