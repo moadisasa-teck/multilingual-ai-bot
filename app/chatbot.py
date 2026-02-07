@@ -129,20 +129,27 @@ class Chatbot:
             return v
         return v / norm
 
-    def generate_rag_response(self, query: str, context: list[dict], language: str) -> str:
+    def generate_rag_response(self, query: str, context: list[dict], language: str, sector: str = "general") -> str:
         """Generate a natural language response using retrieved context."""
         # Clean context tokens
-        context_text = "\n".join([f"- {c['answer'].replace('(DEMO)', '').strip()}" for c in context])
+        if not context:
+            context_text = "No specific facts found."
+        else:
+            context_text = "\n".join([f"- {c['answer'].replace('(DEMO)', '').strip()}" for c in context])
         
-        prompt = f"""You are a helpful government assistant.
-Answer the question based ONLY on the facts below.
-If the answer is not in the facts, say "I don't know".
-Respond in {language}.
+        prompt = f"""You are a helpful assistant for the Oromia Regional Government ({sector} sector).
+Your knowledge is STRICTLY LIMITED to government services.
 
-Facts:
+Instructions:
+1. If the user uses a GREETING (hi, hello, thanks) or asks about YOU (who are you?), be polite and helpful.
+2. For ALL OTHER questions, you must answer based ONLY on the "Context Facts" provided below.
+3. If the answer is not in the facts, or if the question is unrelated to government services (e.g. sports, science, general trivia), say "I can only answer questions about Oromia government services."
+4. Respond in {language}.
+
+Context Facts:
 {context_text}
 
-Question: {query}
+User Question: {query}
 Answer:"""
 
         try:
@@ -206,8 +213,8 @@ Answer:"""
             match_score = float(dist)
             print(f" - [{match_score:.4f}] {meta.get('question')} (Sector: {meta.get('sector')})")
 
-            # Relaxed filtering: Only strict if score is high, otherwise specific language might be needed
-            if sector and meta.get("sector") != sector: continue
+            # Relaxed filtering: Allow matches from requested sector OR 'general' (for greetings)
+            if sector and meta.get("sector") != sector and meta.get("sector") != "general": continue
             
             # NOTE: For RAG, we might WANT cross-language facts if we can translate, 
             # but for now let's stick to the user's filtered language or detected language
@@ -217,30 +224,31 @@ Answer:"""
             if match_score >= 0.35: # Lowered from 0.55 to capture more context
                 retrieved_context.append(meta)
 
-        # 5. Generate Response
-        if not retrieved_context:
-            return {
-                "answer": "I don't have enough information to answer that specifically. Please contact the regional office directly.",
-                "rewritten_query": rewritten,
-                "confidence": 0.0,
-                "sector": detected_sector,
-                "language": detected_lang
-            }
-        
+        # 5. Generate Response (Updated logic: Allow partial conversation even if context is empty)
         # Call LLM to synthesize answer
         final_answer = self.generate_rag_response(
             query=query, # Original query has the tone/nuance
-            context=retrieved_context,
-            language=detected_lang
+            context=retrieved_context, # Might be empty, prompt must handle it
+            language=detected_lang,
+            sector=sector or detected_sector
         )
 
         print(f"Generated RAG Answer: {final_answer}\n--------------------\n")
+        
+        # Determine source sector
+        primary_sector = "general"
+        if retrieved_context:
+            primary_sector = retrieved_context[0]['sector']
+        elif sector:
+            primary_sector = sector
+        else:
+            primary_sector = detected_sector
 
         return {
             "answer": final_answer,
             "rewritten_query": rewritten,
-            "confidence": 1.0, # RAG confidence is synthetic
-            "sector": retrieved_context[0]['sector'], # Primary source sector
+            "confidence": 1.0 if retrieved_context else 0.5, # Lower confidence if no context found
+            "sector": primary_sector,
             "language": detected_lang,
             "source_file": "generated_rag"
         }
