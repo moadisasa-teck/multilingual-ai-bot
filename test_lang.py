@@ -6,7 +6,8 @@ DetectorFactory.seed = 0
 queries = [
     "How long does it take to get a passport",
     "ፓስፖርት ለማውጣት ምን ሰነዶች ያስፈልጋሉ?",
-    "Paaspoortii baasuuf maal barbaachisa"
+    "Paaspoortii baasuuf maal barbaachisa",
+    "akkamittin paasportiko haressa"
 ]
 
 for q in queries:

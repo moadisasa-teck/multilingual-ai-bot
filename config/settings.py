@@ -16,9 +16,9 @@ MODEL_NAME = "castorini/afriberta_small"
 
 # LLM Settings (Ollama)
 # LLM_MODEL_NAME = "gemma3:1b"
-# LLM_MODEL_NAME = "gpt-oss:120b-cloud"
-LLM_MODEL_NAME = "gemini-3-pro-preview"
-OLLAMA_BASE_URL = "http://localhost:11434"
+LLM_MODEL_NAME = "gpt-oss:120b-cloud"
+# LLM_MODEL_NAME = "translategemma:4b"
+OLLAMA_BASE_URL = "http://192.168.0.122:11434"
 SYSTEM_PROMPT_PATH = BASE_DIR / "config" / "system_prompt.md"
 
 SUPPORTED_LANGUAGES = ["om", "am", "en"]

@@ -16,8 +16,11 @@ document.addEventListener('DOMContentLoaded', () => {
             </div>`;
         }
 
+        // Render Markdown if it's a system message, otherwise plain text
+        const renderedContent = role === 'system' ? marked.parse(content) : content;
+
         messageDiv.innerHTML = `
-            <div class="message-content">${content}</div>
+            <div class="message-content">${renderedContent}</div>
             ${metadataHtml}
         `;
 

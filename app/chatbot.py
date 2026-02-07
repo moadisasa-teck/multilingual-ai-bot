@@ -55,8 +55,8 @@ class QueryProcessor:
                 lang_code_simple = "am"
             else:
                 lang_code = detect(query)
-                # Map specific codes if needed, e.g. 'so'->'om' if it confuses them
-                if lang_code == 'so' or lang_code == 'om': 
+                # Map common misclassifications for Afaan Oromo (Oromo uses Latin script similar to Somali/Finnish/Swahili)
+                if lang_code in ['om', 'so', 'fi', 'sw']: 
                     detected_lang_name = "Afaan Oromo"
                     lang_code_simple = "om"
                 elif lang_code == 'am':
@@ -141,10 +141,16 @@ class Chatbot:
 Your knowledge is STRICTLY LIMITED to government services.
 
 Instructions:
-1. If the user uses a GREETING (hi, hello, thanks) or asks about YOU (who are you?), be polite and helpful.
-2. For ALL OTHER questions, you must answer based ONLY on the "Context Facts" provided below.
-3. If the answer is not in the facts, or if the question is unrelated to government services (e.g. sports, science, general trivia), say "I can only answer questions about Oromia government services."
-4. Respond in {language}.
+1. Respond in {language}.
+2. FORMATTING IS CRITICAL:
+   - Use Markdown for structure.
+   - Use clear distinct paragraphs with blank lines between them.
+   - Use bullet points (-) for lists or steps.
+   - Use bold (**) for headings or key terms.
+   - Never output a single large block of text. Break it up.
+3. If the user uses a GREETING (hi, hello, thanks), respond politely.
+4. For ALL OTHER questions, you must answer based ONLY on the "Context Facts" provided below.
+5. If the answer is not in the facts, say "I can only answer questions about Oromia government services."
 
 Context Facts:
 {context_text}
@@ -165,6 +171,7 @@ Answer:"""
 
 
     def search(self, query: str, sector: Optional[str] = None, language: Optional[str] = None) -> Dict[str, Any]:
+        print(f"DEBUG: search called with query='{query}', sector='{sector}', language='{language}'")
         # 1. Normalize query
         norm_result = self.processor.normalize(query)
         rewritten = norm_result.get("rewritten_query", query)
@@ -172,10 +179,21 @@ Answer:"""
         detected_code = norm_result.get("language_code", "en") 
         detected_sector = norm_result.get("sector_guess", "unknown")
 
+        # Determine target response language (User Preference > Detected)
+        target_language = detected_lang
+        if language:
+            lang_map = {
+                "en": "English",
+                "am": "Amharic",
+                "om": "Afaan Oromo"
+            }
+            # If language is a code like 'en', map it. If it's already full name, keep it.
+            target_language = lang_map.get(language.lower(), language)
+
         # LOGGING FOR DEBUGGING
         print(f"\n--- DEBUG SEARCH ---")
         print(f"Original: '{query}'")
-        print(f"Rewritten: '{rewritten}' (Lang: {detected_lang})")
+        print(f"Rewritten: '{rewritten}' (Detected: {detected_lang}) -> Responding in: {target_language}")
 
         if rewritten == "unclear":
             return {
@@ -229,7 +247,7 @@ Answer:"""
         final_answer = self.generate_rag_response(
             query=query, # Original query has the tone/nuance
             context=retrieved_context, # Might be empty, prompt must handle it
-            language=detected_lang,
+            language=target_language,
             sector=sector or detected_sector
         )
 
@@ -249,7 +267,7 @@ Answer:"""
             "rewritten_query": rewritten,
             "confidence": 1.0 if retrieved_context else 0.5, # Lower confidence if no context found
             "sector": primary_sector,
-            "language": detected_lang,
+            "language": target_language,
             "source_file": "generated_rag"
         }
 
