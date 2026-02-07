@@ -1,4 +1,5 @@
 import os
+import re
 import json
 import logging
 from pathlib import Path
@@ -43,21 +44,29 @@ class QueryProcessor:
             self.system_prompt = f.read()
 
     def normalize(self, query: str) -> Dict[str, Any]:
-        # 1. Detect language reliably using library (better than 1B LLM)
+        # 1. Detect language
+        detected_lang_name = "English"
+        lang_code_simple = "en"
+
         try:
-            lang_code = detect(query)
-            # Map specific codes if needed, e.g. 'so'->'om' if it confuses them, but 'en'/'am' are usually good.
-            # langdetect supports 'en', 'am', 'so' (Oromo often detects as Somali or Afar in simple classifiers)
-            if lang_code == 'so' or lang_code == 'om': 
-                detected_lang_name = "Afaan Oromo"
-                lang_code_simple = "om"
-            elif lang_code == 'am':
+            # Check for Ethiopic characters first (Amharic)
+            if re.search(r'[\u1200-\u137F]', query):
                 detected_lang_name = "Amharic"
                 lang_code_simple = "am"
             else:
-                detected_lang_name = "English"
-                lang_code_simple = "en"
-        except:
+                lang_code = detect(query)
+                # Map specific codes if needed, e.g. 'so'->'om' if it confuses them
+                if lang_code == 'so' or lang_code == 'om': 
+                    detected_lang_name = "Afaan Oromo"
+                    lang_code_simple = "om"
+                elif lang_code == 'am':
+                    detected_lang_name = "Amharic"
+                    lang_code_simple = "am"
+                else:
+                    detected_lang_name = "English"
+                    lang_code_simple = "en"
+        except Exception:
+            # Fallback for "No features in text" or other errors
             detected_lang_name = "English"
             lang_code_simple = "en"
 
