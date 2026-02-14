@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat Settings</title>
+    <link rel="stylesheet" href="/static/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+    <div class="app-container">
+        <aside class="sidebar">
+            <div class="logo-section">
+                <div class="logo-icon">
+                    <i class="fas fa-cog"></i>
+                </div>
+                <h1>Bot<span>Settings</span></h1>
+            </div>
+            <div class="setting-actions">
+                <a class="sidebar-link" href="/"><i class="fas fa-comments"></i> Back To Chat</a>
+            </div>
+            <div class="sidebar-footer">
+                <p>Regional Government of Oromia</p>
+            </div>
+        </aside>
+
+        <main class="chat-interface settings-page-main">
+            <div class="settings-card">
+                <h2>Chat Settings</h2>
+
+                <div class="setting-group">
+                    <label for="default-sector"><i class="fas fa-folder-open"></i> Default Sector</label>
+                    <select id="default-sector">
+                        <option value="passport">Passport</option>
+                        <option value="municipality">Municipality</option>
+                        <option value="utilities">Utilities</option>
+                        <option value="general">General</option>
+                        <option value="">All Sectors</option>
+                    </select>
+                </div>
+
+                <div class="setting-group">
+                    <label for="show-metadata"><i class="fas fa-info-circle"></i> Show Response Metadata</label>
+                    <select id="show-metadata">
+                        <option value="true">Yes</option>
+                        <option value="false">No</option>
+                    </select>
+                </div>
+
+                <div class="setting-actions-inline">
+                    <button id="save-settings" class="sidebar-button" type="button">
+                        <i class="fas fa-save"></i> Save Settings
+                    </button>
+                    <button id="clear-history" class="sidebar-button secondary" type="button">
+                        <i class="fas fa-trash-alt"></i> Clear Server Chat History
+                    </button>
+                </div>
+
+                <p id="settings-status" class="settings-status"></p>
+            </div>
+        </main>
+    </div>
+    <script src="/static/settings.js"></script>
+</body>
+
+</html>
